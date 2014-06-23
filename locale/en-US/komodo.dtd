@@ -1,0 +1,855 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+ Version: MPL 1.1/GPL 2.0/LGPL 2.1
+
+ The contents of this file are subject to the Mozilla Public License
+ Version 1.1 (the "License"); you may not use this file except in
+ compliance with the License. You may obtain a copy of the License at
+ http://www.mozilla.org/MPL/
+
+ Software distributed under the License is distributed on an "AS IS"
+ basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+ License for the specific language governing rights and limitations
+ under the License.
+
+ The Original Code is Komodo code.
+
+ The Initial Developer of the Original Code is ActiveState Software Inc.
+ Portions created by ActiveState Software Inc are Copyright (C) 2000-2007
+ ActiveState Software Inc. All Rights Reserved.
+
+ Contributor(s):
+   ActiveState Software Inc
+
+ Alternatively, the contents of this file may be used under the terms of
+ either the GNU General Public License Version 2 or later (the "GPL"), or
+ the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ in which case the provisions of the GPL or the LGPL are applicable instead
+ of those above. If you wish to allow use of your version of this file only
+ under the terms of either the GPL or the LGPL, and not to allow others to
+ use your version of this file under the terms of the MPL, indicate your
+ decision by deleting the provisions above and replace them with the notice
+ and other provisions required by the GPL or the LGPL. If you do not delete
+ the provisions above, a recipient may use your version of this file under
+ the terms of any one of the MPL, the GPL or the LGPL.
+
+ ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY createMappedURI.label "Создание сопоставленного URI">
+<!ENTITY createMappedURI.desc "Редактор: Создание сопоставленного URI для текущего буфера">
+<!ENTITY titleBar.title "Komodo">
+<!ENTITY aboutKomodo.label "О Komodo">
+<!ENTITY aboutKomodo.title "О Komodo">
+<!ENTITY aboutMenu.accesskey "A">
+<!ENTITY aboutName.accesskey "A">
+<!ENTITY add.label "Добавить">
+<!ENTITY addAdditionalCaret.label "Множественное выделение - Добавить">
+<!ENTITY addAdditionalCaret.desc "Editor: Add Current Selection or Caret to a Multi-Caret Set">
+<!ENTITY addNextWordToCaretSet.label "Множественное выделение - Добавить следующее">
+<!ENTITY addNextWordToCaretSet.desc "Editor: Add Next Word to a Multi-Caret Set">
+<!ENTITY addAsSnippetInToolbox.label "Добавить как сниппет на панель инструментов">
+<!ENTITY browseForDirectoriesToAddToSearchList.tooltiptext "Обзор каталогов,для добавления к списку поиска">
+<!ENTITY browserPreview.menu.accesskey "B">
+<!ENTITY browserPreview.menu.label "Предпросмотр">
+<!ENTITY bugs.label "Отладка">
+<!ENTITY checkForUpdates.label "Проверить наличие обновлений...">
+<!ENTITY checkSyntaxNow.label "Проверить синтаксис">
+<!ENTITY cleanLineEndings.label "Очистить окончания строк">
+<!ENTITY clearSearchHighlighting.label "Очистить выделение">
+<!ENTITY clearWarningErrorSquigglies.label "Очистить предупреждения/подчёркнутые ошибки">
+<!ENTITY close.label "Закрыть">
+<!ENTITY close.menu.accesskey "C">
+<!ENTITY close.menu.label "Закрыть">
+<!ENTITY closeAllFiles.menuitem.accesskey "A">
+<!ENTITY closeAllFiles.menuitem.label "Все файлы">
+<!ENTITY closeOtherFiles.menuitem.accesskey "O">
+<!ENTITY closeOtherFiles.menuitem.label "Другие файлы">
+<!ENTITY closeFile.menuitem.accesskey "T">
+<!ENTITY closeFile.menuitem.label "Текущий файл">
+<!ENTITY closeProject.label "Закрыть проект">
+<!ENTITY closeAllProjects.label "Закрыть все проекты">
+<!ENTITY code.label "Код">
+<!ENTITY codeConvertFromHexMenu.label "Из шестнадцатиричного">
+<!ENTITY codeConvertToHexMenu.label "В шестнадцатиричный">
+<!ENTITY codeConvertSelectedTextMenu.label "Конвертировать выделенный текст">
+<!ENTITY codeConvertSelectedTextMenu.accesskey "V">
+<!ENTITY codeConvertSelectionFromHex.desc "Код: Преобразовать выделенный текст из шестнадцатиричного">
+<!ENTITY codeConvertSelectionToHex.desc "Код: Преобразовать выделенный текст в шестнадцатиричную форму">
+<!ENTITY collapse.label "Свернуть">
+<!ENTITY collapseAll.label "Свернуть все">
+<!ENTITY collapseRecursively.label "Свернуть рекурсивно">
+<!ENTITY column.label "Колонка">
+<!ENTITY commandOutput.label "Вывод команды">
+<!ENTITY commentRegion.label "Закомментировать">
+<!ENTITY community.label "Сообщество">
+<!ENTITY compareFiles.label "Сравнение файлов...">
+<!ENTITY completeWord.label "Завершить слово">
+<!ENTITY content.label "Содержание">
+<!ENTITY controlClick.accesskey "Ctrl+Click">
+<!ENTITY copy.label "Копировать">
+<!ENTITY copy.tooltiptext "Копировать">
+<!ENTITY copyButton.accesskey "C">
+<!ENTITY createTemplateFromProject.label "Создать шаблон из проекта...">
+<!ENTITY createTemplateFromProject.accesskey "C">
+<!ENTITY currentFileSettings.label "Настройки текущего файла...">
+<!ENTITY customizeToolbars.menu.label "Настроить...">
+<!ENTITY customizeToolbars.menu.accesskey "C">
+<!ENTITY cut.label "Вырезать">
+<!ENTITY cut.tooltiptext "Вырезать">
+<!ENTITY cutButton.accesskey "T">
+<!ENTITY decreaseFont.accesskey "D">
+<!ENTITY decreaseFont.label "Уменьшить размер шрифта">
+<!ENTITY decreaseLineIndent.label "Убрать отступ">
+<!ENTITY delete.label "Удалить">
+<!ENTITY deleteBlankLines.desc "Редактор: Удалить пустые строки">
+<!ENTITY edit.label "Правка">
+<!ENTITY editMacro.label "Редактировать Макрос">
+<!ENTITY editSnippet.label "Редактировать сниппет">
+<!ENTITY editorInvokeHyperlink.desc "Редактор: Вызов ссылки">
+<!ENTITY editorAddAsSnippetToToolbox.desc "Редактор: Добавить как сниппет на панель инструментов">
+<!ENTITY editorBack.desc "Редактор: Назад">
+<!ENTITY editorBackspace.desc "Editor: Backspace">
+<!ENTITY editorBeginningOfLine.desc "Редактор: Начало линии">
+<!ENTITY editorBeginningOfLineFirstVisibleCharFirstColumn.desc "Редактор: Начало линии (первый видимый символ / первая колонка)">
+<!ENTITY editorCancelAutoComplete.desc "Editor: Cancel AutoComplete">
+<!ENTITY editorCloseAllBuffers.desc "Редактор: Закрыть все буферы">
+<!ENTITY editorCloseCurrentBuffer.desc "Редактор: Закрыть текущий буфер">
+<!ENTITY editorCloseOtherBuffers.desc "Редактор: Закрыть другие буферы">
+<!ENTITY editorCopy.desc "Редактор: Копировать">
+<!ENTITY editorCopyRegion.desc "Редактор: Копировать область">
+<!ENTITY editorCurrentFileSettings.desc "Редактор: Настройки текущего файла">
+<!ENTITY editorCut.desc "Редактор: Вырезать">
+<!ENTITY editorCutLine.desc "Редактор: Вырезать строку">
+<!ENTITY editorCutRegion.desc "Редактор: Вырезать область">
+<!ENTITY editorCutRestOfLine.desc "Редактор: Вырезать остальные строки">
+<!ENTITY editorDecreaseLineIndent.desc "Редактор: Уменьшить отступ строки">
+<!ENTITY editorDelete.desc "Редактор: Удалить">
+<!ENTITY editorDeleteLine.desc "Редактор: Удалить строку">
+<!ENTITY editorDeleteWordLeft.desc "Редактор: Удалить слово слева">
+<!ENTITY editorDeleteWordRight.desc "Редактор: Удалить слово справа">
+<!ENTITY editorDuplicateLine.desc "Редактор: Дублировать строку">
+<!ENTITY editorDuplicateLineOrSelection.desc "Редактор: Дублировать строку или выделенное">
+<!ENTITY editorEndOfLine.desc "Редактор: Конец строки">
+<!ENTITY editorExchangeCurrentPointAndMark.desc "Редактор: Обмен текущей точки и метки">
+<!ENTITY editorGoToBeginningOfWord.desc "Редактор: Перейти к началу слова">
+<!ENTITY editorGoToEndOfDocument.desc "Редактор: Перейти к концу документа">
+<!ENTITY editorGoToEndOfWord.desc "Редактор: Перейти к концу слова">
+<!ENTITY editorGoToLine.desc "Редактор: Перейти к строке...">
+<!ENTITY editorGoToNextBookmark.desc "Редактор: Перейти к следующей закладке">
+<!ENTITY editorGoToNextLine.desc "Редактор: Перейти к следующей строке">
+<!ENTITY editorGoToPreviousBookmark.desc "Редактор: Перейти к предыдущей закладке">
+<!ENTITY editorGoToPreviousLine.desc "Редактор: Перейти к предыдущей строке">
+<!ENTITY editorGoToTopOfDocument.desc "Редактор: Перейти к началу документа">
+<!ENTITY editorIncreaseLineIndent.desc "Редактор: Увеличить отступ строки">
+<!ENTITY editorInsertNewline.desc "Редактор: Вставить разрыв строки">
+<!ENTITY editorInsertNewlineAlignWithCurrentLine.desc "Редактор: Вставить разрыв строки (выровнять с текущей строкой)">
+<!ENTITY editorInsertNewlineContinueComments.desc "Редактор: Вставить разрыв строки (продолжить комментарии)">
+<!ENTITY editorInsertNewlineNoFavors.desc "Редактор: Вставить разрыв строки (просто)">
+<!ENTITY editorInsertNewlineStartingOnThePreviousLine.desc "Редактор: Вставить разрыв строки (начиная с предыдущей строки)">
+<!ENTITY editorInsertNextKeyAsLiteralCharacter.desc "Редактор: Вставить следующий символ как буквенный">
+<!ENTITY editorInsertSnippetByName.desc "Редактор: Вставить аббревиатуру сниппета по имени">
+<!ENTITY editorJoinCurrentAndNextLines.desc "Редактор: Соединить текущую и следующую строки">
+<!ENTITY editorLaunchColorPicker.desc "Редактор: Пипетка">
+<!ENTITY editorMoveBackPartOfWord.desc "Editor: Move Back Part of Word">
+<!ENTITY editorMoveForwardPartOfWord.desc "Editor: Move Forward Part of Word">
+<!ENTITY editorMoveLeftOneCharacter.desc "Editor: Move Left One Character">
+<!ENTITY editorMoveOneCharacterRight.desc "Editor: Move One Character Right">
+<!ENTITY editorMoveOneWordLeft.desc "Editor: Move One Word Left">
+<!ENTITY editorMoveOneWordRight.desc "Editor: Move One Word Right">
+<!ENTITY editorMoveToEndOfWordToLeft.desc "Editor: Move To End Of Word To Left">
+<!ENTITY editorMoveToPreviousMarkInMarkRing.desc "Editor: Move to previous mark in mark ring">
+<!ENTITY editorPageDown.desc "Редактор: Страница вниз">
+<!ENTITY editorPageUp.desc "Редактор: Страница вверх">
+<!ENTITY editorParaUp.desc "Редактор: Параграф вверх">
+<!ENTITY editorParaDown.desc "Редактор: Параграф вниз">
+<!ENTITY editorPaste.desc "Редактор: Вставить">
+<!ENTITY editorPasteAndSelect.desc "Редактор: Вставить и выделить">
+<!ENTITY editorPopTransientMark.desc "Editor: Pop Transient Mark">
+<!ENTITY editorTabAwarePaste.desc "Editor: Tab-Aware Paste">
+<!ENTITY editorRedo.desc "Редактор: Повторить">
+<!ENTITY editorReflowParagraphS.desc "Редактор: Переформатировать параграфы">
+<!ENTITY editorRemoveAllBookmarks.desc "Редактор: Удалить все закладки">
+<!ENTITY editorRemoveTrailingWhitespace.desc "Редактор: Удалить пробелы на концах строк">
+<!ENTITY editorRepeatNextKeystrokeNTimes.desc "Редактор: Повторить следующее нажатие клавиши N раз">
+<!ENTITY editorResetLanguageToBestGuess.desc "Редактор: Сброс языка на предполагаемый">
+<!ENTITY editorScrollCurrentLineToCenterOfScreen.desc "Редактор: Прокрутить текущую строку в центр экрана">
+<!ENTITY editorScrollCurrentLineToTopOfScreen.desc "Редактор: Прокрутить текущую строку в верхнюю часть экрана">
+<!ENTITY editorScrollOneLineDown.desc "Редактор: Прокрутить на одну строку вниз">
+<!ENTITY editorScrollOneLineUp.desc "Редактор: Прокрутить на одну строку вверх">
+<!ENTITY editorSelectAll.desc "Редактор: Выделить все">
+<!ENTITY editorSelectAllDeprecatedBinding.desc "Редактор: Выделить все (Deprecated Binding)">
+<!ENTITY editorSelectNextCharacter.desc "Редактор: Выделить следующий символ">
+<!ENTITY editorSelectNextPartOfWord.desc "Редактор: Выделить следующую часть слова">
+<!ENTITY editorSelectNextWord.desc "Редактор: Выделить следующее слово">
+<!ENTITY editorSelectPageDown.desc "Редактор: Выделить страницу вниз">
+<!ENTITY editorSelectPageUp.desc "Редактор: Выделить страницу вверх">
+<!ENTITY editorSelectPreviousCharacter.desc "Редактор: Выделить предыдущий символ">
+<!ENTITY editorSelectPreviousPartOfWord.desc "Редактор: Выделить предыдущую часть слова">
+<!ENTITY editorSelectPreviousWord.desc "Редактор: Выделить предыдущее слово">
+<!ENTITY editorSelectRectangularNextCharacter.desc "Редактор: Выделить рамкой следующие символы">
+<!ENTITY editorSelectRectangularPageDown.desc "Редактор: Выделить рамкой страницу вниз">
+<!ENTITY editorSelectRectangularPageUp.desc "Редактор: Выделить рамкой страницу вверх">
+<!ENTITY editorSelectRectangularPreviousCharacter.desc "Редактор: Выделить рамкой предыдущий символ">
+<!ENTITY editorSelectRectangularToBeginningOfLineFirstCharFirstColumn.desc "Редактор: Выделить рамкой до начала строки (первый символ / первая колонка)">
+<!ENTITY editorSelectRectangularToEndOfLine.desc "Редактор: Выделить рамкой до конца строки">
+<!ENTITY editorSelectRectangularToNextLine.desc "Редактор: Выделить рамкой до следующей строки">
+<!ENTITY editorSelectRectangularToPreviousLine.desc "Редактор: Выделить рамкой до предыдущей строки">
+<!ENTITY editorSelectToBeginningOfLineFirstCharFirstColumn.desc "Редактор: Выделить до начала строки (первый символ / первая колонка)">
+<!ENTITY editorSelectToBeginningOfLineAnyCharFirstColumn.desc "Редактор: Выделить до начала строки (всегда первая колонка)">
+<!ENTITY editorSelectToBeginningOfWord.desc "Редактор: Выделить до начала слова">
+<!ENTITY editorSelectToEndOfDocument.desc "Редактор: Выделить до конца документа">
+<!ENTITY editorSelectToEndOfLine.desc "Редактор: Выделить до конца строки">
+<!ENTITY editorSelectToEndOfWord.desc "Редактор: Выделить до конца слова">
+<!ENTITY editorSelectToNextLine.desc "Редактор: Выделить до следующей строки">
+<!ENTITY editorSelectToPreviousLine.desc "Редактор: Выделить до предыдущей строки">
+<!ENTITY editorSelectToTopOfDocument.desc "Редактор: Выделить до начала документа">
+<!ENTITY editorSelectWordUnderCursor.desc "Редактор: Выделить слово под курсором">
+<!ENTITY editorSetMark.desc "Редактор: Установить метку">
+<!ENTITY editorShowUnsavedChanges.desc "Редактор: Показать несохранённые изменения">
+<!ENTITY editorTabstopClear.desc "Editor: Clear Current Tabstop State">
+<!ENTITY editorToggleBookmark.desc "Редактор: Переключить закладку">
+<!ENTITY editorToggleOvertypeInsertMode.desc "Редактор: Переключить режим Overtype/Insert">
+<!ENTITY editorTransposeCurrentAndPreviousCharacters.desc "Редактор: Транспонировать текущий и предыдущий символы">
+<!ENTITY editorTransposeCurrentAndPreviousLines.desc "Редактор: Транспонировать текущую и предыдущую строки">
+<!ENTITY editorTransposeCurrentAndPreviousWords.desc "Редактор: Транспонировать текущее и предыдущее слова">
+<!ENTITY editorTriggerPrecedingAutoCompleteListOrCallTip.desc "Редактор: Триггер упредительного автозаполнения или всплывающей подсказки">
+<!ENTITY editorUndo.desc "Редактор: Отменить">
+<!ENTITY editorZoomFontSizeReset.desc "Редактор: Масштаб: Восстановить размер по умолчанию">
+<!ENTITY editorZoomFontSizeDown.desc "Редактор: Масштаб: Уменьшить размер шрифта">
+<!ENTITY editorZoomFontSizeUp.desc "Редактор: Масштаб: Увеличить размер шрифта">
+<!ENTITY editorHTMLTagRelocator.desc "Editor: HTML Tag Relocator...">
+<!ENTITY enterNextCharacterAsRawLiteral.label "Ввод следующего символа, как Raw Literal">
+<!ENTITY executeMacro.label "Выполнить макрос">
+<!ENTITY existingFile.label "Существующий файл...">
+<!ENTITY existingRemoteFile.label "Существующий удалённый файл...">
+<!ENTITY expand.label "Развернуть">
+<!ENTITY expandAll.label "Развернуть все">
+<!ENTITY expandRecursively.label "Развернуть рекурсивно">
+<!ENTITY exportPackage.label "Export Package...">
+<!ENTITY exportAsZipFile.label "Экспорт в Zip-файл...">
+<!ENTITY extensionManager.accesskey "A">
+<!ENTITY extensionManager.label "Дополнения">
+<!ENTITY file.label "Файл">
+<!ENTITY fileOpen.label "Файл...">
+<!ENTITY fileEncoding.tooltiptext "File Encoding">
+<!ENTITY filePosition.tooltiptext "Позиция файла">
+<!ENTITY fileType.tooltiptext "Тип файла">
+<!ENTITY find.label "Найти...">
+<!ENTITY findAllFunctions.label "Найти все функции">
+<!ENTITY findFilter.tooltiptext "Only show matches containing these space-separated words. Use minus '-' at the start of a word to exclude matches.">
+<!ENTITY findFind.desc "Поиск: Найти...">
+<!ENTITY findFindInCurrProject.desc "Поиск: Найти в текущем проекте...">
+<!ENTITY findFindInFiles.desc "Поиск: Найти в файлах...">
+<!ENTITY findFindNext.desc "Поиск: Найти далее">
+<!ENTITY findFindNextResult.desc "Find: Find Next Result">
+<!ENTITY findFindNextSelected.desc "Find: Find Next Selected">
+<!ENTITY findFindPrevious.desc "Find: Find Previous">
+<!ENTITY findFindPreviousSelected.desc "Find: Find Previous Selected">
+<!ENTITY findHighlightVariableManual.desc "Find: Highlight Variable">
+<!ENTITY findInCurrProject.label "Найти в текущем проекте...">
+<!ENTITY findInFiles.label "Найти в файлах...">
+<!ENTITY findIncrementalSearch.desc "Поиск: Последовательный поиск">
+<!ENTITY findIncrementalSearchBackwards.desc "Поиск: Обратный последовательный поиск">
+<!ENTITY findLabel.accesskey "i">
+<!ENTITY findNext.label "Найти далее">
+<!ENTITY findNextFunction.label "Найти следующую функцию">
+<!ENTITY findPreviousFunction.label "Найти предыдущую функцию">
+<!ENTITY findReplace.desc "Поиск: Заменить...">
+<!ENTITY findReplaceInFiles.desc "Поиск: Заменить в файлах...">
+<!ENTITY findReplaceInCurrProject.desc "Поиск: Заменить в текущем проекте...">
+<!ENTITY findResults1.label "Find Results 1">
+<!ENTITY findResults2.label "Find Results 2">
+<!ENTITY fold.accesskey "O">
+<!ENTITY fold.label "Свёртывание кода">
+<!ENTITY folderContextExistingFile.accesskey "i">
+<!ENTITY folderContextNewCommand.accesskey "C">
+<!ENTITY folderContextNewFile.accesskey "f">
+<!ENTITY folderContextNewFolder.accesskey "f">
+<!ENTITY folderContextNewLiveFolder.accesskey "L">
+<!ENTITY folderContextNewMacro.accesskey "m">
+<!ENTITY folderContextNewMenu.accesskey "n">
+<!ENTITY folderContextNewSnippet.accesskey "s">
+<!ENTITY folderContextNewTemplate.accesskey "T">
+<!ENTITY folderContextNewToolbar.accesskey "B">
+<!ENTITY folderContextNewURL.accesskey "u">
+<!ENTITY folderContextRemoteFile.accesskey "r">
+<!ENTITY fullScreen.accesskey "f">
+<!ENTITY fullScreen.label "Полный экран">
+<!ENTITY generalCloseProject.desc "Основные: Закрыть проект">
+<!ENTITY generalCloseAllProjects.desc "Основные: Закрыть все проекты">
+<!ENTITY generalCreateTemplateFromProject.desc "Основные: Создать шаблон из проекта...">
+<!ENTITY generalEditProperties.desc "Основные: Изменить свойства">
+<!ENTITY generalExportAsHTML.desc "Основные: Экспорт в HTML...">
+<!ENTITY generalExportSelectionAsHTML.desc "Основные: Экспорт выделенного в HTML...">
+<!ENTITY generalImportFromFileSystemIntoCurrentProject.desc "Основные: Импорт из файловой системы в текущий проект">
+<!ENTITY generalLeastRecentlyViewedFile.desc "Основные: Редко просматриваемые файлы">
+<!ENTITY generalMostRecentlyViewedFile.desc "Основные: Часто просматриваемые файлы">
+<!ENTITY generalNewFile.desc "Основные: Новый файл...">
+<!ENTITY generalNewFileDefaultType.desc "Основные: Новый файл (тип по умолчанию)">
+<!ENTITY generalNewProject.desc "Основные: Новый проект...">
+<!ENTITY generalNewWindow.desc "Основные: Новое окно">
+<!ENTITY generalNextFile.desc "Основные: Следующий файл">
+<!ENTITY generalNextWindow.desc "Основные: Перейти к следующему окну Komodo">
+<!ENTITY generalOpenFileDialog.desc "Основные: Открыть файл...">
+<!ENTITY generalOpenProject.desc "Основные: Открыть проект...">
+<!ENTITY generalOpenRemoteProject.desc "Основные: Открыть удалённый проект...">
+<!ENTITY generalOpenProjectInNewWindow.desc "Основные: Открыть проект в новом окне">
+<!ENTITY generalOpenRemoteFileDialog.desc "Основные: Открыть удалённый файл...">
+<!ENTITY generalOpenTemplate.desc "Основные: Открыть шаблон...">
+<!ENTITY generalPerformTheImportFromFileSystemAgainRefreshes.desc "Основные: Импорт из файловой системы (обновить)">
+<!ENTITY generalPreferences.desc "General: Preferences...">
+<!ENTITY generalPreviousFile.desc "Основные: Предыдущий файл">
+<!ENTITY generalPreviousWindow.desc "Основные: Перейти к предыдущему окну Komodo">
+<!ENTITY generalPrint.desc "Основные: Печать...">
+<!ENTITY generalPrintPreview.desc "Основные: Предварительный просмотр печати">
+<!ENTITY generalPrintPreviewSelection.desc "Основные: Предварительный просмотр печати выделенного">
+<!ENTITY generalPrintSelection.desc "Основные: Печать выделенного...">
+<!ENTITY generalPrintSetup.desc "Основные: Настройка печати...">
+<!ENTITY generalQuit.desc "Основные: Выход">
+<!ENTITY generalRefreshStatus.desc "Основные: Обновить состояние">
+<!ENTITY generalRevert.desc "Основные: Восстановить">
+<!ENTITY generalRevertProject.desc "Основные: Восстановить проект">
+<!ENTITY generalSave.desc "Основные: Сохранить">
+<!ENTITY generalSaveAll.desc "Основные: Сохранить все">
+<!ENTITY generalSaveAs.desc "Основные: Сохранить как...">
+<!ENTITY generalSaveAsRemote.desc "Основные: Сохранить как удалённый...">
+<!ENTITY generalSaveAsTemplate.desc "Основные: Сохранить как шаблон">
+<!ENTITY generalSaveProject.desc "Основные: Сохранить проект">
+<!ENTITY generalSaveProjectAs.desc "Основные: Сохранить проект как...">
+<!ENTITY generalSwitchToTab1.desc "Основные: Переключиться на вкладку 1">
+<!ENTITY generalSwitchToTab2.desc "Основные: Переключиться на вкладку 2">
+<!ENTITY generalSwitchToTab3.desc "Основные: Переключиться на вкладку 3">
+<!ENTITY generalSwitchToTab4.desc "Основные: Переключиться на вкладку 4">
+<!ENTITY generalSwitchToTab5.desc "Основные: Переключиться на вкладку 5">
+<!ENTITY generalSwitchToTab6.desc "Основные: Переключиться на вкладку 6">
+<!ENTITY generalSwitchToTab7.desc "Основные: Переключиться на вкладку 7">
+<!ENTITY generalSwitchToTab8.desc "Основные: Переключиться на вкладку 8">
+<!ENTITY generalSwitchToTab9.desc "Основные: Переключиться на вкладку 9">
+<!ENTITY generalTogglePanels.desc "Основные: Переключить панели">
+<!ENTITY goToDefinition.accesskey "D">
+<!ENTITY goToDefinition.label "Перейти к определению">
+<!ENTITY gotoLine.accesskey "G">
+<!ENTITY gotoLine.label "Перейти к строке...">
+<!ENTITY gotoLine.prompt.description "Enter a line number to go to. Prefix + or - to move relative to the current line. For example: +4 will move forward 4 lines. Specify a column # or offset after a comma. eg: +4,-8 moves down 4, left 8.">
+<!ENTITY gotoLine.prompt.label "Введите номер строки:">
+<!ENTITY goToTab.menu.accesskey "A">
+<!ENTITY goToTab.menu.label "Перейти на вкладку">
+<!ENTITY help.label "Помощь">
+<!ENTITY help.tooltiptext "Помощь">
+<!ENTITY helpAboutKomodo.desc "Помощь: О Komodo">
+<!ENTITY helpAlternateHelpOnSelection.desc "Помощь: Альтернативная помощь на выбранном">
+<!ENTITY helpHelp.desc "Помощь: Помощь...">
+<!ENTITY helpKomodoBugDatabase.desc "Помощь: Сообщить об ошибке">
+<!ENTITY helpKomodoCommunity.desc "Помощь: Сообщество Komodo">
+<!ENTITY helpKomodoDiscussMailingListArchives.desc "Help: Komodo Discuss Mailing List Archives">
+<!ENTITY helpLanguageSpecificHelpOnSelection.desc "Help: Language-Specific Help on Selection">
+<!ENTITY helpMenu.accesskey "H">
+<!ENTITY helpShowKeybindings.desc "Помощь: Показать сочетания клавиш...">
+<!ENTITY helpStartPage.desc "Помощь: Начальная страница">
+<!ENTITY helpTroubleshootingContactUs.accesskey "C">
+<!ENTITY helpTroubleshootingContactUs.desc "Помощь: Связаться с ActiveState используя веб форму обратной связи">
+<!ENTITY helpTroubleshootingContactUs.label "Связаться с ActiveState">
+<!ENTITY helpTroubleshootingMenu.accesskey "s">
+<!ENTITY helpTroubleshootingMenu.label "Устранение неполадок">
+<!ENTITY helpTroubleshootingViewErrorLog.accesskey "L">
+<!ENTITY helpTroubleshootingViewErrorLog.label "Просмотр лог-файла">
+<!ENTITY helpTroubleshootingViewErrorLog.desc "Помощь: Просмотр лог-файла ошибок Komodo">
+<!ENTITY helpTroubleshootingAboutMemory.accesskey "m">
+<!ENTITY helpTroubleshootingAboutMemory.label "Использование памяти">
+<!ENTITY importExport.label "Импорт/Экспорт">
+<!ENTITY importPackage.label "Import Package...">
+<!ENTITY increaseFont.accesskey "i">
+<!ENTITY increaseFont.label "Увеличить размер шрифта">
+<!ENTITY increaseLineIndent.label "Отступ">
+<!ENTITY incrementalSearch.label "Последовательный поиск">
+<!ENTITY insertSnippet.label "Вставить сниппет">
+<!ENTITY joinLines.label "Объединить строки">
+<!ENTITY jumpToCorrespondingLine.label "Перейти к соответствующей строке">
+<!ENTITY jumpToCorrespondingLineForDiffMode.label "Перейти к соответствующей строке(для режима Diff)">
+<!ENTITY jumpToMatchingBrace.label "Перейти к парной скобке">
+<!ENTITY jumpToNextResult.label "Перейти к следующему результату">
+<!ENTITY jumpToNextResult.tooltiptext "Перейти к следующему результату">
+<!ENTITY jumpToPreviousResult.tooltiptext "Перейти к предыдущему результату">
+<!ENTITY historyBack.accesskey "B">
+<!ENTITY historyBack.label "Назад">
+<!ENTITY historyForward.accesskey "f">
+<!ENTITY historyForward.label "Вперёд">
+<!ENTITY historyBack.tooltiptext "Go back one location">
+<!ENTITY historyForward.tooltiptext "Go forward one location">
+<!ENTITY historyRecentLocations.tooltiptext "Последние места">
+<!ENTITY editorHistoryBack.desc "Редактор: Вернуться">
+<!ENTITY editorHistoryForward.desc "Редактор: Вперёд">
+<!ENTITY komodoBugDatabase.accesskey "B">
+<!ENTITY komodoBugDatabase.label "Сообщить об ошибке">
+<!ENTITY komodoBugDatabase.tooltiptext "Сообщить об ошибке в Komodo Bugzilla">
+<!ENTITY komodoCommunity.label "Сообщество Komodo">
+<!ENTITY komodoCommunity.tooltiptext "Сообщество Komodo">
+<!ENTITY komodoEmailLists.tooltiptext "Список email-рассылки Komodo">
+<!ENTITY komodoMemoryUsage.desc "Utilities: Report of Komodo's Memory Usage">
+<!ENTITY komodoResources.label "Ресурсы Komodo">
+<!ENTITY komodoResourcesToolbar.tooltiptext "Ресурсы Komodo - Панель инструментов">
+<!ENTITY line.label "Строка">
+<!ENTITY listKeyBindings.label "Список сочетаний клавиш">
+<!ENTITY macro.label "Макрос">
+<!ENTITY macroEndRecording.desc "Макрос: Конец записи">
+<!ENTITY macroExecuteLastMacro.desc "Макрос: Выполнить последний макрос">
+<!ENTITY macroPauseRecording.desc "Макрос: Пауза записи">
+<!ENTITY macroSaveToToolbox.desc "Макрос: Сохранить на панели инструментов">
+<!ENTITY macroStartResumeRecording.desc "Макрос: Начать/Продолжить запись">
+<!ENTITY macroToolbar.tooltiptext "Панель макроса">
+<!ENTITY macros.label "Макросы">
+<!ENTITY mailLists.label "Списки рассылки">
+<!ENTITY makeLowercase.label "Установить нижний регистр">
+<!ENTITY makeUppercase.label "Установить верхний регистр">
+<!ENTITY menu.tooltiptext "Меню">
+<!ENTITY menuBlockSelect.accesskey "B">
+<!ENTITY menuBookmarkGotoNext.accesskey "n">
+<!ENTITY menuBookmarkGotoPrevious.accesskey "P">
+<!ENTITY menuBookmarkRemoveAll.accesskey "r">
+<!ENTITY menuBookmarkToggle.accesskey "T">
+<!ENTITY menuBufferClose.accesskey "C">
+<!ENTITY menuBufferNext.accesskey "x">
+<!ENTITY menuBufferPrevious.accesskey "P">
+<!ENTITY menuCleanLineEndings.accesskey "E">
+<!ENTITY menuRemoveTrailingWhitespace.accesskey "W">
+<!ENTITY menuRemoveTrailingWhitespace.label "Удалить пробелы на концах строк">
+<!ENTITY menuClearSearchHighlighting.accesskey "H">
+<!ENTITY menuCloseOtherBuffers.accesskey "H">
+<!ENTITY menuCloseOtherBuffers.label "Закрыть остальные">
+<!ENTITY menuCode.accesskey "C">
+<!ENTITY menuCodeIntelReTriggerCompletions.label "CodeIntel завершения">
+<!ENTITY menuCodeIntelReTriggerCompletions.accesskey "O">
+<!ENTITY menuComment.accesskey "C">
+<!ENTITY menuCompareFiles.accesskey "C">
+<!ENTITY menuDedent.accesskey "D">
+<!ENTITY menuEdit.accesskey "E">
+<!ENTITY menuEditPrefsCurrent.accesskey "L">
+<!ENTITY menuExportHTML.accesskey "m">
+<!ENTITY menuExportHTMLSelection.accesskey "s">
+<!ENTITY menuFile.accesskey "f">
+<!ENTITY menuFileNew.accesskey "n">
+<!ENTITY menuFileOpen.accesskey "O">
+<!ENTITY menuFind.accesskey "f">
+<!ENTITY menuFindNext.accesskey "n">
+<!ENTITY menuHelpHelp.accesskey "H">
+<!ENTITY menuHelpShowKeybindings.accesskey "K">
+<!ENTITY menuIndent.accesskey "i">
+<!ENTITY menuJoin.accesskey "J">
+<!ENTITY menuMacros.accesskey "m">
+<!ENTITY menuMoveTab.accesskey "m">
+<!ENTITY menuMruFiles.accesskey "f">
+<!ENTITY menuMruWindows.accesskey "W">
+<!ENTITY menuOpenStartPage.accesskey "T">
+<!ENTITY menuPreferences.accesskey "E">
+<!ENTITY menuPrint.accesskey "P">
+<!ENTITY menuPrintPreview.accesskey "E">
+<!ENTITY menuPrintSettings.accesskey "G">
+<!ENTITY menuProject.accesskey "P">
+<!ENTITY menuReflow.accesskey "r">
+<!ENTITY menuRefreshStatus.accesskey "r">
+<!ENTITY menuReplace.accesskey "r">
+<!ENTITY menuRevert.accesskey "V">
+<!ENTITY menuRotateSplitter.accesskey "r">
+<!ENTITY menuSave.accesskey "s">
+<!ENTITY menuSaveAll.accesskey "L">
+<!ENTITY menuSaveAs.accesskey "A">
+<!ENTITY menuSaveAsOther.accesskey "E">
+<!ENTITY menuShowUnsavedChanges.accesskey "u">
+<!ENTITY menuSplitTab.accesskey "s">
+<!ENTITY menuStartIncrementalSearch.accesskey "i">
+<!ENTITY menuTabify.accesskey "T">
+<!ENTITY menuTools.accesskey "T">
+<!ENTITY menuToolsRecentCommands.accesskey "E">
+<!ENTITY menuToolsRunCommand.accesskey "r">
+<!ENTITY menuUncomment.accesskey "u">
+<!ENTITY menuUntabify.accesskey "n">
+<!ENTITY menuView.accesskey "V">
+<!ENTITY menuViewToolbarsAutoHide.label "Скрыть панели инструментов">
+<!ENTITY menuWatchThread.accesskey "W">
+<!ENTITY minimapZoomFontSizeReset.desc "Мини-карта: Масштаб: Восстановить размер по умолчанию">
+<!ENTITY minimapZoomFontSizeDown.desc "Мини-карта: Уменьшить размер шрифта">
+<!ENTITY minimapZoomFontSizeUp.desc "Мини-карта: Увеличить размер шрифта">
+<!ENTITY minimapHide.desc "Мини-карта: Скрыть эту мини-карту">
+<!ENTITY move.label "Переместить">
+<!ENTITY moveToOtherTabGroup.label "Переместить в разделённый вид">
+<!ENTITY moveTabToNewWindow.label "Переместить в новое окно">
+<!ENTITY navigation.menu.accesskey "n">
+<!ENTITY navigation.menu.label "Навигация">
+<!ENTITY new.label "Новый">
+<!ENTITY newCommand.label "Новая команда...">
+<!ENTITY newCustomMenu.label "Новое пользовательское меню">
+<!ENTITY newCustomToolbar.label "Новая пользовательская панель инструментов">
+<!ENTITY newFile.accesskey "f">
+<!ENTITY newFile.label "Новый файл...">
+<!ENTITY newFileFromTemplate.accesskey "T">
+<!ENTITY newFileFromTemplate.label "Файл из шаблона...">
+<!ENTITY newFileUsingDefaultLanguage.tooltiptext "Новый файл с языком по умолчанию">
+<!ENTITY newFolder.label "Новая папка...">
+<!ENTITY newFromTemplate.label "Создать по шаблону">
+<!ENTITY newMacro.label "Новый Макрос...">
+<!ENTITY newProject.label "Новый проект...">
+<!ENTITY newProjectFromTemplate.label "Новый проект из шаблона...">
+<!ENTITY newSnippet.label "Новый сниппет...">
+<!ENTITY newTemplate.label "Новый шаблон...">
+<!ENTITY newWindow.accesskey "n">
+<!ENTITY newWindow.label "Новое окно">
+<!ENTITY newURL.label "Новый URL...">
+<!ENTITY nextBookmark.label "Следующая закладка">
+<!ENTITY nextFile.label "Следующая вкладка">
+<!ENTITY noSelection.label "No selection">
+<!ENTITY notifications.label "Уведомления">
+<!ENTITY open.label "Открыть">
+<!ENTITY open.tooltiptext "Открыть">
+<!ENTITY openFile.placeholder "Открыть файл &#8230;">
+<!ENTITY openFile.label "Открыть файл">
+<!ENTITY openFile.tooltiptext "Открыть файл">
+<!ENTITY findInFilesToolbar.label "Панель поиска в файлах">
+<!ENTITY openFileToolbar.label "Панель открытия файлов">
+<!ENTITY openLabel.accesskey "n">
+<!ENTITY openLine.desc "Редактор: Открыть строку">
+<!ENTITY splitLine.desc "Рекдактор: Разделить строку">
+<!ENTITY openProject.label "Открыть проект...">
+<!ENTITY openProjectInNewWindow.label "Открыть проект в новом окне...">
+<!ENTITY openThisProject.label "Открыть проект">
+<!ENTITY openThisProjectInNewWindow.label "Открыть проект в новом окне">
+<!ENTITY openRemoteProject.label "Открыть удаленный проект...">
+<!ENTITY openTabInNewWindow.label "Открыть в новом окне">
+<!ENTITY openURLInBrowser.label "Открыть URL в браузере">
+<!ENTITY openURLInTab.label "Открыть URL во вкладке">
+<!ENTITY pageSetup.label "Параметры страницы">
+<!ENTITY paste.label "Вставить">
+<!ENTITY paste.tooltiptext "Вставить">
+<!ENTITY pasteButton.accesskey "P">
+<!ENTITY pasteHtml.label "Вставить код HTML">
+<!ENTITY pasteHtml.menu.accesskey "m">
+<!ENTITY pasteHtml.command.desc "Редактор: Вставить HTML из буфера обмена">
+<!ENTITY pause.label "Пауза">
+<!ENTITY pauseMacroRecording.tooltiptext "Приостановить запись макроса">
+<!ENTITY pauseRecording.label "Приостановить запись">
+<!ENTITY playLastMacro.tooltiptext "Запустить последний макрос">
+<!ENTITY preferences.label "Настройки...">
+<!ENTITY pressEnterToFind.tooltiptext "Нажмите Enter чтобы искать">
+<!ENTITY pressEnterToFindInFiles.tooltiptext "Нажмите Enter чтобы искать в файлах">
+<!ENTITY preview.label "Предпросмотр">
+<!ENTITY previewBufferInBrowser.tooltiptext "Предпросмотр буфера в браузере">
+<!ENTITY previousBookmark.label "Предыдущая закладка">
+<!ENTITY previousFile.label "Предыдущая вкладка">
+<!ENTITY print.label "Печать">
+<!ENTITY print.tooltiptext "Печать">
+<!ENTITY printPreview.label "Предварительный просмотр печати">
+<!ENTITY printPreview.title "Предварительный просмотр печати">
+<!ENTITY printPreviewSelection.label "Предварительный просмотр печати выбранного">
+<!ENTITY printSelectedText.label "Печать выделенного текста...">
+<!ENTITY printSelectedTextToHTMLFile.label "Печать выделенного текста в HTML-файл...">
+<!ENTITY printSettings.label "Настройки печати">
+<!ENTITY printToHTMLFile.label "Печать в HTML-файл...">
+<!ENTITY project.label "Проект">
+<!ENTITY projectPreferences.label "Настройки проекта...">
+<!ENTITY projects.label "Проекты">
+<!ENTITY projectsToolboxAddNewFile.desc "Проекты/Панель инструментов: Создать файл...">
+<!ENTITY projectsToolboxAddNewFileFromTemplate.desc "Проекты/Панель инструментов: Создать файл из шаблона...">
+<!ENTITY projectsToolboxAddNewFolder.desc "Проекты/Панель инструментов: Создать папку...">
+<!ENTITY projectsToolboxAddRemoteFile.desc "Проекты/Панель инструментов: Создать файл удалённо...">
+<!ENTITY properties.label "Свойства">
+<!ENTITY projectProperties.accesskey "P">
+<!ENTITY projectProperties.desc "Проекты/Панель инструментов: Свойства">
+<!ENTITY propertiesAndSettings.label "Свойства и параметры">
+<!ENTITY quitApplicationCmd.label "Выход">
+<!ENTITY quitApplicationCmd.accesskey "Q">
+<!ENTITY quitApplicationCmdMac.label "Выход &brandShortName;">
+<!ENTITY quitApplicationCmdMac.accesskey "Q">
+<!ENTITY quitApplicationCmdWin.label "Выход">
+<!ENTITY quitApplicationCmdWin.accesskey "x">
+<!ENTITY rename.label "Переименовать...">
+<!ENTITY renameTag.label "Переименовать тег">
+<!ENTITY renameTag.desc "Editor: Rename Start- and End-Tag Name Simultaneously">
+<!ENTITY reImportFromFileSystemWithTheSameSettings.tooltiptext "Переимпортировать из файловой системы с теми же настройками">
+<!ENTITY ready.label "Ready">
+<!ENTITY recentCommands.label "Последние команды">
+<!ENTITY recentFiles.label "Последние файлы">
+<!ENTITY recentProjects.label "Последние проекты">
+<!ENTITY recentWindows.label "Последние окна">
+<!ENTITY record.label "Запись">
+<!ENTITY recordMacro.tooltiptext "Запись макроса">
+<!ENTITY redo.label "Повторить">
+<!ENTITY redoButton.accesskey "O">
+<!ENTITY redoLastAction.tooltiptext "Повторить последнее действие">
+<!ENTITY reflowParagraph.label "Переформатировать абзац">
+<!ENTITY refreshStatus.label "Обновить состояние">
+<!ENTITY releaseNotes.label "Примечания к версии">
+<!ENTITY reloadBrowserPreview.desc "Предварительный просмотр: Обновить текущий предпросмотр">
+<!ENTITY reloadBrowserPreview.menu.accesskey "P">
+<!ENTITY reloadBrowserPreview.menu.label "Перезагрузить предварительный просмотр">
+<!ENTITY remoteFile.label "Удалённый файл...">
+<!ENTITY remove.label "Удалить">
+<!ENTITY removeAllBookmarks.label "Удалить все закладки">
+<!ENTITY repeatNextKeystrokeNTimes.label "Повторить следующее нажатие клавиши N раз">
+<!ENTITY replace.label "Заменить...">
+<!ENTITY replaceInFiles.label "Заменить в файлах...">
+<!ENTITY replaceInCurrProject.label "Заменить в текущем проекте...">
+<!ENTITY resetFontSize.label "Сбросить размер шрифта">
+<!ENTITY resetFontSize.accesskey "r">
+<!ENTITY revert.label "Отменить все несохранённые изменения">
+<!ENTITY revertProject.label "Отменить все несохранённые изменения в проекте">
+<!ENTITY rotateTabGroups.label "Повернуть разделённый вид">
+<!ENTITY runCommand.label "Выполнить команду...">
+<!ENTITY runLast.label "Выполнить последнее">
+<!ENTITY runLastMacro.label "Выполнить последний макрос">
+<!ENTITY save.label "Сохранить">
+<!ENTITY saveAll.label "Сохранить все">
+<!ENTITY saveAllFiles.tooltiptext "Сохранить все файлы">
+<!ENTITY saveAsDotDotDot.label "Сохранить как...">
+<!ENTITY saveAsOther.label "Сохранить как другое">
+<!ENTITY saveFile.label "Сохранить">
+<!ENTITY saveFile.tooltiptext "Сохранить">
+<!ENTITY saveLastMacroToToolbox.tooltiptext "Сохранить последний макрос на панель инструментов">
+<!ENTITY saveProject.label "Сохранить проект">
+<!ENTITY saveProjectAs.label "Сохранить проект как...">
+<!ENTITY renameProject.label "Переименовать проект...">
+<!ENTITY saveToToolbox.label "Сохранить на панель инструментов">
+<!ENTITY scrollCurrentLineToCenterOfScreen.label "Прокрутить текущую строку в центр экрана">
+<!ENTITY scrollCurrentLineToTopOfScreen.label "Прокрутить текущую строку наверх экрана">
+<!ENTITY select.menu.accesskey "s">
+<!ENTITY select.menu.label "Выделить">
+<!ENTITY selectAll.label "Выделить все">
+<!ENTITY selectAll.menu.accesskey "A">
+<!ENTITY selectBlock.label "Выделить блок">
+<!ENTITY selectToMatchingBrace.label "Select to Matching Brace">
+<!ENTITY selectToMatchingBrace.menu.accesskey "C">
+<!ENTITY selection.label "selection">
+<!ENTITY selectionInformation.tooltiptext "Selection Information">
+<!ENTITY showButtonText.label "Показать подписи кнопок">
+<!ENTITY showMenubar.label "Показать строку меню">
+<!ENTITY showToolbars.label "Показать панели инструментов">
+<!ENTITY showHideBottomPane.tooltiptext "Показать/Скрыть нижнюю панель">
+<!ENTITY showHideLeftPane.tooltiptext "Показать/Скрыть левую панель">
+<!ENTITY showHideRightPane.tooltiptext "Показать/Скрыть правую панель">
+
+<!ENTITY pane.moveTo.tab.label "Combine With Tab">
+<!ENTITY pane.moveTo.tab.new.label "Новая вкладка">
+<!ENTITY pane.moveTo.tab.new.single.label "Separate Tab">
+<!ENTITY pane.moveTo.pane.label "Переместить на панель">
+<!ENTITY pane.moveTo.pane.new.label "Новая плавающая панель">
+<!ENTITY pane.detach.label "Отсоединить панель">
+<!ENTITY pane.customize.label "Настроить...">
+<!ENTITY pane.customize.placeholder.label
+    "Пожалуйста, используйте мышь, чтобы перетащить панели в нужной конфигурации и нажмите Готово.">
+<!ENTITY pane.customize.done.label "Готово">
+
+<!ENTITY pane.empty.label "Эта панель не имеет содержания. Пожалуйста, нажмите правой кнопкой мыши на вкладке виджета, чтобы поместить его здесь.">
+<!ENTITY paneNameLeft "Левая панель">
+<!ENTITY paneNameRight "Правая панель">
+<!ENTITY paneNameBottom "Нижняя панель">
+<!ENTITY showInExplorer.label "Показать в Проводнике">
+<!ENTITY showInFileManager.label "Показать в файловом менеджере">
+<!ENTITY showInFinder.label "Show in Finder">
+<!ENTITY showProjectInPlaces.desc "General: Show in Places">
+<!ENTITY showProjectInPlaces.label "Show in Places">
+<!ENTITY showSpecificTab.tooltiptext "Show Specific Sidebar/Tab">
+<!ENTITY showTab.label "Показать вкладку">
+<!ENTITY showUnsavedChanges.label "Показать несохраненные изменения">
+<!ENTITY sourceCodeCleanLineEndings.desc "Код: Очистить окончания строк">
+<!ENTITY sourceCodeClearSyntaxErrorsWarnings.desc "Код: Очистить синтаксические ошибки/предупреждения">
+<!ENTITY sourceCodeCollapseAllFolds.desc "Код: Свернуть все">
+<!ENTITY sourceCodeCollapseFold.desc "Код: Свернуть">
+<!ENTITY sourceCodeCollapseFoldRecursively.desc "Код: Свернуть рекурсивно">
+<!ENTITY sourceCodeCommentRegion.desc "Код: Закомментировать">
+<!ENTITY sourceCodeCompleteWord.desc "Код: Завершить слово">
+<!ENTITY sourceCodeCompleteWordBackwards.desc "Код: Завершить слово (backwards)">
+<!ENTITY sourceCodeConvertSelectionToLowerCase.desc "Код: Конвертировать выделенное в нижний регистр">
+<!ENTITY sourceCodeConvertSelectionToUpperCase.desc "Код: Конвертировать выделенное в верхний регистр">
+<!ENTITY sourceCodeExpandAllFolds.desc "Код: Развернуть все">
+<!ENTITY sourceCodeExpandFold.desc "Код: Развернуть">
+<!ENTITY sourceCodeExpandFoldRecursively.desc "Код: Развернуть рекурсивно">
+<!ENTITY sourceCodeFindAllFunctions.desc "Код: Найти все функции">
+<!ENTITY sourceCodeFindNextFunction.desc "Код: Найти следующую функцию">
+<!ENTITY sourceCodeFindPreviousFunction.desc "Код: Найти предыдущую функцию">
+<!ENTITY sourceCodeGoToDefinition.desc "Код: Перейти к определению">
+<!ENTITY sourceCodeJumpToCorrespondingLine.desc "Код: Перейти к соответсвующей строке">
+<!ENTITY sourceCodeJumpToMatchingBrace.desc "Код: Перейти к парной скобке">
+<!ENTITY sourceCodeNextSyntaxErrorWarning.desc "Код: Следующая синтаксическая ошибка/предупреждение">
+<!ENTITY sourceCodeRunSyntaxCheck.desc "Код: Выполнить проверку синтаксиса">
+<!ENTITY sourceCodeSelectBlock.desc "Код: Выделить блок">
+<!ENTITY sourceCodeSelectToMatchingBrace.desc "Код: Выделить до парной скобки">
+<!ENTITY sourceCodeTabifyRegion.desc "Код: Табуляция области...">
+<!ENTITY sourceCodeToggleFold.desc "Код: Переключить свёртывание кода">
+<!ENTITY sourceCodeUnCommentRegion.desc "Code: Раскомментировать">
+<!ENTITY sourceCodeUnTabifyRegion.desc "Код: Убрать табуляцию области...">
+<!ENTITY splitView.label "Разделённый вид">
+<!ENTITY standard.label "Стандартный">
+<!ENTITY standardToolbar.tooltiptext "Стандартная панель инструментов">
+<!ENTITY startPage.label "Начальная страница">
+<!ENTITY startRecording.label "Начать запись">
+<!ENTITY stop.label "Стоп">
+<!ENTITY stopRecording.label "Остановить запись">
+<!ENTITY stopRecordingMacro.tooltiptext "Закончить запись макроса">
+<!ENTITY stopSearch.tooltiptext "Остановить поиск">
+<!ENTITY syntaxCheckingStatus.tooltiptext "Состояние синтаксической проверки">
+<!ENTITY tabifyRegion.label "Табуляция области">
+<!ENTITY tabs.label "Вкладки и панели">
+<!ENTITY template.label "Шаблон...">
+<!ENTITY templates.label "Шаблоны">
+<!ENTITY templates.accesskey "T">
+<!ENTITY terminateProcess.tooltiptext "Завершить процесс">
+<!ENTITY thisToolboxIsReadOnly.locktip "Эта панель инструментов только для чтения.">
+<!ENTITY toggleBookmark.label "Поставить/убрать закладку">
+<!ENTITY toggleBottom.label "Нижняя панель">
+<!ENTITY toggleLeft.label "Левая панель">
+<!ENTITY toggleRawParsedOutputView.tooltiptext "Toggle Raw/Parsed Output View">
+<!ENTITY toggleRight.label "Правая панель">
+<!ENTITY toolbars.label "Панели инструментов">
+<!ENTITY toolbox2.label "Toolbox">
+<!ENTITY toolboxExportPackage.desc "Toolbox: Export Package">
+<!ENTITY tools.label "Инструменты">
+<!ENTITY toolsRunCommand.desc "Инструменты: Выполнить команду...">
+<!ENTITY toolsToolbar.tooltiptext "Инструменты Панель инструментов">
+<!ENTITY toolsWatchFile.desc "Tools: Watch File...">
+<!ENTITY tryKomodoIDE.label "Попробовать Komodo IDE">
+<!ENTITY unCommentRegion.label "Раскомментировать">
+<!ENTITY undo.label "Отменить">
+<!ENTITY undoButton.accesskey "u">
+<!ENTITY undoLastAction.tooltiptext "Отменить последнее действие">
+<!ENTITY undoReplacements.tooltiptext "Отменить замену">
+<!ENTITY untabifyRegion.label "Убрать табуляцию области">
+<!ENTITY update.label "Обновить">
+<!ENTITY userInterfaceBrowserPreview.desc "Пользовательский интерфейс: Предпросмотр">
+<!ENTITY userInterfaceBrowserPreviewInternal.desc "Пользовательский интерфейс: Предпросмотр внутренним браузером - разделённый вид">
+<!ENTITY userInterfaceBrowserPreviewInternalSameTabGroup.desc "Пользовательский интерфейс: Предпросмотр внутренним браузером - с тем же видом">
+<!ENTITY userInterfaceFocusOnBottomPane.desc "Пользовательский интерфейс: фокус на нижней панели">
+<!ENTITY userInterfaceFocusOnEditor.desc "Пользовательский интерфейс: фокус на редакторе">
+<!ENTITY userInterfaceFocusOnProjectsPane.desc "Пользовательский интерфейс: фокус на панели проектов">
+<!ENTITY userInterfaceFocusOnToolboxPane.desc "Пользовательский интерфейс: фокус на панели инструментов">
+<!ENTITY userInterfaceFocusOtherSplitEditorPane.desc "User Interface: Focus on Other Split View">
+<!ENTITY userInterfaceFullScreen.desc "Пользовательский интерфейс: полный экран">
+<!ENTITY userInterfaceMoveTabToAnotherTabWindow.desc "User Interface: Move tab to another tab window">
+<!ENTITY userInterfaceMoveTabToANewWindow.desc "Пользовательский интерфейс: Переместить вкладку в новое окно">
+<!ENTITY userInterfaceOpenTabInANewWindow.desc "Пользовательский интерфейс: Открыть вкладку в новом окне">
+<!ENTITY userInterfaceShowHideEndOfLines.desc "Пользовательский интерфейс: Показать/Скрыть окончания строк">
+<!ENTITY userInterfaceShowHideKomodoResourcesToolbar.desc "Пользовательский интерфейс: Показать/Скрыть панель Komodo ресурсов">
+<!ENTITY userInterfaceShowHideMacrosToolbar.desc "Пользовательский интерфейс: Показать/Скрыть панель макросов">
+<!ENTITY userInterfaceShowHideFindToolbar.desc "Пользовательский интерфейс: Показать/Скрыть панель поиска">
+<!ENTITY userInterfaceShowHideOpenToolbar.desc "User Interface: Show/Hide Open Toolbar">
+<!ENTITY userInterfaceShowHideBottomPane.desc "Пользовательский интерфейс: Показать/Скрыть нижнюю панель">
+<!ENTITY userInterfaceShowHideLeftPane.desc "Пользовательский интерфейс: Показать/Скрыть левую панель">
+<!ENTITY userInterfaceShowHideStandardToolbar.desc "Пользовательский интерфейс: Показать/Скрыть стандартную панель инструментов">
+<!ENTITY userInterfaceShowHideMenubar.desc "Пользовательский интерфейс: Показать/Скрыть все панели инструментов">
+<!ENTITY userInterfaceShowHideToolbars.desc "Пользовательский интерфейс: Показать/Скрыть все панели инструментов">
+<!ENTITY userInterfaceShowHideToolbarButtonText.desc "Пользовательский интерфейс: Показать/Скрыть подписи к кнопкам на панели">
+<!ENTITY userInterfaceShowHideRightPane.desc "Пользовательский интерфейс: Показать/Скрыть правую панель">
+<!ENTITY userInterfaceShowHideToolboxTab.desc "User Interface: Show/Hide Toolbox Tab">
+<!ENTITY userInterfaceShowHideToolsToolbar.desc "User Interface: Show/Hide Tools Toolbar">
+<!ENTITY userInterfaceShowHideMinimap.desc "User Interface: Show/Hide Editor Minimap">
+<!ENTITY userInterfaceShowHideWhitespace.desc "Пользовательский интерфейс: Показать/Скрыть пробелы">
+<!ENTITY userInterfaceShowHideWorkspaceToolbar.desc "Пользовательский интерфейс: Показать/Скрыть панель рабочего пространства">
+<!ENTITY userInterfaceSplitViewOfTab.desc "User Interface: Split view of tab">
+<!ENTITY userInterfaceToggleSplitterOrientation.desc "Пользовательский интерфейс: Переключить ориентацию разделителя">
+<!ENTITY userInterfaceUseFixedProportionalFont.desc "Пользовательский интерфейс: Использовать фиксированный/пропорциональный шрифт">
+<!ENTITY userInterfaceViewHideIndentationGuides.desc "User Interface: View/Hide Indentation Guides">
+<!ENTITY userInterfaceViewHideLineNumbers.desc "Пользовательский интерфейс: Показать/Скрыть номера строк">
+<!ENTITY userInterfaceViewSource.desc "Пользовательский интерфейс: Показать исходный код">
+<!ENTITY userInterfaceWordWrapLongLines.desc "Пользовательский интерфейс: Переносить длинные строки">
+<!ENTITY view.label "Вид">
+<!ENTITY viewAsLanguage.accesskey "L">
+<!ENTITY viewAsLanguage.label "Посмотреть как язык...">
+<!ENTITY viewEOLMarkers.accesskey "E">
+<!ENTITY viewEOLMarkers.label "Показать EOL Маркеры">
+<!ENTITY viewIndentationGuides.accesskey "G">
+<!ENTITY viewIndentationGuides.label "Показать указатели отступов">
+<!ENTITY viewLineNumbers.accesskey "n">
+<!ENTITY viewLineNumbers.label "Показать номера строк">
+<!ENTITY showHideMinimap.accesskey "m">
+<!ENTITY showHideMinimap.label "Показать мини-карту">
+<!ENTITY hideMinimap.label "Скрыть мини-карту">
+<!ENTITY hideMinimap.accesskey "H">
+<!ENTITY viewWhitespace.accesskey "H">
+<!ENTITY viewWhitespace.label "Показать пробелы">
+<!ENTITY watchFile.label "Watch File...">
+<!ENTITY wordWrap.accesskey "W">
+<!ENTITY wordWrap.label "Перенос по словам">
+<!ENTITY workspace.label "Рабочее пространство">
+<!ENTITY workspaceToolbar.tooltiptext "Панель рабочего пространства">
+
+<!ENTITY helpForLanguages.label "Помощь по языкам">
+<!ENTITY helpLanguagesMenu.accesskey "L">
+<!ENTITY helpPerlMailingLists.desc "Help: Perl Mailing Lists">
+<!ENTITY helpPerlReferenceLocal.desc "Help: Perl Reference (Local)">
+<!ENTITY helpPerlReferenceWeb.desc "Help: Perl Reference (Web)">
+<!ENTITY helpPythonMailingLists.desc "Help: Python Mailing Lists">
+<!ENTITY helpPythonReferenceLocal.desc "Help: Python Reference (Local)">
+<!ENTITY helpPythonReferenceWeb.desc "Help: Python Reference (Web)">
+<!ENTITY helpPython3ReferenceLocal.desc "Help: Python3 Reference (Local)">
+<!ENTITY helpPython3ReferenceWeb.desc "Help: Python3 Reference (Web)">
+<!ENTITY helpPHPMailingLists.desc "Help: PHP Mailing Lists">
+<!ENTITY helpPHPReferenceWeb.desc "Help: PHP Reference (Web)">
+<!ENTITY helpRubyMailingLists.desc "Help: Ruby Mailing Lists">
+<!ENTITY helpRubyReferenceWeb.desc "Help: Ruby Reference (Web)">
+<!ENTITY helpTclMailingLists.desc "Help: Tcl Mailing Lists">
+<!ENTITY helpTclReferenceLocal.desc "Help: Tcl Reference (Local)">
+<!ENTITY helpTclReferenceWeb.desc "Help: Tcl Reference (Web)">
+<!ENTITY helpXSLTMailingLists.desc "Help: XSLT Mailing Lists">
+<!ENTITY helpXSLTReferenceWeb.desc "Help: XSLT Reference (Web)">
+
+<!ENTITY perlMailingLists.label "Perl Mailing Lists">
+<!ENTITY perlReferenceLocal.label "Perl Reference (local)">
+<!ENTITY perlReferenceWeb.label "Perl Reference (web)">
+<!ENTITY pythonMailingLists.label "Python Mailing Lists">
+<!ENTITY pythonReferenceLocal.label "Python Reference (local)">
+<!ENTITY pythonReferenceWeb.label "Python Reference (web)">
+<!ENTITY python3ReferenceLocal.label "Python3 Reference (local)">
+<!ENTITY python3ReferenceWeb.label "Python3 Reference (web)">
+<!ENTITY PHPMailingLists.label "PHP Mailing Lists">
+<!ENTITY PHPReferenceWeb.label "PHP Reference (web)">
+<!ENTITY rubyMailingLists.label "Ruby Mailing Lists">
+<!ENTITY rubyReferenceWeb.label "Ruby Reference (web)">
+<!ENTITY tclMailingLists.label "Tcl Mailing Lists">
+<!ENTITY tclReferenceLocal.label "Tcl Reference (local)">
+<!ENTITY tclReferenceWeb.label "Tcl Reference (web)">
+<!ENTITY XSLTMailingLists.label "XSLT Mailing Lists">
+<!ENTITY XSLTReferenceWeb.label "XSLT Reference (Web)">
+
+<!--about.dtd-->
+
+<!--komodo.xul-->
+<!ENTITY projectPanelName.label "Имя">
+<!ENTITY lockUnlockFindResults.tooltiptext "Блокировка/Разблокировка результатов поиска">
+<!ENTITY komodoFindToolbarFind.label "Найти &#8230;">
+<!ENTITY komodoFindToolbarOpen.label "Открыть">
+<!ENTITY komodoFindToolbarIn.label "В текущем файле">
+<!ENTITY menuHelpCheckForUpdates.accesskey "u">
+
+<!--commented in file commandsOverlay.xul-->
+<!--
+<!ENTITY editorCopyCurrentLine.desc "Редактор: Скопировать текущую строку">
+-->
+
+<!-- Mac system menu definitions -->
+<!ENTITY menuSysMacServices.label "Services">
+<!ENTITY menuSysMacHideApp.label "Скрыть &brandShortName;">
+<!ENTITY menuSysMacHideOtherApps.label "Скрыть остальные">
+<!ENTITY menuSysMacShowAllApps.label "Показать все">
+
+<!ENTITY hideThisAppCmdMac.commandkey "H">
+<!ENTITY hideThisAppCmdMac.modifiers "accel">
+<!ENTITY hideOtherAppsCmdMac.commandkey "H">
+<!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
+
+<!-- recently-closed tabs -->
+<!ENTITY menuRecentlyClosedTabs.accesskey "T">
+<!ENTITY recentlyClosedTabs.label "Недавно закрытые вкладки">
+<!ENTITY reopenLastClosedTab.desc "Основные: Повторное открытие последней закрытой вкладки">
+
+<!ENTITY run.label "Запустить">
+
+<!-- toolbox definitions -->
+
+<!ENTITY sortNatural.label "Sort Natural">
+<!ENTITY sortNatural.accesskey "n">
+<!ENTITY sortAscending.label "Сортировка по возрастанию">
+<!ENTITY sortAscending.accesskey "A">
+<!ENTITY sortDescending.label "Сортировать по убыванию">
+<!ENTITY sortDescending.accesskey "D">
+<!ENTITY reloadTools.label "Перезагрузить">
+<!ENTITY reloadTools.accesskey "r">
+<!ENTITY importFilesFromFileSystem.label "Импорт файлов из файловой системы">
+<!ENTITY importFolderFromFileSystem.label "Импорт папки из файловой системы">
+<!ENTITY importPackage.label "Импорт KPZ Пакета">
+<!ENTITY importPackageFromWeb.label "Импорт KPZ пакет из веб">
