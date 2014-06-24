@@ -4,7 +4,7 @@
     <Description about="urn:mozilla:install-manifest">
 <em:unpack>true</em:unpack>
         <em:id>localru@laborpago</em:id>
-        <em:name>LocalRU</em:name>
+        <em:name>localru</em:name>
         <em:version>0.5.2-adn</em:version>
         <em:description>Russian localization</em:description>
         <em:creator>laborpago</em:creator>
