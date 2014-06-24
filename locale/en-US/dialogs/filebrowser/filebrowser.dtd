@@ -46,7 +46,7 @@
 <!ENTITY prefsHelpButton.accesskey "H">
 <!ENTITY refreshList.tooltiptext "Обновить список">
 <!ENTITY rename.label "Переименовать">
-<!ENTITY size.label "Пазмер">
+<!ENTITY size.label "Размер">
 
 <!--filebrowser.xul-->
 <!ENTITY serverName.label "Сервер:">
