@@ -3,7 +3,7 @@ komodo-ru
 
 Komodo Edit: Russian translate for Komodo Edit only
 
-Add russian langauge to Komodo Edit.
+Add russian translate to Komodo Edit.
 
 Original author: Laborpago
 Author website: http://technic-note.blogspot.com/
