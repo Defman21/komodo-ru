@@ -1,7 +1,7 @@
 komodo-ru
 =========
 
-Komodo Edit: Russian localization for Komodo Edit only
+Komodo Edit: Russian translate for Komodo Edit only
 
 Add russian langauge to Komodo Edit.
 
