@@ -36,37 +36,37 @@
 
 <!ENTITY URI.label "URI">
 <!ENTITY add.tooltiptext "Добавить...">
-<!ENTITY addEntry.tooltiptext "Add Entry...">
+<!ENTITY addEntry.tooltiptext "Добавить запись...">
 <!ENTITY back.tooltiptext "Назад">
-<!ENTITY closePane.tooltiptext "Close Pane">
+<!ENTITY closePane.tooltiptext "Закрыть панель">
 <!ENTITY copy.label "Копировать">
 <!ENTITY cut.label "Вырезать">
 <!ENTITY delete.tooltiptext "Удалить...">
-<!ENTITY deleteEntries.tooltiptext "Delete Entries...">
+<!ENTITY deleteEntries.tooltiptext "Удалить записи...">
 <!ENTITY diffToolbar.tooltiptext "Diff Toolbar">
-<!ENTITY doubleClickToChangeOrientation.tooltiptext "Double-click to change orientation">
-<!ENTITY filterItems.tooltiptext "Filter Items">
+<!ENTITY doubleClickToChangeOrientation.tooltiptext "Двойной клик для смены ориентации">
+<!ENTITY filterItems.tooltiptext "Фильтровать предметы">
 <!ENTITY forward.tooltiptext "Вперёд">
-<!ENTITY jumpToNextDiff.tooltiptext "Jump to Next Diff">
-<!ENTITY jumpToPreviousDiff.tooltiptext "Jump to Previous Diff">
-<!ENTITY listAllSidebars.tooltiptext "List all sidebars">
-<!ENTITY listAllTabs.tooltiptext "List all tabs">
+<!ENTITY jumpToNextDiff.tooltiptext "Прыгнуть до следующего отличия">
+<!ENTITY jumpToPreviousDiff.tooltiptext "Прыгнуть до предыдущего отличия">
+<!ENTITY listAllSidebars.tooltiptext "Лист всех сайдбаров">
+<!ENTITY listAllTabs.tooltiptext "Лист всех вкладок">
 <!ENTITY mapsTo.label "Maps to">
 <!ENTITY moveDown.tooltiptext "Move Down">
-<!ENTITY moveToEditor.label "Move to Editor">
+<!ENTITY moveToEditor.label "Перейти к редактору">
 <!ENTITY moveToEditor.tooltiptext "Move this diff into an editor tab">
 <!ENTITY moveUp.tooltiptext "Move Up">
 <!ENTITY name.label "Имя">
-<!ENTITY next.label " Next">
+<!ENTITY next.label " Следующий">
 <!ENTITY paste.label "Вставить">
-<!ENTITY previous.label " Previous">
+<!ENTITY previous.label " Предыдущий">
 <!ENTITY reload.tooltiptext "Перезагрузить">
 <!ENTITY reveal.label " Reveal">
 <!ENTITY revealPositionInEditor.tooltiptext "Reveal Position in Editor">
 <!ENTITY selectAll.label "Выделить все">
-<!ENTITY showHideEOLMarkers.label "Show/Hide EOL Markers">
+<!ENTITY showHideEOLMarkers.label "Скрыть/показать EOL маркеры">
 <!ENTITY showHideIndentationGuides.label "Show/Hide Indentation Guides">
-<!ENTITY showHideLineNumbers.label "Show/Hide Line Numbers">
-<!ENTITY showHideWhitespace.label "Show/Hide Whitespace">
+<!ENTITY showHideLineNumbers.label "Скрыть/показать номера линий">
+<!ENTITY showHideWhitespace.label "Скрыть/показать пробелы">
 <!ENTITY stop.tooltiptext "Стоп">
 <!ENTITY wordWrap.label "Перенос по словам">

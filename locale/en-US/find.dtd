@@ -64,13 +64,13 @@
 <!ENTITY files.label "Files...">
 <!ENTITY find.label "Поиск">
 <!ENTITY find.title "Поиск">
-<!ENTITY findAll.label "Find All">
+<!ENTITY findAll.label "Найти все">
 <!ENTITY findAllButton.accesskey "A">
 <!ENTITY findCloseButton.accesskey "s">
 <!ENTITY findNext.label "Найти далее">
 <!ENTITY findNextButton.accesskey "f">
 <!ENTITY findPrevious.label "Find Previous">
-<!ENTITY group.label "(...) : group">
+<!ENTITY group.label "(...) : группа">
 <!ENTITY help.label "Помощь">
 <!ENTITY helpButton.accesskey "H">
 <!ENTITY mExactlyMCopiesOfThePrecedingBlock.label "{m} : exactly 'm' copies of the preceding block">

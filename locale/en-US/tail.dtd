@@ -38,4 +38,4 @@
 
 <!--tail.xul-->
 <!ENTITY closeButton.Label "Закрыть">
-<!ENTITY filePath.label "File Path: ">
+<!ENTITY filePath.label "Путь к файлу: ">

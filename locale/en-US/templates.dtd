@@ -39,16 +39,16 @@
 <!ENTITY localFileDir.accesskey "L">
 <!ENTITY m.accesskey "m">
 <!ENTITY n.accesskey "n">
-<!ENTITY newFile.title "New File">
+<!ENTITY newFile.title "Новый файл">
 <!ENTITY remote.label "Удалённо...">
 <!ENTITY remoteFileDir.accesskey "r">
 
 <!--new.xul-->
-<!ENTITY categories.label "Categories">
+<!ENTITY categories.label "Категории">
 <!ENTITY categories.accesskey "G">
 <!ENTITY templates.label "Шаблоны">
 <!ENTITY templates.accesskey "m">
-<!ENTITY fileName.label "Filename:">
+<!ENTITY fileName.label "Имя файла:">
 <!ENTITY fileName.accesskey "n">
-<!ENTITY directory.label "Directory:">
+<!ENTITY directory.label "Папка:">
 <!ENTITY directory.accesskey "D">

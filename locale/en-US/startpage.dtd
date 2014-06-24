@@ -34,21 +34,21 @@
  
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY checkConfiguration.title "Check Configuration">
-<!ENTITY hidePane.tooltiptext "Hide Pane">
-<!ENTITY onlineHelp.title "Tutorials and Documentation">
+<!ENTITY checkConfiguration.title "Проверить конфигурацию">
+<!ENTITY hidePane.tooltiptext "Скрыть панель">
+<!ENTITY onlineHelp.title "Туториалы и документация">
 <!ENTITY open.label "Открыть">
-<!ENTITY openSampleProject.title "Sample Project">
-<!ENTITY quickLinks.title "Quick Links">
+<!ENTITY openSampleProject.title "Простой проект">
+<!ENTITY quickLinks.title "Быстрые ссылки">
 <!ENTITY remove.label "Удалить">
-<!ENTITY whatSNew.title "What's New">
+<!ENTITY whatSNew.title "Что нового">
 
 <!--startpage.xml-->
-<!ENTITY newFile.tooltip "Create new file from a template">
-<!ENTITY newProject.tooltip "Start a new project">
+<!ENTITY newFile.tooltip "Создать новый файл из шаблона">
+<!ENTITY newProject.tooltip "Новый проект">
 <!ENTITY openSampleProject.tooltip "Contains a number of files showing many of the features of Komodo">
 <!ENTITY checkConfiguration.tooltip "Checks system configuration to ensure all Komodo features are working properly">
 <!ENTITY onlineHelp.tooltip "Check our online documentation for help on various topics">
 <!ENTITY recentProjectFiles.title "Recent Projects and Files">
-<!ENTITY actions.label "Actions:">
+<!ENTITY actions.label "Действия:">
 <!ENTITY startPage.title "Начальная страница">
