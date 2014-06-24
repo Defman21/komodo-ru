@@ -5,11 +5,11 @@
 <em:unpack>true</em:unpack>
         <em:id>localru@laborpago</em:id>
         <em:name>LocalRU</em:name>
-        <em:version>0.5.2-adn</em:version>
+        <em:version>0.5.2-lang</em:version>
         <em:description>Russian localization</em:description>
         <em:creator>laborpago</em:creator>
         <em:homepageURL>http://technic-note.blogspot.ru/</em:homepageURL>
-        <em:type>2</em:type> <!-- type=extension --> 
+        <em:type>8</em:type> <!-- type=extension --> 
 
         <em:targetApplication>
             <Description>

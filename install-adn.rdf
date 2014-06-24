@@ -9,7 +9,7 @@
         <em:description>Russian localization</em:description>
         <em:creator>laborpago</em:creator>
         <em:homepageURL>http://technic-note.blogspot.ru/</em:homepageURL>
-        <em:type>8</em:type> <!-- type=extension --> 
+        <em:type>2</em:type> <!-- type=extension --> 
 
         <em:targetApplication>
             <Description>
