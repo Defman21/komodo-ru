@@ -87,7 +87,7 @@
 <!ENTITY sSelection.label "[[&#37;s]]: selection">
 <!ENTITY shortcutTab.accesskey "K">
 <!ENTITY shortcuts.tooltiptext "Горячие клавиши">
-<!ENTITY snippet.label "Snippet">
+<!ENTITY snippet.label "Сниппет">
 <!ENTITY snippetTab.accesskey "n">
 <!ENTITY softCharTabStopReplace.label "[[&#37;soft]]: soft characters">
 <!ENTITY tabstopTabStopReplace.label "[[&#37;tabstop]]: Tab Stop/Replace">
@@ -109,7 +109,7 @@
 <!ENTITY menuAccessKey.accesskey "m">
 
 <!--macroProperties.xul-->
-<!ENTITY language.label "Language: ">
+<!ENTITY language.label "Язык: ">
 <!ENTITY rank.label "Rank:">
 <!ENTITY rank.accesskey "K">
 

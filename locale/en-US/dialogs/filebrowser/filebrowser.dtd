@@ -34,25 +34,25 @@
  
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY accounts.tooltiptext "Accounts">
+<!ENTITY accounts.tooltiptext "Аккаунты">
 <!ENTITY cancel.label "Отменить">
-<!ENTITY createDirectory.tooltiptext "Create Directory">
+<!ENTITY createDirectory.tooltiptext "Создать папку">
 <!ENTITY delete.label "Удалить">
-<!ENTITY goToTheLastVisitedDirectory.tooltiptext "Go to the last visited Directory">
-<!ENTITY goUpOneDirectory.tooltiptext "Go up one Directory">
+<!ENTITY goToTheLastVisitedDirectory.tooltiptext "Перейти в последнюю посещенную папку">
+<!ENTITY goUpOneDirectory.tooltiptext "Перейти на одну папку вверх">
 <!ENTITY help.label "Помощь">
-<!ENTITY lastModified.label "Last Modified">
+<!ENTITY lastModified.label "Последнее изменение">
 <!ENTITY name.label "Имя">
 <!ENTITY prefsHelpButton.accesskey "H">
-<!ENTITY refreshList.tooltiptext "Refresh List">
-<!ENTITY rename.label "Rename">
-<!ENTITY size.label "Size">
+<!ENTITY refreshList.tooltiptext "Обновить список">
+<!ENTITY rename.label "Переименовать">
+<!ENTITY size.label "Пазмер">
 
 <!--filebrowser.xul-->
 <!ENTITY serverName.label "Сервер:">
-<!ENTITY lookIn.label "Look in:">
-<!ENTITY fileName.label "File name:">
-<!ENTITY fileOfType.label "Files of type:">
+<!ENTITY lookIn.label "Смотреть в:">
+<!ENTITY fileName.label "Имя файла:">
+<!ENTITY fileOfType.label "Файлы с типом:">
 
 <!-- commented in filebrowser.dtd-->
 <!--
