@@ -4,9 +4,9 @@
     <Description about="urn:mozilla:install-manifest">
 <em:unpack>true</em:unpack>
         <em:id>localru@laborpago</em:id>
-        <em:name>localru</em:name>
-        <em:version>0.5</em:version>
-        <em:description>rus localization</em:description>
+        <em:name>LocalRU</em:name>
+        <em:version>0.5.2-adn</em:version>
+        <em:description>Russian localization</em:description>
         <em:creator>laborpago</em:creator>
         <em:homepageURL>http://technic-note.blogspot.ru/</em:homepageURL>
         <em:type>8</em:type> <!-- type=extension --> 
