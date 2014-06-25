@@ -115,7 +115,7 @@
 
 <!--renamePart.xul-->
 <!ENTITY itemName.Label "Имя ключа">
-<!ENTITY itemValue.Label "Згачегие кд.ча">
+<!ENTITY itemValue.Label "Значение ключа">
 
 <!--simplePartProperties.xul-->
 <!ENTITY value.label "Значение:">
