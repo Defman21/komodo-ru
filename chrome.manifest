@@ -7,15 +7,18 @@
 
 skin localru classic/1.0 jar:localru.jar!/skin/
 locale localru en-US jar:localru.jar!/locale/en-US/
+content localru jar:localru.jar!/content/
 
 
+
+override chrome://komodo/content/find/find2.xul chrome://localru/content/find/find2.xul
 override chrome://komodo/locale/komodo.dtd chrome://localru/locale/komodo.dtd
 override chrome://komodo/locale/pref/pref.dtd chrome://localru/locale/pref/pref.dtd
 override chrome://komodo/locale/dialogs.dtd chrome://localru/locale/dialogs.dtd
 override chrome://komodo/locale/morekomodo/morekomodo.dtd chrome://localru/locale/morekomodo/morekomodo.dtd
 override chrome://komodo/locale/bindings.dtd chrome://localru/locale/bindings.dtd
 override chrome://komodo/locale/codeintel.dtd chrome://localru/locale/codeintel.dtd
-override chrome://komodo/locale/customizeToolbar.dtd chrome://localru/locale/customizeToolbar.dtd
+override chrome://komodo/locale/dialogs/customizeToolbar.dtd chrome://localru/locale/dialogs/customizeToolbar.dtd
 override chrome://komodo/locale/dialogs/filebrowser/filebrowser.dtd chrome://localru/locale/dialogs/filebrowser/filebrowser.dtd
 override chrome://komodo/locale/find.dtd chrome://localru/locale/find.dtd
 override chrome://komodo/locale/invocations.dtd chrome://localru/locale/invocations.dtd
