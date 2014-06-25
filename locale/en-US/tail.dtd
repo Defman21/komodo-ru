@@ -34,7 +34,7 @@
  
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY watchFileViewer.title "Watch File Viewer">
+<!ENTITY watchFileViewer.title "Смотреть File Viewer">
 
 <!--tail.xul-->
 <!ENTITY closeButton.Label "Закрыть">
