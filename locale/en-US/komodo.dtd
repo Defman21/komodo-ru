@@ -230,7 +230,7 @@
 <!ENTITY extensionManager.label "Дополнения">
 <!ENTITY file.label "Файл">
 <!ENTITY fileOpen.label "Файл...">
-<!ENTITY fileEncoding.tooltiptext "File Encoding">
+<!ENTITY fileEncoding.tooltiptext "Кодировка файла">
 <!ENTITY filePosition.tooltiptext "Позиция файла">
 <!ENTITY fileType.tooltiptext "Тип файла">
 <!ENTITY find.label "Найти...">

@@ -34,8 +34,8 @@
  
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY watchFileViewer.title "Смотреть File Viewer">
+<!ENTITY watchFileViewer.title "Watch File Viewer">
 
 <!--tail.xul-->
 <!ENTITY closeButton.Label "Закрыть">
-<!ENTITY filePath.label "Путь к файлу: ">
+<!ENTITY filePath.label "Путь к файлу:">

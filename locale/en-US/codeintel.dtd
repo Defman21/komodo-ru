@@ -37,4 +37,4 @@
 <!ENTITY name.label "Имя">
 <!ENTITY path.label "Путь">
 <!ENTITY type.label "Тип">
-<!ENTITY ciDefinitionChoice.title "Multiple Possible Definitions">
+<!ENTITY ciDefinitionChoice.title "Несколько возможных определений">

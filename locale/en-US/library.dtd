@@ -34,21 +34,21 @@
  
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY CRITICAL50.label "КРИТИЧНО (50)">
-<!ENTITY DEBUG10.label "ОТЛАДКА (10)">
-<!ENTITY ERROR40.label "ОШИБКА (40)">
-<!ENTITY INFO20.label "ИНФОРМАЦИЯ (20)">
-<!ENTITY WARN30.label "ПРЕДУПРЕЖДЕНИЕ (30)">
-<!ENTITY deleteUnset.label "Удалить">
-<!ENTITY effectiveLevel.label "Уровень эффективности">
-<!ENTITY logger.label "Логгер">
-<!ENTITY loggingControl.title "Контроль логов">
+<!ENTITY CRITICAL50.label "CRITICAL (50)">
+<!ENTITY DEBUG10.label "DEBUG (10)">
+<!ENTITY ERROR40.label "ERROR (40)">
+<!ENTITY INFO20.label "INFO (20)">
+<!ENTITY WARN30.label "WARN (30)">
+<!ENTITY deleteUnset.label "Удалить/Снять">
+<!ENTITY effectiveLevel.label "Эффективный уровень">
+<!ENTITY logger.label "Регистратор">
+<!ENTITY loggingControl.title "Контроль регистратора">
 <!ENTITY message.label "Сообщение">
 <!ENTITY name.label "Имя">
 <!ENTITY setLevel.label "Установить уровень">
-<!ENTITY status.label "Статус">
+<!ENTITY status.label "Состояние">
 <!ENTITY type.label "Тип">
-<!ENTITY unset.label "Удалить">
+<!ENTITY unset.label "unset">
 <!ENTITY value.label "Значение">
 
 <!--commented in file pref_control.xul-->
@@ -59,12 +59,12 @@
 <!ENTITY copyValue.accesskey "V">
 <!ENTITY new.label "Новый">
 <!ENTITY new.accesskey "n">
-<!ENTITY string.label "строка">
+<!ENTITY string.label "String">
 <!ENTITY string.accesskey "s">
-<!ENTITY integer.label "число">
+<!ENTITY integer.label "Integer">
 <!ENTITY integer.accesskey "i">
-<!ENTITY boolean.label "логический">
+<!ENTITY boolean.label "Boolean">
 <!ENTITY boolean.accesskey "B">
-<!ENTITY modify.label "модификация">
+<!ENTITY modify.label "Изменить">
 <!ENTITY modify.accesskey "m">
 -->

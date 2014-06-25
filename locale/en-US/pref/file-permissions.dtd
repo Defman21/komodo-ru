@@ -34,17 +34,17 @@
  
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY filePermissions.window.title    "Права на файлы">
+<!ENTITY filePermissions.window.title    "Права доступа к файлам">
 
 <!ENTITY filePermissions.user.label        "Пользователь">
 <!ENTITY filePermissions.group.label       "Группа">
-<!ENTITY filePermissions.other.label       "Остальное">
+<!ENTITY filePermissions.other.label       "Другие">
 
-<!ENTITY filePermissions.read.label        "Читать">
-<!ENTITY filePermissions.write.label       "Записывать">
-<!ENTITY filePermissions.exec.label        "Выполнять">
+<!ENTITY filePermissions.read.label        "Чтение">
+<!ENTITY filePermissions.write.label       "Запись">
+<!ENTITY filePermissions.exec.label        "Выполнить">
 <!ENTITY filePermissions.suid.label        "SUID">
 <!ENTITY filePermissions.sgid.label        "SGID">
 <!ENTITY filePermissions.sticky.label      "Sticky">
 
-<!ENTITY filePermissions.manual_mode.label "Мод (восьмиричный):">
+<!ENTITY filePermissions.manual_mode.label "Режим (восьмеричное):">

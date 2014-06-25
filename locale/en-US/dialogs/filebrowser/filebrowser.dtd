@@ -36,10 +36,10 @@
 
 <!ENTITY accounts.tooltiptext "Аккаунты">
 <!ENTITY cancel.label "Отменить">
-<!ENTITY createDirectory.tooltiptext "Создать папку">
+<!ENTITY createDirectory.tooltiptext "Создать каталог">
 <!ENTITY delete.label "Удалить">
-<!ENTITY goToTheLastVisitedDirectory.tooltiptext "Перейти в последнюю посещенную папку">
-<!ENTITY goUpOneDirectory.tooltiptext "Перейти на одну папку вверх">
+<!ENTITY goToTheLastVisitedDirectory.tooltiptext "К последнему посещённому каталогу">
+<!ENTITY goUpOneDirectory.tooltiptext "Перейти вверх на один каталог">
 <!ENTITY help.label "Помощь">
 <!ENTITY lastModified.label "Последнее изменение">
 <!ENTITY name.label "Имя">
@@ -50,9 +50,9 @@
 
 <!--filebrowser.xul-->
 <!ENTITY serverName.label "Сервер:">
-<!ENTITY lookIn.label "Смотреть в:">
+<!ENTITY lookIn.label "Искать в:">
 <!ENTITY fileName.label "Имя файла:">
-<!ENTITY fileOfType.label "Файлы с типом:">
+<!ENTITY fileOfType.label "Тип файлов:">
 
 <!-- commented in filebrowser.dtd-->
 <!--

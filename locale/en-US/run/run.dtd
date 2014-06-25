@@ -34,96 +34,96 @@
  
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY DDirectoryPathOfFile.label "&#37;D : directory path of file">
-<!ENTITY FFilePath.label "&#37;F : file path">
-<!ENTITY LCurrentLineNumber.label "&#37;L : current line number">
-<!ENTITY PPathOfTheActiveProject.label "&#37;P : path of the active project">
+<!ENTITY DDirectoryPathOfFile.label "&#37;D : путь к каталогу файла">
+<!ENTITY FFilePath.label "&#37;F : путь к файлу">
+<!ENTITY LCurrentLineNumber.label "&#37;L : номер текущей строки">
+<!ENTITY PPathOfTheActiveProject.label "&#37;P : путь активного проекта">
 <!ENTITY SURLEscapedSelection.label "&#37;S : URL-escaped selection">
 <!ENTITY WURLEscapedSelectionOrWordUnderCursor.label "&#37;W : URL-escaped selection or word under cursor">
-<!ENTITY addToToolbox.label "Add to Toolbox">
+<!ENTITY addToToolbox.label "Добавить на панель инструментов">
 <!ENTITY addToToolboxCheckbox.accesskey "A">
-<!ENTITY advancedOptions.label "Advanced Options">
-<!ENTITY askAskForUserInput.label "&#37;(ask) : ask for user input">
-<!ENTITY askpassAskForPassword.label "&#37;(askpass) : ask for password">
-<!ENTITY bFileBaseNameWithoutExtension.label "&#37;b : file base name without extension">
+<!ENTITY advancedOptions.label "Дополнительные параметры">
+<!ENTITY askAskForUserInput.label "&#37;(ask) : запрос пользовательского ввода">
+<!ENTITY askpassAskForPassword.label "&#37;(askpass) : запрос пароля">
+<!ENTITY bFileBaseNameWithoutExtension.label "&#37;b : базовое имя файла без расширения">
 <!ENTITY browse.label "Обзор...">
-<!ENTITY browserConfiguredBrowser.label "&#37;(browser) : Configured browser">
+<!ENTITY browserConfiguredBrowser.label "&#37;(browser) : Настроенный браузер">
 <!ENTITY changeIcon.accesskey "H">
-<!ENTITY changeIcon.label "Change Icon...">
+<!ENTITY changeIcon.label "Сменить значок...">
 <!ENTITY close.accesskey "C">
 <!ENTITY close.label "Закрыть">
-<!ENTITY command.label "Command">
-<!ENTITY commandOutputTab.label "Command Output Tab">
-<!ENTITY commandProperties.title "Command Properties">
+<!ENTITY command.label "Команда">
+<!ENTITY commandOutputTab.label "Вкладка вывода команд">
+<!ENTITY commandProperties.title "Свойства команд">
 <!ENTITY commandTextbox.accesskey "u">
 <!ENTITY cwdBrowseButton.accesskey "B">
-<!ENTITY dDirectoryBaseNameOfFile.label "&#37;d : directory base name of file">
+<!ENTITY dDirectoryBaseNameOfFile.label "&#37;d : каталог базового имени файла">
 <!ENTITY delete.label "Удалить">
-<!ENTITY doNotOpenOutputPane.label "Do not open output pane">
+<!ENTITY doNotOpenOutputPane.label "Не открывать панель вывода">
 <!ENTITY doNotOpenOutputWindowCheckbox.accesskey "O">
 <!ENTITY edit.label "Редактировать...">
 <!ENTITY envDeleteButton.accesskey "D">
 <!ENTITY envEditButton.accesskey "E">
 <!ENTITY envNewButton.accesskey "n">
 <!ENTITY escapedPercentSign.label "&#37;&#37; : escaped percent sign">
-<!ENTITY fFileBaseName.label "&#37;f : file base name">
+<!ENTITY fFileBaseName.label "&#37;f : базовое имя файла">
 <!ENTITY help.accesskey "H">
 <!ENTITY help.label "Помощь">
 <!ENTITY helpOnShortcuts.label "Помощь по горячим клавишам...">
-<!ENTITY insertOutput.label "Insert output">
+<!ENTITY insertOutput.label "Вставить вывод">
 <!ENTITY insertOutputCheckbox.accesskey "i">
-<!ENTITY keyBinding.label "Key Binding">
+<!ENTITY keyBinding.label "Привязка клавиш">
 <!ENTITY m.accesskey "m">
-<!ENTITY more.label "More">
+<!ENTITY more.label "Больше">
 <!ENTITY moreOptionsButton.accesskey "m">
 <!ENTITY new.label "Новая...">
-<!ENTITY newConsole.label "New Console">
-<!ENTITY noConsoleGUIApplication.label "No Console (GUI Application)">
-<!ENTITY nodejsConfiguredNodeInterpreter.label "&#37;(nodejs) : Configured Node.js Interpreter">
+<!ENTITY newConsole.label "Новая консоль">
+<!ENTITY noConsoleGUIApplication.label "Без консоли (GUI приложение)">
+<!ENTITY nodejsConfiguredNodeInterpreter.label "&#37;(nodejs) : Настроенный Node.js интерпретатор">
 <!ENTITY operateOnSelectionCheckbox.accesskey "L">
-<!ENTITY pDirectoryPathOfActiveProject.label "&#37;p : directory path of active project">
-<!ENTITY pDirectoryPathOfTheActiveProject.label "&#37;p : directory path of the active project">
-<!ENTITY parseOutputWith.label "Parse output with:">
+<!ENTITY pDirectoryPathOfActiveProject.label "&#37;p : путь каталога текущего проекта">
+<!ENTITY pDirectoryPathOfTheActiveProject.label "&#37;p : путь каталога текущего проекта">
+<!ENTITY parseOutputWith.label "Анализировать вывод с:">
 <!ENTITY parseRegexTextbox.accesskey "C">
-<!ENTITY passSelectionAsInput.label "Pass selection as input">
-<!ENTITY perlConfiguredPerlInterpreter.label "&#37;(perl) : Configured Perl Interpreter">
-<!ENTITY phpConfiguredPHPInterpreter.label "&#37;(php) : Configured PHP Interpreter">
-<!ENTITY pythonConfiguredPythonInterpreter.label "&#37;(python) : Configured Python Interpreter">
-<!ENTITY pythonConfiguredPython3Interpreter.label "&#37;(python3) : Configured Python3 Interpreter">
+<!ENTITY passSelectionAsInput.label "Передать выделенное в качестве входных данных">
+<!ENTITY perlConfiguredPerlInterpreter.label "&#37;(perl) : Настроенный Perl интерпретатор">
+<!ENTITY phpConfiguredPHPInterpreter.label "&#37;(php) : Настроенный PHP интерпретатор">
+<!ENTITY pythonConfiguredPythonInterpreter.label "&#37;(python) : Настроенный Python интерпретатор">
+<!ENTITY pythonConfiguredPython3Interpreter.label "&#37;(python3) : Настроенный Python3 интерпретатор">
 <!ENTITY reset.label "Сброс">
 <!ENTITY reseticon.accesskey "T">
-<!ENTITY rubyConfiguredRubyInterpreter.label "&#37;(ruby) : Configured Ruby Interpreter">
+<!ENTITY rubyConfiguredRubyInterpreter.label "&#37;(ruby) : Настроенный Ruby интерпретатор">
 <!ENTITY run.accesskey "r">
 <!ENTITY run.label "Запустить">
-<!ENTITY runCommand.title "Run Command">
-<!ENTITY sSelection.label "&#37;s : selection">
-<!ENTITY saveAdvancedOptionsAsDefaults.label "Save advanced options as defaults">
+<!ENTITY runCommand.title "Выполнить команду">
+<!ENTITY sSelection.label "&#37;s : выделение">
+<!ENTITY saveAdvancedOptionsAsDefaults.label "Сохранить дополнительные настройки, как настройки по умолчанию">
 <!ENTITY saveOptionsCheckbox.accesskey "V">
 <!ENTITY shortcuts.tooltiptext "Горячие клавиши">
-<!ENTITY showParsedOutputAsAList.label "Show parsed output as a list">
+<!ENTITY showParsedOutputAsAList.label "Показать анализируемый вывод как список">
 <!ENTITY value.label "Значение">
-<!ENTITY variable.label "Variable">
-<!ENTITY wSelectionOrWordUnderCursor.label "&#37;w : selection or word under cursor">
-<!ENTITY waitForCommandToTerminate.title "Wait for Command to Terminate">
+<!ENTITY variable.label "Переменная">
+<!ENTITY wSelectionOrWordUnderCursor.label "&#37;w : выделенный фрагмент или слово под курсором">
+<!ENTITY waitForCommandToTerminate.title "Ожидание завершения команды">
 
 <!--commandproperties.xul-->
 <!ENTITY unnamedCommand.label "&lt;unnamed command&gt;">
-<!ENTITY commandAlternative.label "Command:">
+<!ENTITY commandAlternative.label "Команда:">
 <!ENTITY commandAlternative.accesskey "m">
-<!ENTITY startIn.label "Start in:">
+<!ENTITY startIn.label "Начать в:">
 <!ENTITY startIn.accesskey "s">
-<!ENTITY runIn.label "Run in:">
-<!ENTITY environmentVar.label "Environment Variables:">
+<!ENTITY runIn.label "Запуск в:">
+<!ENTITY environmentVar.label "Переменные окружения:">
 
 <!--run.xul-->
-<!ENTITY commandTextbox.label "Run:">
+<!ENTITY commandTextbox.label "Запуск:">
 
 <!--waitfortermination.xul-->
-<!ENTITY waitForTermination.description "You have started a command that modifies the current buffer. The command is taking a long time to complete. It might be hung. You can wait for the command to complete (this dialog will automatically be dismissed) or abort the command by clicking 'Kill.'">
+<!ENTITY waitForTermination.description "Вы запустили команду, которая изменяет текущий буфер. Выполнение команды занимает длительный период времени. Это может вызвать зависания. Вы можете ждать окончания выполнения команды (этот диалог будет автоматически убран) или прервать команду, нажав кнопку 'Kill.'">
 
 <!--commented in file waitfortermination.xul-->
 <!--
 <!ENTITY dontShowAgain.label "Не показывать это снова.">
 <!ENTITY dontShowAgain.accesskey "D">
-<!ENTITY abortCommand.label "Abort Command">
+<!ENTITY abortCommand.label "Прервать выполнение команды">
                                                         -->

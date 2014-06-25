@@ -50,5 +50,5 @@
 <!ENTITY templates.accesskey "m">
 <!ENTITY fileName.label "Имя файла:">
 <!ENTITY fileName.accesskey "n">
-<!ENTITY directory.label "Папка:">
+<!ENTITY directory.label "Каталог:">
 <!ENTITY directory.accesskey "D">

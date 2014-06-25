@@ -35,122 +35,122 @@
  ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY add.label "Добавить">
-<!ENTITY change.label "Change">
+<!ENTITY change.label "Изменить...">
 <!ENTITY clear.label "Очистить">
 <!ENTITY clearAll.label "Очистить все">
 <!ENTITY editorViCancel.desc "Редактор: Vi: Отмена">
 <!ENTITY editorViCloseTheCurrentBufferWithoutSaving.desc "Редактор: Vi: Закрыть текущий буфер без сохранения">
 <!ENTITY editorViCut.desc "Редактор: Vi: Вырезать">
-<!ENTITY editorViCutLine.desc "Редактор: Vi: Вырезать линию">
-<!ENTITY editorViCutOneCharacter.desc "Редактор: Vi: Вырезать 1 символ">
-<!ENTITY editorViCutOneCharacterToLeft.desc "Редактор: Vi: Cut One Character to Left">
-<!ENTITY editorViCutToEndOfLine.desc "Редактор: Vi: Cut to End of Line">
-<!ENTITY editorViCutToEndOfLineAndEnterInsertMode.desc "Редактор: Vi: Вырезать конец линии и войти в Insert Mode">
-<!ENTITY editorViCutWholeLineAndEnterInsertMode.desc "Редактор: Vi: Вырезать всю линию и войти в Insert Mode">
-<!ENTITY editorViDeleteTheCurrentCharacterAndEnterInsertMode.desc "Редактор: Vi: Удалить текущий символ и войти Insert Mode">
-<!ENTITY editorViDeletesFromCursorToEndOfLine.desc "Редактор: Vi: Удалить от курсора до конца строки.">
-<!ENTITY editorViEnterCommandMode.desc "Редактор: Vi: Войти в режим команд">
-<!ENTITY editorViEnterInsertMode.desc "Редактор: Vi: Войти в режим Insert Mode">
-<!ENTITY editorViEnterInsertModeAfterTheCursorPosition.desc "Редактор: Vi: Войти в Insert Mode после позиции курсора">
-<!ENTITY editorViEnterInsertModeAtStartOfTheLine.desc "Редактор: Vi: Войти в Insert Mode в начале строки">
-<!ENTITY editorViEnterInsertModeAtTheEndOfTheCurrentLine.desc "Редактор: Vi: Войти в Insert mode в конце текущей строки">
+<!ENTITY editorViCutLine.desc "Редактор: Vi: Вырезать строку">
+<!ENTITY editorViCutOneCharacter.desc "Редактор: Vi: Вырезать один символ">
+<!ENTITY editorViCutOneCharacterToLeft.desc "Редактор: Vi: Вырезать на один символ влево">
+<!ENTITY editorViCutToEndOfLine.desc "Редактор: Vi: Вырезать до конца строки">
+<!ENTITY editorViCutToEndOfLineAndEnterInsertMode.desc "Редактор: Vi: Вырезать до конца строки и войти в режим вставки (Insert)">
+<!ENTITY editorViCutWholeLineAndEnterInsertMode.desc "Редактор: Vi: Вырезать всю строку и войти в режим вставки (Insert)">
+<!ENTITY editorViDeleteTheCurrentCharacterAndEnterInsertMode.desc "Редактор: Vi: Удалить текущий символ и войти в режим вставки (Inset)">
+<!ENTITY editorViDeletesFromCursorToEndOfLine.desc "Редактор: Vi: Удалить от курсора до конца строки">
+<!ENTITY editorViEnterCommandMode.desc "Редактор: Vi: Вход в командный режим">
+<!ENTITY editorViEnterInsertMode.desc "Редактор: Vi: Войти в режим вставки (Insert)">
+<!ENTITY editorViEnterInsertModeAfterTheCursorPosition.desc "Редактор: Vi: Войти в режим вставки (Insert) после позиции курсора">
+<!ENTITY editorViEnterInsertModeAtStartOfTheLine.desc "Редактор: Vi: Войти в режим вставки (Insert) в начале строки">
+<!ENTITY editorViEnterInsertModeAtTheEndOfTheCurrentLine.desc "Редактор: Vi: Войти в режим вставки (Insert) в конце текущей строки">
 <!ENTITY editorViEnterVisualBlockMode.desc "Редактор: Vi: Войти в режим визуального блока">
 <!ENTITY editorViEnterVisualCharacterMode.desc "Редактор: Vi: Войти в режим визуального символа">
-<!ENTITY editorViEnterVisualLineMode.desc "Редактор: Vi: Войти в режим визуальной линии">
-<!ENTITY editorViGoToEndOfDocument.desc "Редактор: Vi: В конец документа">
-<!ENTITY editorViGoToNextLine.desc "Редактор: Vi: Следующая линия">
-<!ENTITY editorViGoToPreviousLine.desc "Редактор: Vi: Предыдущая линия">
-<!ENTITY editorViMoveToBeginningOfDocument.desc "Редактор: Vi: В начало документа">
-<!ENTITY editorViGotoLine.desc "Редактор: Vi: Перейти к линии">
+<!ENTITY editorViEnterVisualLineMode.desc "Редактор: Vi: Войти в режим визуальной строки">
+<!ENTITY editorViGoToEndOfDocument.desc "Редактор: Vi: Перейти в конец документа">
+<!ENTITY editorViGoToNextLine.desc "Редактор: Vi: Перейти к следующей строке">
+<!ENTITY editorViGoToPreviousLine.desc "Редактор: Vi: Перейти к предыдущей строке">
+<!ENTITY editorViMoveToBeginningOfDocument.desc "Редактор: Vi: Перейти к началу документа">
+<!ENTITY editorViGotoLine.desc "Редактор: Vi: Перейти к строке">
 <!ENTITY editorViInsertNewline.desc "Редактор: Vi: Вставить новую строку">
-<!ENTITY editorViInsertNewlineStartingOnThePreviousLine.desc "Редактор: Vi: Вставить новую строку (начало на предыдущей линии)">
-<!ENTITY editorViJoinCurrentAndNextLines.desc "Редактор: Vi: Объединить эту и следующую линии">
-<!ENTITY editorViMoveLeftOneCharacter.desc "Редактор: Vi: Влево на 1 символ">
-<!ENTITY editorViScrollHalfPageDown.desc "Редактор: Vi: Прокрутить на половину страницы вниз">
-<!ENTITY editorViScrollHalfPageUp.desc "Редактор: Vi: Прокрутить на половину страницы вверх">
-<!ENTITY editorViMoveOnePageDown.desc "Редактор: Vi: На 1 страницу вниз">
-<!ENTITY editorViMoveOnePageUp.desc "Редактор: Vi: На 1 страницу вверх">
-<!ENTITY editorViMoveOneWordLeft.desc "Редактор: Vi: На 1 слово влево">
-<!ENTITY editorViMoveOneWordLeftPastAnyPunctuation.desc "Редактор: Vi: Move one word left, past any punctuation">
-<!ENTITY editorViMoveOneWordRightPastAnyPunctuation.desc "Редактор: Vi: Move one word right, past any punctuation">
-<!ENTITY editorViMoveRightOneCharacter.desc "Редактор: Vi: Move Right One Character">
-<!ENTITY editorViMoveToBeginningOfLineFirstVisibleCharFirstColumn.desc "Редактор: Vi: Move to Beginning of Line (first visible char/first column)">
-<!ENTITY editorViMoveToBeginningOfTheCurrentLine.desc "Редактор: Vi: Move to Beginning of the Current Line">
-<!ENTITY editorViMoveToBeginningOfTheNextLine.desc "Редактор: Vi: Move to Beginning of the Next Line">
-<!ENTITY editorViMoveToBeginningOfThePreviousLine.desc "Редактор: Vi: Move to Beginning of the Previous Line">
-<!ENTITY editorViMoveToEndOfCurrentLine.desc "Редактор: Vi: Move to End of Current Line">
-<!ENTITY editorViMoveToEndOfWordToLeft.desc "Редактор: Vi: Move To End of Word To Left">
-<!ENTITY editorViMoveToEndOfWordToRight.desc "Редактор: Vi: Move To End of Word To Right">
-<!ENTITY editorViMoveToEndOfWordToTheRightPastAnyPunctuation.desc "Редактор: Vi: Move to end of word to the right, past any punctuation">
-<!ENTITY editorViMoveToStartOfWordToRight.desc "Редактор: Vi: Move To Start of Word To Right">
-<!ENTITY editorViMoveToTheBeginningOfTheParagraph.desc "Редактор: Vi: Move to the Beginning of the Paragraph">
-<!ENTITY editorViMoveToTheBeginningOfTheSection.desc "Редактор: Vi: Move to the Beginning of the Section">
-<!ENTITY editorViMoveToTheBeginningOfTheSentence.desc "Редактор: Vi: Move to the Beginning of the Sentence">
-<!ENTITY editorViMoveToTheBottomOfTheScreen.desc "Редактор: Vi: Move to the Bottom of the Screen">
-<!ENTITY editorViMoveToTheCenterOfTheScreen.desc "Редактор: Vi: Move to the Center of the Screen">
-<!ENTITY editorViMoveToTheEndOfTheParagraph.desc "Редактор: Vi: Move to the End of the Paragraph">
-<!ENTITY editorViMoveToTheEndOfTheSection.desc "Редактор: Vi: Move to the End of the Section">
-<!ENTITY editorViMoveToTheEndOfTheSentence.desc "Редактор: Vi: Move to the End of the Sentence">
-<!ENTITY editorViMoveToTheTopOfTheScreen.desc "Редактор: Vi: Move to the Top of the Screen">
-<!ENTITY editorViJumpToLineBeforeLastJump.desc "Редактор: Vi: Jump to the Line before the Last Jump">
-<!ENTITY editorViJumpToLocBeforeLastJump.desc "Редактор: Vi: Jump to the Position before the Last Jump">
-<!ENTITY editorViNewLineStartingAfterTheCurrentLine.desc "Редактор: Vi: New Line Starting After the Current Line">
-<!ENTITY editorViNewLineStartingBeforeTheCurrentLine.desc "Редактор: Vi: New Line Starting Before the Current Line">
-<!ENTITY editorViPaste.desc "Редактор: Vi: Paste">
-<!ENTITY editorViPasteAfter.desc "Редактор: Vi: Paste After">
-<!ENTITY editorViRedo.desc "Редактор: Vi: Redo">
-<!ENTITY editorViRepeatTheLastCommandAgain.desc "Редактор: Vi: Repeat the last command again">
-<!ENTITY editorViReplaceCharactersWithTheOnesThatAreTyped.desc "Редактор: Vi: Replace characters with the ones that are typed">
-<!ENTITY editorViReplaceTheCurrentCharWithTheNextTypedCharacter.desc "Редактор: Vi: Replace the current char with the next typed character">
-<!ENTITY editorViSaveAndCloseTheCurrentBuffer.desc "Редактор: Vi: Save and Close the Current Buffer">
-<!ENTITY editorViScrollOneLineDown.desc "Редактор: Vi: Scroll One Line Down">
-<!ENTITY editorViScrollOneLineUp.desc "Редактор: Vi: Scroll One Line Up">
-<!ENTITY editorViSearchForTheNextOccuranceOfTheWordAtTheCurrentCursorPosition.desc "Редактор: Vi: Search for the Next Occurrence of the Word at the Current Cursor Position">
-<!ENTITY editorViSearchForThePreviousOccuranceOfTheWordAtTheCurrentCursorPosition.desc "Редактор: Vi: Search for the Previous Occurrence of the Word at the Current Cursor Position">
-<!ENTITY editorViSelectAll.desc "Редактор: Vi: Select All">
-<!ENTITY editorViSelectNextCharacter.desc "Редактор: Vi: Select Next Character">
-<!ENTITY editorViSelectNextWord.desc "Редактор: Vi: Select Next Word">
-<!ENTITY editorViSelectPageDown.desc "Редактор: Vi: Select Page Down">
-<!ENTITY editorViSelectPageUp.desc "Редактор: Vi: Select Page Up">
-<!ENTITY editorViSelectPreviousCharacter.desc "Редактор: Vi: Select Previous Character">
-<!ENTITY editorViSelectPreviousWord.desc "Редактор: Vi: Select Previous Word">
-<!ENTITY editorViSelectToBeginningOfLineFirstCharFirstColumn.desc "Редактор: Vi: Select to Beginning of Line (first char/first column)">
-<!ENTITY editorViSelectToEndOfDocument.desc "Редактор: Vi: Select to End of Document">
-<!ENTITY editorViSelectToEndOfLine.desc "Редактор: Vi: Select to End of Line">
-<!ENTITY editorViSelectToNextLine.desc "Редактор: Vi: Select to Next Line">
-<!ENTITY editorViSelectToPreviousLine.desc "Редактор: Vi: Select to Previous Line">
-<!ENTITY editorViSelectToTopOfDocument.desc "Редактор: Vi: Select to Top of Document">
-<!ENTITY editorViSetRegister.desc "Редактор: Vi: Set Register">
-<!ENTITY editorViStartChangeTextOperation.desc "Редактор: Vi: Start Change Text Operation">
-<!ENTITY editorViStartDedentTextOperation.desc "Редактор: Vi: Start Dedent Text Operation">
-<!ENTITY editorViStartDeleteTextOperation.desc "Редактор: Vi: Start Delete Text Operation">
-<!ENTITY editorViStartIndentTextOperation.desc "Редактор: Vi: Start Indent Text Operation">
-<!ENTITY editorViStartYankTextOperation.desc "Редактор: Vi: Start Yank Text Operation">
-<!ENTITY editorViSwapTheCurrentCharacterSCase.desc "Редактор: Vi: Swap the current character's case.">
-<!ENTITY editorViUndo.desc "Редактор: Vi: Undo">
-<!ENTITY editorViYankLine.desc "Редактор: Vi: Yank Line">
-<!ENTITY findViEnterSearchBackwards.desc "Find: Vi: Enter Search Backwards">
-<!ENTITY findViEnterSearchForward.desc "Find: Vi: Enter Search Forward">
-<!ENTITY findViFindNextPattern.desc "Find: Vi: Find Next Pattern">
-<!ENTITY findViFindNextResult.desc "Find: Vi: Find Next Result">
-<!ENTITY findViFindPreviousPattern.desc "Find: Vi: Find Previous Pattern">
-<!ENTITY findViFindTheCharacterTypedAfterCursorInCurrentLine.desc "Find: Vi: Find the Character Typed, After Cursor in Current Line">
-<!ENTITY findViFindTheCharacterTypedAfterCursorInCurrentLineMovesToPositionBeforeTheChar.desc "Find: Vi: Find the Character Typed, After Cursor in Current Line, Moves to Position Before the Char">
-<!ENTITY findViFindTheCharacterTypedBeforeCursorInCurrentLine.desc "Find: Vi: Find the Character Typed, Before Cursor in Current Line">
-<!ENTITY findViFindTheCharacterTypedBeforeCursorInCurrentLineMovesToPositionAfterTheChar.desc "Find: Vi: Find the Character Typed, Before Cursor in Current Line, Moves to Position After the Char">
-<!ENTITY findViRepeatTheLastFindCharacterInLineCommand.desc "Find: Vi: Repeat the last Find Character In Line command">
-<!ENTITY findViRepeatTheLastFindCharacterInLineCommandButReverseTheDirection.desc "Find: Vi: Repeat the last Find Character In Line command, but reverse the direction">
-<!ENTITY normal.label "Normal">
+<!ENTITY editorViInsertNewlineStartingOnThePreviousLine.desc "Редактор: Vi: Вставить новую строку (начиная с предыдущей строки)">
+<!ENTITY editorViJoinCurrentAndNextLines.desc "Редактор: VI: Объединить текущую и следующую строки">
+<!ENTITY editorViMoveLeftOneCharacter.desc "Редактор: Vi: Перемещение на один символ влево">
+<!ENTITY editorViScrollHalfPageDown.desc "Редактор: Vi: Выделить полстраницы вниз">
+<!ENTITY editorViScrollHalfPageUp.desc "Редактор: Vi: Выделить полстраницы вверх">
+<!ENTITY editorViMoveOnePageDown.desc "Редактор: Vi: перейти на страницу вниз">
+<!ENTITY editorViMoveOnePageUp.desc "Редактор: Vi: перейти на страницу вверх">
+<!ENTITY editorViMoveOneWordLeft.desc "Редактор: Vi: Перемещение на одно слово влево">
+<!ENTITY editorViMoveOneWordLeftPastAnyPunctuation.desc "Редактор: Vi: Перемещение на одно слово влево, игнорируя пунктуацию">
+<!ENTITY editorViMoveOneWordRightPastAnyPunctuation.desc "Редактор: Vi: Перемещение на одно слово вправо, игнорируя пунктуацию">
+<!ENTITY editorViMoveRightOneCharacter.desc "Редактор: Vi: Перемещение вправо на один символ">
+<!ENTITY editorViMoveToBeginningOfLineFirstVisibleCharFirstColumn.desc "Редактор: Vi: Переместить к началу строки (первый видимый символ / первая колонка)">
+<!ENTITY editorViMoveToBeginningOfTheCurrentLine.desc "Редактор: Vi: Перейти к началу текущей строки">
+<!ENTITY editorViMoveToBeginningOfTheNextLine.desc "Редактор: Vi: Перейти к началу следующей строки">
+<!ENTITY editorViMoveToBeginningOfThePreviousLine.desc "Редактор: Vi: Перейти к началу предыдущей строки">
+<!ENTITY editorViMoveToEndOfCurrentLine.desc "Редактор: Vi: Перейти в конец текущей строки">
+<!ENTITY editorViMoveToEndOfWordToLeft.desc "Редактор: Vi: Перейти в конец слова влево">
+<!ENTITY editorViMoveToEndOfWordToRight.desc "Редактор: Vi: Перейти в конец слова вправо">
+<!ENTITY editorViMoveToEndOfWordToTheRightPastAnyPunctuation.desc "Редактор: Vi: Переход к концу слова справа, игнорируя пунктуацию">
+<!ENTITY editorViMoveToStartOfWordToRight.desc "Редактор: Vi: Перейти к началу слова направо">
+<!ENTITY editorViMoveToTheBeginningOfTheParagraph.desc "Редактор: Vi: Перейти к началу абзаца">
+<!ENTITY editorViMoveToTheBeginningOfTheSection.desc "Редактор: Vi: Перейти к началу секции">
+<!ENTITY editorViMoveToTheBeginningOfTheSentence.desc "Редактор: Vi: Перейти к началу предложения">
+<!ENTITY editorViMoveToTheBottomOfTheScreen.desc "Редактор: Vi: Перейти к нижней части экрана">
+<!ENTITY editorViMoveToTheCenterOfTheScreen.desc "Редактор: Vi: Перейти к центру экрана">
+<!ENTITY editorViMoveToTheEndOfTheParagraph.desc "Редактор: Vi: Перейти в конец абзаца">
+<!ENTITY editorViMoveToTheEndOfTheSection.desc "Редактор: Vi: Перейти в конец секции">
+<!ENTITY editorViMoveToTheEndOfTheSentence.desc "Редактор: Vi: Перейти в конец предложения">
+<!ENTITY editorViMoveToTheTopOfTheScreen.desc "Редактор: Vi: Перейти к верхней части экрана">
+<!ENTITY editorViJumpToLineBeforeLastJump.desc "Редактор: Vi: Перейти к строке перед последним переходом">
+<!ENTITY editorViJumpToLocBeforeLastJump.desc "Редактор: Vi: Перейти в положение перед последним переходом">
+<!ENTITY editorViNewLineStartingAfterTheCurrentLine.desc "Редактор: Vi: Новая строка после текущей строки">
+<!ENTITY editorViNewLineStartingBeforeTheCurrentLine.desc "Редактор: Vi: Новая строка перед текущей строкой">
+<!ENTITY editorViPaste.desc "Редактор: Vi: Вставить">
+<!ENTITY editorViPasteAfter.desc "Редактор: Vi: Вставить после">
+<!ENTITY editorViRedo.desc "Редактор: Vi: Повторить">
+<!ENTITY editorViRepeatTheLastCommandAgain.desc "Редактор: Vi: Повторить последнюю команду">
+<!ENTITY editorViReplaceCharactersWithTheOnesThatAreTyped.desc "Editor: Vi: Replace characters with the ones that are typed">
+<!ENTITY editorViReplaceTheCurrentCharWithTheNextTypedCharacter.desc "Editor: Vi: Replace the current char with the next typed character">
+<!ENTITY editorViSaveAndCloseTheCurrentBuffer.desc "Редактор: Vi: Сохранить и закрыть текущий буфер">
+<!ENTITY editorViScrollOneLineDown.desc "Редактор: Vi: Перемещение на одну строку вниз">
+<!ENTITY editorViScrollOneLineUp.desc "Редактор: Vi: Перемещение на одну строку вверх">
+<!ENTITY editorViSearchForTheNextOccuranceOfTheWordAtTheCurrentCursorPosition.desc "Редактор: Vi: поиск следующего вхождения слова в текущей позиции курсора">
+<!ENTITY editorViSearchForThePreviousOccuranceOfTheWordAtTheCurrentCursorPosition.desc "Редактор: Vi: Поиск предыдущего вхождения слова в текущей позиции курсора">
+<!ENTITY editorViSelectAll.desc "Редактор: Vi: Выделить все">
+<!ENTITY editorViSelectNextCharacter.desc "Редактор: Vi: Выделить следующий символ">
+<!ENTITY editorViSelectNextWord.desc "Редактор: Vi: Выделить следующее слово">
+<!ENTITY editorViSelectPageDown.desc "Редактор: Vi: Выделить страницу вниз">
+<!ENTITY editorViSelectPageUp.desc "Редактор: Vi: Выделить страницу вверх">
+<!ENTITY editorViSelectPreviousCharacter.desc "Редактор: Vi: Выделить предыдущий символ">
+<!ENTITY editorViSelectPreviousWord.desc "Редактор: Vi: Выделить предыдущее слово">
+<!ENTITY editorViSelectToBeginningOfLineFirstCharFirstColumn.desc "Редактор: Vi: Выделить до начала строки (первый символ / первая колонка)">
+<!ENTITY editorViSelectToEndOfDocument.desc "Редактор: Vi: Выделить до конца документа">
+<!ENTITY editorViSelectToEndOfLine.desc "Редактор: Vi: Выделить до конца строки">
+<!ENTITY editorViSelectToNextLine.desc "Редактор: Vi: Выделить до следующей строки">
+<!ENTITY editorViSelectToPreviousLine.desc "Редактор: Vi: Выделить до предыдущей строки">
+<!ENTITY editorViSelectToTopOfDocument.desc "Редактор: Vi: Выделить до начала документа">
+<!ENTITY editorViSetRegister.desc "Редактор: Vi: Установить регистр">
+<!ENTITY editorViStartChangeTextOperation.desc "Editor: Vi: Start Change Text Operation">
+<!ENTITY editorViStartDedentTextOperation.desc "Editor: Vi: Start Dedent Text Operation">
+<!ENTITY editorViStartDeleteTextOperation.desc "Editor: Vi: Start Delete Text Operation">
+<!ENTITY editorViStartIndentTextOperation.desc "Editor: Vi: Start Indent Text Operation">
+<!ENTITY editorViStartYankTextOperation.desc "Editor: Vi: Start Yank Text Operation">
+<!ENTITY editorViSwapTheCurrentCharacterSCase.desc "Редактор: Vi: Поменять текущий регистр символов.">
+<!ENTITY editorViUndo.desc "Редактор: Vi: Отменить">
+<!ENTITY editorViYankLine.desc "Editor: Vi: Yank Line">
+<!ENTITY findViEnterSearchBackwards.desc "Поиск: Vi: Искать к началу">
+<!ENTITY findViEnterSearchForward.desc "Поиск: Vi: Искать к концу">
+<!ENTITY findViFindNextPattern.desc "Поиск: Vi: Найти следующий образец">
+<!ENTITY findViFindNextResult.desc "Поиск: Vi: Найти следующий результат">
+<!ENTITY findViFindPreviousPattern.desc "Поиск: Vi: Найти предыдущий образец">
+<!ENTITY findViFindTheCharacterTypedAfterCursorInCurrentLine.desc "Поиск: Vi: Найти набранный символ, после курсора в текущей строке">
+<!ENTITY findViFindTheCharacterTypedAfterCursorInCurrentLineMovesToPositionBeforeTheChar.desc "Поиск: Vi: Найти набранный символ, после курсора в текущей строке, перемещение на позицию перед символом">
+<!ENTITY findViFindTheCharacterTypedBeforeCursorInCurrentLine.desc "Поиск: Vi: Найти набранный символ, перед курсором в текущей строке">
+<!ENTITY findViFindTheCharacterTypedBeforeCursorInCurrentLineMovesToPositionAfterTheChar.desc "Поиск: Vi: Найти набранный символ, перед курсором в текущей строке, перемещение в позицию после символа">
+<!ENTITY findViRepeatTheLastFindCharacterInLineCommand.desc "Поиск: Vi: Повторить последний поиск символа в командной строке">
+<!ENTITY findViRepeatTheLastFindCharacterInLineCommandButReverseTheDirection.desc "Поиск: Vi: Повторить последний поиск символа в командной строке, но изменить направление">
+<!ENTITY normal.label "Нормальный">
 <!ENTITY ready.label "Ready">
-<!ENTITY sourceCodeViDecreaseLineIndent.desc "Source Code: Vi: Decrease Line Indent">
-<!ENTITY sourceCodeViIncreaseLineIndent.desc "Source Code: Vi: Increase Line Indent">
-<!ENTITY sourceCodeViJumpToMatchingBrace.desc "Source Code: Vi: Jump to Matching Brace">
-<!ENTITY viEmulationMode.tooltiptext "Vi emulation mode">
+<!ENTITY sourceCodeViDecreaseLineIndent.desc "Исходный код: Vi: Уменьшить отступ строки">
+<!ENTITY sourceCodeViIncreaseLineIndent.desc "Исходный код: Vi: Увеличить отступ строки">
+<!ENTITY sourceCodeViJumpToMatchingBrace.desc "Исходный код: Vi: Перейти к соответствующей фигурной скобке">
+<!ENTITY viEmulationMode.tooltiptext "Режим эмуляции Vi">
 
 <!--keybindings.xml-->
-<!ENTITY currentKeySequence.label "Current Key Sequence">
+<!ENTITY currentKeySequence.label "Текущее сочетание клавиш">
 <!ENTITY currentKeySequence.accesskey "K">
-<!ENTITY newKeySequence.label "New Key Sequence">
-<!ENTITY keyCombinationNotAvailable.label "This key combination is not available.">
-<!ENTITY keySequenceUsedBy.label "Key Sequence Currently Used By">
+<!ENTITY newKeySequence.label "Новое сочетание клавиш">
+<!ENTITY keyCombinationNotAvailable.label "Эта комбинация клавиш не доступна.">
+<!ENTITY keySequenceUsedBy.label "Сочетание клавиш в настоящее время используется">
 

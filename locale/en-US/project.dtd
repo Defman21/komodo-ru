@@ -34,28 +34,28 @@
  
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY DDirectoryPathOfFile.label "[[&#37;D]]: путь папки текущего файла">
+<!ENTITY DDirectoryPathOfFile.label "[[&#37;D]]: путь к каталогу файла">
 <!ENTITY FFilePath.label "[[&#37;F]]: путь к файлу">
-<!ENTITY LCurrentLineNumber.label "[[&#37;L]]: текущий номер строки">
+<!ENTITY LCurrentLineNumber.label "[[&#37;L]]: номер текущей строки">
 <!ENTITY PPathOfTheActiveProject.label "[[&#37;P]]: путь активного проекта">
-<!ENTITY SURLEscapedSelection.label "[[&#37;S]]: URL-escaped выделение">
-<!ENTITY WURLEscapedSelectionOrWordUnderCursor.label "[[&#37;W]]: URL-escaped выделение или слово под курсором">
+<!ENTITY SURLEscapedSelection.label "[[&#37;S]]: URL-escaped selection">
+<!ENTITY WURLEscapedSelectionOrWordUnderCursor.label "[[&#37;W]]: URL-escaped selection or word under cursor">
 <!ENTITY accesskey.accesskey "m">
 <!ENTITY afterFileClose.label "После закрытия файла">
 <!ENTITY afterFileOpen.label "После открытия файла">
 <!ENTITY afterFileSave.label "После сохранения файла">
-<!ENTITY askAskForUserInput.label "[[&#37;ask]]: Спросить ввод значения у пользователя">
-<!ENTITY askpassAskForPassword.label "[[&#37;askpass]]: Спросить пароль">
+<!ENTITY askAskForUserInput.label "[[&#37;ask]]: запрос пользовательского ввода">
+<!ENTITY askpassAskForPassword.label "[[&#37;askpass]]: запрос пароля">
 <!ENTITY async.accesskey "B">
 <!ENTITY AutoAbbreviation.label "Авто-Аббревиатура">
 <!ENTITY bFileBaseNameWithoutExtension.label "[[&#37;b]]: базовое имя файла без расширения">
-<!ENTITY beforeFileCloseTheMacroCanReturnTrueToPreventFileClose.label "После закрытия файла (Макрос может вернуть true для предотвращения закрытия)">
-<!ENTITY beforeFileSaveTheMacroCanReturnTrueToPreventFileSave.label "После сохранения файла (Макрос может вернуть true для предотвращения сохранения)">
+<!ENTITY beforeFileCloseTheMacroCanReturnTrueToPreventFileClose.label "Перед закрытием файла (макрос может вернуть true для предотвращения закрытия файла)">
+<!ENTITY beforeFileSaveTheMacroCanReturnTrueToPreventFileSave.label "Перед сохранением файла (макрос может вернуть true для предотвращения сохранения файла)">
 <!ENTITY changeIcon.accesskey "H">
-<!ENTITY changeIcon.label "Сменить иконку...">
-<!ENTITY dDirectoryBaseNameOfFile.label "[[&#37;d]]: Имя базового каталога текущего файла">
+<!ENTITY changeIcon.label "Сменить значок...">
+<!ENTITY dDirectoryBaseNameOfFile.label "[[&#37;d]]: каталог базового имени файла">
 <!ENTITY dateCurrentDate.label "[[&#37;date]]: Текущая дата">
-<!ENTITY fFileBaseName.label "[[&#37;f]]: Базовое имя файла">
+<!ENTITY fFileBaseName.label "[[&#37;f]]: базовое имя файла">
 <!ENTITY general.label "Основные">
 <!ENTITY guidANewGUID.label "[[&#37;guid]]: Новый GUID">
 <!ENTITY helpOnShortcuts.label "Помощь по горячим клавишам...">
@@ -63,35 +63,35 @@
 <!ENTITY javaScript.accesskey "J">
 <!ENTITY javaScript.label "JavaScript">
 <!ENTITY k.accesskey "K">
-<!ENTITY keyBinding.label "Бинд клавиш">
+<!ENTITY keyBinding.label "Привязка клавиш">
 <!ENTITY m.accesskey "m">
 <!ENTITY macro.label "Макрос">
-<!ENTITY macroShouldTriggerOnAKomodoEvent.label "Макрос должен вызываться при событии Komodo">
-<!ENTITY maintainIndentationContextAfterInsertion.label "Сохранять отступы после вставки">
-<!ENTITY maintainSelectedTextOrCursorPositionAfterInsertion.label "Сохранять выделенный текст или позицию курсора после вставки">
-<!ENTITY onASystemNotification.label "При уведомлении системы:">
-<!ENTITY onShutdownTheMacroCanReturnTrueToPreventShutdown.label "При выключении (Макрос может вернуть true для предотвращения выключения)">
+<!ENTITY macroShouldTriggerOnAKomodoEvent.label "Макрос должен сработать на события Komodo">
+<!ENTITY maintainIndentationContextAfterInsertion.label "Поддерживать отступ контекста после вставки">
+<!ENTITY maintainSelectedTextOrCursorPositionAfterInsertion.label "Поддерживать выделенный текст или положение курсора после вставки">
+<!ENTITY onASystemNotification.label "На уведомления системы:">
+<!ENTITY onShutdownTheMacroCanReturnTrueToPreventShutdown.label "На выключение (макрос может вернуть true для предотвращения отключения)">
 <!ENTITY onStartup.label "При запуске">
 <!ENTITY pDirectoryPathOfTheActiveProject.label "[[&#37;p]]: путь каталога текущего проекта">
 <!ENTITY partvalue.accesskey "n">
-<!ENTITY pickALetterInTheNameToUseAsTheAltShortcut.tooltiptext "Выберите букву в имени чтобы использовать сочетание клавиш Alt+[выбранная буква].">
+<!ENTITY pickALetterInTheNameToUseAsTheAltShortcut.tooltiptext "Выберите букву в имени для использования в качестве Alt+ ярлык.">
 <!ENTITY priority.accesskey "P">
 <!ENTITY priorityLabel.accesskey "P">
 <!ENTITY properties.label "Свойства">
 <!ENTITY python.accesskey "P">
 <!ENTITY python.label "Python">
-<!ENTITY renameItem.title "Переименовать предмет">
+<!ENTITY renameItem.title "Переименовать элемент">
 <!ENTITY reset.label "Сброс">
 <!ENTITY reseticon.accesskey "T">
-<!ENTITY runInBackground.label "Запускать в фоне">
+<!ENTITY runInBackground.label "Запуск в фоновом режиме">
 <!ENTITY sSelection.label "[[&#37;s]]: выделение">
 <!ENTITY shortcutTab.accesskey "K">
 <!ENTITY shortcuts.tooltiptext "Горячие клавиши">
 <!ENTITY snippet.label "Сниппет">
 <!ENTITY snippetTab.accesskey "n">
 <!ENTITY softCharTabStopReplace.label "[[&#37;soft]]: мягкие символы">
-<!ENTITY tabstopTabStopReplace.label "[[&#37;tabstop]]: Tab Stop/замена">
-<!ENTITY TreatAsEJS.label "Трактовать как EJS">
+<!ENTITY tabstopTabStopReplace.label "[[&#37;tabstop]]: Вкладка Стоп/Заменить">
+<!ENTITY TreatAsEJS.label "Обрабатывать как EJS">
 <!ENTITY triggerPostopen.accesskey "O">
 <!ENTITY triggerPreclose.accesskey "C">
 <!ENTITY triggerPresave.accesskey "s">
@@ -100,22 +100,22 @@
 <!ENTITY triggerSystemNotification.accesskey "f">
 <!ENTITY triggerSystemNotificationName.accesskey "n">
 <!ENTITY triggers.label "Триггеры">
-<!ENTITY wSelectionOrWordUnderCursor.label "[[&#37;w]]: выделение или слово под курсором">
+<!ENTITY wSelectionOrWordUnderCursor.label "[[&#37;w]]: выбранный фрагмент или слово под курсором">
 
 <!--customMenuProperties.xul-->
-<!ENTITY unnamedCommand.label "&lt;безымянная команда&gt;">
+<!ENTITY unnamedCommand.label "&lt;unnamed command&gt;">
 <!ENTITY priority.label "Приоритет">
-<!ENTITY menuAccessKey.label "Menu Access Key">
+<!ENTITY menuAccessKey.label "Клавиша доступа для меню">
 <!ENTITY menuAccessKey.accesskey "m">
 
 <!--macroProperties.xul-->
-<!ENTITY language.label "Язык: ">
-<!ENTITY rank.label "Ранг:">
+<!ENTITY language.label "Язык:">
+<!ENTITY rank.label "Рейтинг:">
 <!ENTITY rank.accesskey "K">
 
 <!--renamePart.xul-->
-<!ENTITY itemName.Label "Имя ключа">
-<!ENTITY itemValue.Label "Значение ключа">
+<!ENTITY itemName.Label "Название элемента">
+<!ENTITY itemValue.Label "Значение элемента">
 
 <!--simplePartProperties.xul-->
 <!ENTITY value.label "Значение:">

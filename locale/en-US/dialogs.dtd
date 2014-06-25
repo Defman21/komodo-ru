@@ -39,7 +39,7 @@
 <!ENTITY LCurrentLineNumber.label "[[&#37;L]] : номер текущей строки">
 <!ENTITY PPathOfTheActiveProject.label "[[&#37;P]]: путь активного проекта">
 <!ENTITY SURLEscapedSelection.label "[[&#37;S]] : URL-escaped selection">
-<!ENTITY URIMapping.title "URI маппинг">
+<!ENTITY URIMapping.title "URI Mapping">
 <!ENTITY URI.label "URI:">
 <!ENTITY WURLEscapedSelectionOrWordUnderCursor.label "[[&#37;W]] : URL-escaped selection or word under cursor">
 <!ENTITY addEditPathMapping.label "Add/Edit Path Mapping">

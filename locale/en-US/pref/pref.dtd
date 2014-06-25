@@ -54,15 +54,15 @@
 <!ENTITY  autoTypeRadio.accesskey       "A">
 <!ENTITY  reload.label                  "Перезагрузить">
 <!ENTITY  reload.accesskey              "E">
-<!ENTITY  ftp.label                     "FTP прокси:">
+<!ENTITY  ftp.label                     "FTP Proxy:">
 <!ENTITY  ftp.accesskey                 "f">
-<!ENTITY  gopher.label                  "Gopher прокси:">
+<!ENTITY  gopher.label                  "Gopher Proxy:">
 <!ENTITY  gopher.accesskey              "G">
 <!ENTITY  http.label                    "HTTP-прокси:">
 <!ENTITY  http.accesskey                "y">
 <!ENTITY  ssl.label                     "SSL прокси:">
 <!ENTITY  ssl.accesskey                 "s">
-<!ENTITY  socks.label                   "SOCKS хост:">
+<!ENTITY  socks.label                   "SOCKS Host:">
 <!ENTITY  socks.accesskey               "C">
 <!ENTITY  socks4.label                  "SOCKS v4">
 <!ENTITY  socks4.accesskey              "K">
@@ -137,7 +137,7 @@
 <!ENTITY assignEmptyFilesSpecifiedEOL.label "Связать этот EOL с новым, пустым файлом">
 <!ENTITY autoAdjustClosingBraces.label "Автоопределение закрытия скобки">
 <!ENTITY autoDetectFileEncodingWhenOpened.label "Автоопределение кодировки файла при открытии">
-<!ENTITY restoreAutoAbbreviationTriggerCharacters.label "Восстановить стандартный %autoAbbreviationName.name; символы-триггеры">
+<!ENTITY restoreAutoAbbreviationTriggerCharacters.label "Restore Default %autoAbbreviationName.name; Trigger Characters">
 <!ENTITY autoAbbreviations.label "%autoAbbreviationName.name;s">
 <!ENTITY bAbbreviatedMonthName.label "&#37;b : сокращенное название месяца">
 <!ENTITY backgroundSyntaxChecking.label "Фоновая проверка синтаксиса">
@@ -886,10 +886,10 @@ For example, when entering '(', automatically add a closing ')' after the cursor
 
 <!--commented in file pref-alllangfonts.xul-->
 <!--
-<!ENTITY htmlSample.label "HTML образец">
-<!ENTITY pythonSample.label "Python образец">
-<!ENTITY perlSample.label "Perl образец">
-<!ENTITY phpSample.label "PHP Samобразецple">
+<!ENTITY htmlSample.label "HTML Sample">
+<!ENTITY pythonSample.label "Python Sample">
+<!ENTITY perlSample.label "Perl Sample">
+<!ENTITY phpSample.label "PHP Sample">
                                             -->
 <!--pref-helplang.xul-->
 <!ENTITY default.value "По умолчанию:">
