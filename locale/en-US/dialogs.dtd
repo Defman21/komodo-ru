@@ -39,20 +39,20 @@
 <!ENTITY LCurrentLineNumber.label "[[&#37;L]] : номер текущей строки">
 <!ENTITY PPathOfTheActiveProject.label "[[&#37;P]]: путь активного проекта">
 <!ENTITY SURLEscapedSelection.label "[[&#37;S]] : URL-escaped selection">
-<!ENTITY URIMapping.title "URI Mapping">
+<!ENTITY URIMapping.title "Сопоставление URI">
 <!ENTITY URI.label "URI:">
 <!ENTITY WURLEscapedSelectionOrWordUnderCursor.label "[[&#37;W]] : URL-escaped selection or word under cursor">
-<!ENTITY addEditPathMapping.label "Add/Edit Path Mapping">
-<!ENTITY addPath.accesskey "A">
+<!ENTITY addEditPathMapping.label "Добавить/Редактировать сопоставление пути">
+<!ENTITY addPath.accesskey "">
 <!ENTITY addPath.label "Добавить путь...">
-<!ENTITY anonymous.accesskey "A">
+<!ENTITY anonymous.accesskey "">
 <!ENTITY askAskForUserInput.label "[[&#37;ask]] : запрос пользовательского ввода">
 <!ENTITY askpassAskForPassword.label "[[&#37;askpass]] : запрос пароля">
 <!ENTITY bFileBaseNameWithoutExtension.label "[[&#37;b]]: базовое имя файла без расширения">
 <!ENTITY browse.label "Обзор...">
-<!ENTITY browseButton.accesskey "B">
+<!ENTITY browseButton.accesskey "">
 <!ENTITY browserConfiguredBrowser.label "[[&#37;browser]] : Настроенный браузер">
-<!ENTITY clearAll.accesskey "L">
+<!ENTITY clearAll.accesskey "">
 <!ENTITY clearAll.label "Очистить все">
 <!ENTITY configureNodeJS.tooltiptext "Настройка Node.js">
 <!ENTITY configurePHP.tooltiptext "Настройка PHP">
@@ -63,7 +63,7 @@
 <!ENTITY copy.label "Копировать">
 <!ENTITY currentProjectPreferences.label "Настройки текущего проекта">
 <!ENTITY dDirectoryBaseNameOfFile.label "[[&#37;d]] : directory base name of file">
-<!ENTITY doNotAskCheckbox.accesskey "D">
+<!ENTITY doNotAskCheckbox.accesskey "">
 <!ENTITY donTAskMeAgain.label "Не спрашивать меня снова.">
 <!ENTITY donTShowMeThisAgain.label "Не показывать это снова.">
 <!ENTITY escapedPercentSign.label "[[&#37;&#37;]] : escaped percent sign">
@@ -81,7 +81,7 @@
 <!ENTITY nextDiff.label "Следующее различие">
 <!ENTITY openOfficeIcons.label "Open Office Icons (670 icons)">
 <!ENTITY pDirectoryPathOfTheActiveProject.label "[[&#37;p]]: путь каталога текущего проекта">
-<!ENTITY passwordLabel.accesskey "P">
+<!ENTITY passwordLabel.accesskey "">
 <!ENTITY perlConfiguredPerlInterpreter.label "[[&#37;perl]] : Настроенный Perl интерпретатор">
 <!ENTITY phpConfiguredPHPInterpreter.label "[[&#37;php]] : Настроенный PHP интерпретатор">
 <!ENTITY pickAnIcon.title "Pick an icon">
@@ -91,17 +91,17 @@
 <!ENTITY previewUsingDefaultBrowser.value "Браузер по умолчанию">
 <!ENTITY previousDiff.label "Предыдущее различие">
 <!ENTITY pythonConfiguredPythonInterpreter.label "[[&#37;python]] : Настроенный Python интерпретатор">
-<!ENTITY remember.accesskey "r">
+<!ENTITY remember.accesskey "">
 <!ENTITY rememberThisSelectionForThisFile.label "Запомнить этот выбор для этого файла">
 <!ENTITY remote.label "Удалённо...">
 <!ENTITY revealPositionInEditor.label "Reveal Position in Editor">
 <!ENTITY sSelection.label "[[&#37;s]] : selection">
 <!ENTITY saveMappingTo.label "Сохранить сопоставление на:">
-<!ENTITY selectAll.accesskey "A">
+<!ENTITY selectAll.accesskey "">
 <!ENTITY selectAll.label "Выделить все">
 <!ENTITY shortcuts.tooltiptext "Горячие клавиши">
-<!ENTITY useAnotherFile.accesskey "A">
-<!ENTITY useThisFile.accesskey "T">
+<!ENTITY useAnotherFile.accesskey "">
+<!ENTITY useThisFile.accesskey "">
 <!ENTITY viewEOLMarkers.label "Показать EOL Маркеры">
 <!ENTITY viewIndentationGuides.label "Показать указатели отступов">
 <!ENTITY viewLineNumbers.label "Показать номера строк">
@@ -112,7 +112,7 @@
 <!--authenticate.xul-->
 <!ENTITY server.label "Сервер:">
 <!ENTITY userName.label "Имя пользователя:">
-<!ENTITY userName.accesskey "u">
+<!ENTITY userName.accesskey "">
 <!ENTITY password.label "Пароль:">
 
 <!--compare.xul-->
@@ -141,7 +141,7 @@
 
 <!--iconpicker.xul-->
 <!ENTITY iconpicker.description "Выберите иконку, чтобы использовать из стандартного набора Komodo или нажмите на 'Выбрать другое', чтобы выбрать свою собственную.  Выбирайте изображение размером 16x16 для достижения наилучших результатов.">
-<!ENTITY iconFilter.accessKey "s">
+<!ENTITY iconFilter.accessKey "">
 <!ENTITY search.label "Поиск:">
 <!ENTITY search.tooltiptext "Поиск иконок по имени">
 

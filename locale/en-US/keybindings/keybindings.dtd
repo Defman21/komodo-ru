@@ -141,7 +141,7 @@
 <!ENTITY findViRepeatTheLastFindCharacterInLineCommand.desc "Поиск: Vi: Повторить последний поиск символа в командной строке">
 <!ENTITY findViRepeatTheLastFindCharacterInLineCommandButReverseTheDirection.desc "Поиск: Vi: Повторить последний поиск символа в командной строке, но изменить направление">
 <!ENTITY normal.label "Нормальный">
-<!ENTITY ready.label "Ready">
+<!ENTITY ready.label "Готово">
 <!ENTITY sourceCodeViDecreaseLineIndent.desc "Исходный код: Vi: Уменьшить отступ строки">
 <!ENTITY sourceCodeViIncreaseLineIndent.desc "Исходный код: Vi: Увеличить отступ строки">
 <!ENTITY sourceCodeViJumpToMatchingBrace.desc "Исходный код: Vi: Перейти к соответствующей фигурной скобке">
@@ -149,8 +149,8 @@
 
 <!--keybindings.xml-->
 <!ENTITY currentKeySequence.label "Текущее сочетание клавиш">
-<!ENTITY currentKeySequence.accesskey "K">
+<!ENTITY currentKeySequence.accesskey "">
 <!ENTITY newKeySequence.label "Новое сочетание клавиш">
 <!ENTITY keyCombinationNotAvailable.label "Эта комбинация клавиш не доступна.">
-<!ENTITY keySequenceUsedBy.label "Сочетание клавиш в настоящее время используется">
+<!ENTITY keySequenceUsedBy.label "Сочетание клавиш в настоящее время используется для:">
 

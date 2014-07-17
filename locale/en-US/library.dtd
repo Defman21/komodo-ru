@@ -54,17 +54,17 @@
 <!--commented in file pref_control.xul-->
 <!--
 <!ENTITY copyName.label "Копировать имя">
-<!ENTITY copyName.accesskey "C">
+<!ENTITY copyName.accesskey "">
 <!ENTITY copyValue.label "Копировать значение">
-<!ENTITY copyValue.accesskey "V">
+<!ENTITY copyValue.accesskey "">
 <!ENTITY new.label "Новый">
-<!ENTITY new.accesskey "n">
+<!ENTITY new.accesskey "">
 <!ENTITY string.label "String">
-<!ENTITY string.accesskey "s">
+<!ENTITY string.accesskey "">
 <!ENTITY integer.label "Integer">
-<!ENTITY integer.accesskey "i">
+<!ENTITY integer.accesskey "">
 <!ENTITY boolean.label "Boolean">
-<!ENTITY boolean.accesskey "B">
+<!ENTITY boolean.accesskey "">
 <!ENTITY modify.label "Изменить">
-<!ENTITY modify.accesskey "m">
+<!ENTITY modify.accesskey "">
 -->

@@ -34,9 +34,9 @@
  
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY browse.accesskey "r">
+<!ENTITY browse.accesskey "">
 <!ENTITY browse.label "Обзор...">
-<!ENTITY c.accesskey "C">
+<!ENTITY c.accesskey "">
 <!ENTITY delete.label "Удалить">
 <!ENTITY environment.label "Окружение">
 <!ENTITY general.label "Основные">

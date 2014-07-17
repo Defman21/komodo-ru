@@ -1,28 +1,28 @@
 <!ENTITY copy.file.name.label "Копировать имя файла">
-<!ENTITY copy.file.name.accesskey "n">
+<!ENTITY copy.file.name.accesskey "">
 <!ENTITY morekomodo.copy.file.name.desc "MoreKomodo: Буфер обмена - Копировать имя файла">
 
 <!ENTITY copy.full.path.label "Копировать полный путь">
-<!ENTITY copy.full.path.accesskey "P">
+<!ENTITY copy.full.path.accesskey "">
 <!ENTITY morekomodo.copy.full.path.desc "MoreKomodo: Буфер обмена - Копировать полный путь">
 
 <!ENTITY copy.directory.path.label "Скопировать имя каталога">
-<!ENTITY copy.directory.path.accesskey "D">
+<!ENTITY copy.directory.path.accesskey "">
 <!ENTITY morekomodo.copy.directory.path.desc "MoreKomodo: Буфер обмена - Скопировать имя каталога">
 
 <!ENTITY rename.label "Переименовать...">
-<!ENTITY rename.accesskey "r">
+<!ENTITY rename.accesskey "">
 <!ENTITY morekomodo.rename.desc "MoreKomodo: Файл - Переименовать">
 
 <!ENTITY make.backup.label "Сделать резервную копию...">
-<!ENTITY make.backup.accesskey "B">
+<!ENTITY make.backup.accesskey "">
 <!ENTITY morekomodo.make.backup.desc "MoreKomodo: Файл - Резервная копия">
 
 <!ENTITY delete.label "Удалить...">
-<!ENTITY delete.accesskey "D">
+<!ENTITY delete.accesskey "">
 <!ENTITY morekomodo.delete.desc "MoreKomodo: Файл - удалить">
 
 <!ENTITY move.label "Переместить...">
-<!ENTITY move.accesskey "m">
+<!ENTITY move.accesskey "">
 <!ENTITY morekomodo.move.desc "MoreKomodo: Файл - Переместить">
 

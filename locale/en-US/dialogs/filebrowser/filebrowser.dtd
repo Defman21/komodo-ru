@@ -43,7 +43,7 @@
 <!ENTITY help.label "Помощь">
 <!ENTITY lastModified.label "Последнее изменение">
 <!ENTITY name.label "Имя">
-<!ENTITY prefsHelpButton.accesskey "H">
+<!ENTITY prefsHelpButton.accesskey "">
 <!ENTITY refreshList.tooltiptext "Обновить список">
 <!ENTITY rename.label "Переименовать">
 <!ENTITY size.label "Размер">

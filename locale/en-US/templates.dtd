@@ -34,21 +34,21 @@
  
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY g.accesskey "G">
+<!ENTITY g.accesskey "">
 <!ENTITY local.label "Локально...">
-<!ENTITY localFileDir.accesskey "L">
-<!ENTITY m.accesskey "m">
-<!ENTITY n.accesskey "n">
+<!ENTITY localFileDir.accesskey "">
+<!ENTITY m.accesskey "">
+<!ENTITY n.accesskey "">
 <!ENTITY newFile.title "Новый файл">
 <!ENTITY remote.label "Удалённо...">
-<!ENTITY remoteFileDir.accesskey "r">
+<!ENTITY remoteFileDir.accesskey "">
 
 <!--new.xul-->
 <!ENTITY categories.label "Категории">
-<!ENTITY categories.accesskey "G">
+<!ENTITY categories.accesskey "">
 <!ENTITY templates.label "Шаблоны">
-<!ENTITY templates.accesskey "m">
+<!ENTITY templates.accesskey "">
 <!ENTITY fileName.label "Имя файла:">
-<!ENTITY fileName.accesskey "n">
+<!ENTITY fileName.accesskey "">
 <!ENTITY directory.label "Каталог:">
-<!ENTITY directory.accesskey "D">
+<!ENTITY directory.accesskey "">
