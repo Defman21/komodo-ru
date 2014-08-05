@@ -137,8 +137,8 @@
 <!ENTITY assignEmptyFilesSpecifiedEOL.label "Связать этот EOL с новым, пустым файлом">
 <!ENTITY autoAdjustClosingBraces.label "Автоопределение закрытия скобки">
 <!ENTITY autoDetectFileEncodingWhenOpened.label "Автоопределение кодировки файла при открытии">
-<!ENTITY restoreAutoAbbreviationTriggerCharacters.label "Restore Default %autoAbbreviationName.name; Trigger Characters">
-<!ENTITY autoAbbreviations.label "%autoAbbreviationName.name;s">
+<!ENTITY restoreAutoAbbreviationTriggerCharacters.label "Восстановить по умолчанию символы триггеров %autoAbbreviationName.name;">
+<!ENTITY autoAbbreviations.label "%autoAbbreviationName.name;">
 <!ENTITY bAbbreviatedMonthName.label "&#37;b : сокращенное название месяца">
 <!ENTITY backgroundSyntaxChecking.label "Фоновая проверка синтаксиса">
 <!ENTITY backspaceDecreasesIndentationInLeadingWhitespace.label "'Backspace' уменьшает отступ в начальных пробелах">
@@ -230,7 +230,7 @@
 <!ENTITY enableSoftCharacters.label "Использовать мягкие символы">
 <!ENTITY enableSoftCharacters.description "Inserts closing characters or matching delimiters.
 For example, when entering '(', automatically add a closing ')' after the cursor.">
-<!ENTITY enableSmartSoftCharactersInsideLine.label "использовать мягкие символы внутри строк">
+<!ENTITY enableSmartSoftCharactersInsideLine.label "Использовать мягкие символы внутри строк">
 <!ENTITY enableSmartTabSkipsSoftCharacters.label "Нажатие tab перемещает направо от мягких символов">
 <!ENTITY cutCopyWithoutSelection.label "Вырезать/Копировать без выделения будет вырезать/копировать текущую строку">
 <!ENTITY enableTriggeringOfMacrosOnKomodoEvents.label "Включить срабатывание макросов на события Komodo">
@@ -398,7 +398,7 @@ For example, when entering '(', automatically add a closing ')' after the cursor
 <!ENTITY regularExpressionsPythonSyntax.label "Регулярные выражения (синтаксис Python)">
 <!ENTITY reloadAllFiles.label "Перезагрузить все файлы">
 <!ENTITY reloadNoFiles.label "Не перезагружать файлы">
-<!ENTITY remoteAccounts.label "Удалённые аккаунты">
+<!ENTITY remoteAccounts.label "Аккаунты удалённого доступа">
 <!ENTITY remove.label "Удалить">
 <!ENTITY removeCatalog.label "Удалить каталог">
 <!ENTITY repositionCaretAfterTab.label "Перемещать &quot;каретку&quot; после нажатия tab.">
@@ -433,7 +433,7 @@ For example, when entering '(', automatically add a closing ')' after the cursor
 <!ENTITY showWhitespaceCharacters.label "Показывать символы пробелов">
 <!ENTITY signatureBOM.label "Сигнатура (BOM)">
 <!ENTITY signs.label "+/- знаки">
-<!ENTITY smartEditing.label "Смарт Редактирование">
+<!ENTITY smartEditing.label "Умное редактирование">
 <!ENTITY specifyDefaultProjectFilters.label "Укажите фильтры по умолчанию для новых проектов">
 <!ENTITY specifyTheProjectsActualLocation.label "Базовый каталог проекта">
 <!ENTITY foldSeparateBlockParts.tooltiptext "Разделять свёрнутые блоки на однострочных конструкциях типа '} ... {'">
@@ -488,7 +488,7 @@ For example, when entering '(', automatically add a closing ')' after the cursor
 <!ENTITY filePropertiesLanguage.accesskey "">
 <!ENTITY filePropertiesEncoding.label "Кодировка:">
 <!ENTITY filePropertiesEncoding.accesskey "">
-<!ENTITY filePropertiesLineEndings.label "Окончаниях строк:">
+<!ENTITY filePropertiesLineEndings.label "Окончания строк:">
 <!ENTITY filePropertiesLineEndings.accesskey "">
 <!ENTITY filePropertiesMixedEndings.description "(Этот файл имеет смешанные окончания строк.)">
 <!ENTITY filePropertiesDefaultDoctype.label "DOCTYPE по умолчанию:">
@@ -531,8 +531,8 @@ For example, when entering '(', automatically add a closing ')' after the cursor
 <!ENTITY filePrefAllLangSize.label "Размер:">
 <!ENTITY filePrefAllLangForeground.label "Передний план:">
 <!ENTITY filePrefAllLangBackground.label "Фон:">
-<!ENTITY filePrefSubLanguageBackground.label "Sub-language background:">
-<!ENTITY filePrefUseSubLanguageBackground.label "Use a different background color when used as a sub-language">
+<!ENTITY filePrefSubLanguageBackground.label "Цвет фона подъязыка:">
+<!ENTITY filePrefUseSubLanguageBackground.label "Использовать другой цвет фона, когда используется подъязык">
 <!ENTITY filePrefSubLanguageBackground.accesskey "">
 <!ENTITY filePrefUseSubLanguageBackground.accesskey "">
 <!ENTITY styleForSpecElements.description "Настройки стилей под конкретный язык.">
@@ -837,7 +837,7 @@ For example, when entering '(', automatically add a closing ')' after the cursor
 <!--pref-save.xul-->
 <!ENTITY fixWhiteSpace.label "Исправить пробелы при сохранении:">
 <!ENTITY autoSave.caption "Автоматическое восстановление">
-<!ENTITY autoSaveEvery.desc "Если эта функция включена, авто-восстановление будет создать временную резервную копию всех несохранённых файлов в случае некорректного завершения работы Komodo. По следующем запуске, автоматически сохранённые файлы, которые не были правильно сохранены, будут восстановлены.">
+<!ENTITY autoSaveEvery.desc "Если эта функция включена, авто-восстановление будет создавать временную резервную копию всех несохранённых файлов в случае некорректного завершения работы Komodo. По следующем запуске, автоматически сохранённые файлы, которые не были правильно сохранены, будут восстановлены.">
 <!ENTITY autoSaveEvery.label "Создание информации восстановления каждые">
 <!ENTITY secondsZeroDisables.label "секунд (0 для отключения)">
 <!ENTITY ifFileNameHasNoExtension.label "Если имя файла не имеет расширения:">

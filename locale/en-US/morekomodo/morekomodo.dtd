@@ -6,7 +6,7 @@
 <!ENTITY copy.full.path.accesskey "">
 <!ENTITY morekomodo.copy.full.path.desc "MoreKomodo: Буфер обмена - Копировать полный путь">
 
-<!ENTITY copy.directory.path.label "Скопировать имя каталога">
+<!ENTITY copy.directory.path.label "Скопировать только путь">
 <!ENTITY copy.directory.path.accesskey "">
 <!ENTITY morekomodo.copy.directory.path.desc "MoreKomodo: Буфер обмена - Скопировать имя каталога">
 

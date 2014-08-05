@@ -74,7 +74,7 @@
 <!ENTITY insertOutputCheckbox.accesskey "">
 <!ENTITY keyBinding.label "Привязка клавиш">
 <!ENTITY m.accesskey "">
-<!ENTITY more.label "Больше">
+<!ENTITY more.label "Подробнее">
 <!ENTITY moreOptionsButton.accesskey "">
 <!ENTITY new.label "Новая...">
 <!ENTITY newConsole.label "Новая консоль">

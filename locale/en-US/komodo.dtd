@@ -644,7 +644,7 @@
 <!ENTITY showInFinder.label "Show in Finder">
 <!ENTITY showProjectInPlaces.desc "General: Show in Places">
 <!ENTITY showProjectInPlaces.label "Показать в местоположениях">
-<!ENTITY showSpecificTab.tooltiptext "Показать конкретную панель/вкладку">
+<!ENTITY showSpecificTab.tooltiptext "Показать определённую панель/вкладку">
 <!ENTITY showTab.label "Показать вкладку">
 <!ENTITY showUnsavedChanges.label "Показать несохраненные изменения">
 <!ENTITY sourceCodeCleanLineEndings.desc "Код: Очистить окончания строк">
