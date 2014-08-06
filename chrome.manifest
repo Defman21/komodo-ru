@@ -43,7 +43,9 @@ override chrome://mozapps/locale/update/history.dtd chrome://localru/locale/moza
 override chrome://mozapps/locale/update/updates.dtd chrome://localru/locale/mozapps/update/updates.dtd
 override chrome://mozapps/locale/xpinstall/xpinstallConfirm.dtd chrome://localru/locale/mozapps/xpinstall/xpinstallConfirm.dtd
 override chrome://komodo/locale/notifications.dtd chrome://localru/locale/notifications.dtd
+override chrome://openfiles/locale/openfiles.dtd chrome://localru/locale/openfiles/openfiles.dtd
 override chrome://komodo/locale/php.dtd chrome://localru/locale/php.dtd
+override chrome://komodo-places/locale/places.dtd chrome://localru/locale/places/places.dtd
 override chrome://komodo/locale/pref/file-permissions.dtd chrome://localru/locale/pref/file-permissions.dtd
 override chrome://komodo/locale/pref/pref-syntax-checking.dtd chrome://localru/locale/pref/pref-syntax-checking.dtd
 override chrome://komodo/locale/pref/pref.dtd chrome://localru/locale/pref/pref.dtd
@@ -84,6 +86,7 @@ override chrome://mozapps/locale/preferences/preferences.properties chrome://loc
 override chrome://mozapps/locale/profile/profileSelection.properties chrome://localru/locale/mozapps/profile/profileSelection.properties
 override chrome://mozapps/locale/update/updates.properties chrome://localru/locale/mozapps/update/updates.properties
 override chrome://mozapps/locale/xpinstall/xpinstallConfirm.properties chrome://localru/locale/mozapps/xpinstall/xpinstallConfirm.properties
+override chrome://komodo-places/locale/places.properties chrome://localru/locale/places/places.properties
 override chrome://komodo/locale/pref/file-properties.properties chrome://localru/locale/pref/file-properties.properties
 override chrome://komodo/locale/pref/pref-alllangfonts.properties chrome://localru/locale/pref/pref-alllangfonts.properties
 override chrome://komodo/locale/pref/pref-editor.properties chrome://localru/locale/pref/pref-editor.properties

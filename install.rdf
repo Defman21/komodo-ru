@@ -5,10 +5,11 @@
 <em:unpack>true</em:unpack>
         <em:id>localru@laborpago</em:id>
         <em:name>LocalRU</em:name>
-        <em:version>0.11</em:version>
+        <em:version>1.12</em:version>
         <em:description>Локализация на русский язык.</em:description>
         <em:creator>Laborpago</em:creator>
         <em:homepageURL>http://technic-note.blogspot.ru/</em:homepageURL>
+        <em:iconURL>chrome://localru/skin/localru.png</em:iconURL>
         <em:type>8</em:type> <!-- type=extension --> 
 
         <em:targetApplication>
