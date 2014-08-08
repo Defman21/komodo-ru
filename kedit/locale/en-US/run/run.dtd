@@ -1,0 +1,129 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+ Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ 
+ The contents of this file are subject to the Mozilla Public License
+ Version 1.1 (the "License"); you may not use this file except in
+ compliance with the License. You may obtain a copy of the License at
+ http://www.mozilla.org/MPL/
+ 
+ Software distributed under the License is distributed on an "AS IS"
+ basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+ License for the specific language governing rights and limitations
+ under the License.
+ 
+ The Original Code is Komodo code.
+ 
+ The Initial Developer of the Original Code is ActiveState Software Inc.
+ Portions created by ActiveState Software Inc are Copyright (C) 2000-2007
+ ActiveState Software Inc. All Rights Reserved.
+ 
+ Contributor(s):
+   ActiveState Software Inc
+ 
+ Alternatively, the contents of this file may be used under the terms of
+ either the GNU General Public License Version 2 or later (the "GPL"), or
+ the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ in which case the provisions of the GPL or the LGPL are applicable instead
+ of those above. If you wish to allow use of your version of this file only
+ under the terms of either the GPL or the LGPL, and not to allow others to
+ use your version of this file under the terms of the MPL, indicate your
+ decision by deleting the provisions above and replace them with the notice
+ and other provisions required by the GPL or the LGPL. If you do not delete
+ the provisions above, a recipient may use your version of this file under
+ the terms of any one of the MPL, the GPL or the LGPL.
+ 
+ ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY DDirectoryPathOfFile.label "&#37;D : путь к каталогу файла">
+<!ENTITY FFilePath.label "&#37;F : путь к файлу">
+<!ENTITY LCurrentLineNumber.label "&#37;L : номер текущей строки">
+<!ENTITY PPathOfTheActiveProject.label "&#37;P : путь активного проекта">
+<!ENTITY SURLEscapedSelection.label "&#37;S : URL-escaped selection">
+<!ENTITY WURLEscapedSelectionOrWordUnderCursor.label "&#37;W : URL-escaped selection or word under cursor">
+<!ENTITY addToToolbox.label "Добавить в набор инструментов">
+<!ENTITY addToToolboxCheckbox.accesskey "">
+<!ENTITY advancedOptions.label "Дополнительные параметры">
+<!ENTITY askAskForUserInput.label "&#37;(ask) : запрос пользовательского ввода">
+<!ENTITY askpassAskForPassword.label "&#37;(askpass) : запрос пароля">
+<!ENTITY bFileBaseNameWithoutExtension.label "&#37;b : базовое имя файла без расширения">
+<!ENTITY browse.label "Обзор...">
+<!ENTITY browserConfiguredBrowser.label "&#37;(browser) : Настроенный браузер">
+<!ENTITY changeIcon.accesskey "">
+<!ENTITY changeIcon.label "Сменить значок...">
+<!ENTITY close.accesskey "">
+<!ENTITY close.label "Закрыть">
+<!ENTITY command.label "Команда">
+<!ENTITY commandOutputTab.label "Вкладка вывода команд">
+<!ENTITY commandProperties.title "Свойства команд">
+<!ENTITY commandTextbox.accesskey "">
+<!ENTITY cwdBrowseButton.accesskey "">
+<!ENTITY dDirectoryBaseNameOfFile.label "&#37;d : каталог базового имени файла">
+<!ENTITY delete.label "Удалить">
+<!ENTITY doNotOpenOutputPane.label "Не открывать панель вывода">
+<!ENTITY doNotOpenOutputWindowCheckbox.accesskey "">
+<!ENTITY edit.label "Редактировать...">
+<!ENTITY envDeleteButton.accesskey "">
+<!ENTITY envEditButton.accesskey "">
+<!ENTITY envNewButton.accesskey "">
+<!ENTITY escapedPercentSign.label "&#37;&#37; : escaped percent sign">
+<!ENTITY fFileBaseName.label "&#37;f : базовое имя файла">
+<!ENTITY help.accesskey "">
+<!ENTITY help.label "Помощь">
+<!ENTITY helpOnShortcuts.label "Помощь по горячим клавишам...">
+<!ENTITY insertOutput.label "Вставить вывод">
+<!ENTITY insertOutputCheckbox.accesskey "">
+<!ENTITY keyBinding.label "Привязка клавиш">
+<!ENTITY m.accesskey "">
+<!ENTITY more.label "Подробнее">
+<!ENTITY moreOptionsButton.accesskey "">
+<!ENTITY new.label "Новая...">
+<!ENTITY newConsole.label "Новая консоль">
+<!ENTITY noConsoleGUIApplication.label "Без консоли (GUI приложение)">
+<!ENTITY nodejsConfiguredNodeInterpreter.label "&#37;(nodejs) : Настроенный Node.js интерпретатор">
+<!ENTITY operateOnSelectionCheckbox.accesskey "">
+<!ENTITY pDirectoryPathOfActiveProject.label "&#37;p : путь каталога текущего проекта">
+<!ENTITY pDirectoryPathOfTheActiveProject.label "&#37;p : путь каталога текущего проекта">
+<!ENTITY parseOutputWith.label "Анализировать вывод с:">
+<!ENTITY parseRegexTextbox.accesskey "">
+<!ENTITY passSelectionAsInput.label "Передать выделенное в качестве входных данных">
+<!ENTITY perlConfiguredPerlInterpreter.label "&#37;(perl) : Настроенный Perl интерпретатор">
+<!ENTITY phpConfiguredPHPInterpreter.label "&#37;(php) : Настроенный PHP интерпретатор">
+<!ENTITY pythonConfiguredPythonInterpreter.label "&#37;(python) : Настроенный Python интерпретатор">
+<!ENTITY pythonConfiguredPython3Interpreter.label "&#37;(python3) : Настроенный Python3 интерпретатор">
+<!ENTITY reset.label "Сброс">
+<!ENTITY reseticon.accesskey "">
+<!ENTITY rubyConfiguredRubyInterpreter.label "&#37;(ruby) : Настроенный Ruby интерпретатор">
+<!ENTITY run.accesskey "">
+<!ENTITY run.label "Запустить">
+<!ENTITY runCommand.title "Выполнить команду">
+<!ENTITY sSelection.label "&#37;s : выделение">
+<!ENTITY saveAdvancedOptionsAsDefaults.label "Сохранить дополнительные настройки, как настройки по умолчанию">
+<!ENTITY saveOptionsCheckbox.accesskey "">
+<!ENTITY shortcuts.tooltiptext "Горячие клавиши">
+<!ENTITY showParsedOutputAsAList.label "Показать анализируемый вывод как список">
+<!ENTITY value.label "Значение">
+<!ENTITY variable.label "Переменная">
+<!ENTITY wSelectionOrWordUnderCursor.label "&#37;w : выделенный фрагмент или слово под курсором">
+<!ENTITY waitForCommandToTerminate.title "Ожидание завершения команды">
+
+<!--commandproperties.xul-->
+<!ENTITY unnamedCommand.label "&lt;unnamed command&gt;">
+<!ENTITY commandAlternative.label "Команда:">
+<!ENTITY commandAlternative.accesskey "">
+<!ENTITY startIn.label "Начать в:">
+<!ENTITY startIn.accesskey "">
+<!ENTITY runIn.label "Запуск в:">
+<!ENTITY environmentVar.label "Переменные окружения:">
+
+<!--run.xul-->
+<!ENTITY commandTextbox.label "Запуск:">
+
+<!--waitfortermination.xul-->
+<!ENTITY waitForTermination.description "Вы запустили команду, которая изменяет текущий буфер. Выполнение команды занимает длительный период времени. Это может вызвать зависания. Вы можете ждать окончания выполнения команды (этот диалог будет автоматически убран) или прервать команду, нажав кнопку 'Kill.'">
+
+<!--commented in file waitfortermination.xul-->
+<!--
+<!ENTITY dontShowAgain.label "Не показывать это снова.">
+<!ENTITY dontShowAgain.accesskey "">
+<!ENTITY abortCommand.label "Прервать выполнение команды">
+                                                        -->

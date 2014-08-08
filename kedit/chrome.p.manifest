@@ -1,0 +1,110 @@
+# #if MODE == "dev"
+
+skin localru classic/1.0 skin/
+locale localru en-US locale/en-US/
+
+# #else
+
+skin localru classic/1.0 jar:localru.jar!/skin/
+locale localru en-US jar:localru.jar!/locale/en-US/
+content localru jar:localru.jar!/content/
+
+# #endif
+
+override chrome://komodo/content/find/find2.xul chrome://localru/content/find/find2.xul
+override chrome://komodo/locale/bindings.dtd chrome://localru/locale/bindings.dtd
+override chrome://komodo/locale/codeintel.dtd chrome://localru/locale/codeintel.dtd
+override chrome://komodo/locale/dialogs/customizeToolbar.dtd chrome://localru/locale/dialogs/customizeToolbar.dtd
+override chrome://komodo/locale/dialogs/filebrowser/filebrowser.dtd chrome://localru/locale/dialogs/filebrowser/filebrowser.dtd
+override chrome://komodo/locale/dialogs.dtd chrome://localru/locale/dialogs.dtd
+override chrome://komodo/locale/find.dtd chrome://localru/locale/find.dtd
+override chrome://komodo/locale/invocations.dtd chrome://localru/locale/invocations.dtd
+override chrome://komodo/locale/keybindings/keybindings.dtd chrome://localru/locale/keybindings/keybindings.dtd
+override chrome://komodo/locale/komodo.dtd chrome://localru/locale/komodo.dtd
+override chrome://komodo/locale/library.dtd chrome://localru/locale/library.dtd
+override chrome://komodo/locale/morekomodo/morekomodo.dtd chrome://localru/locale/morekomodo/morekomodo.dtd
+override chrome://mozapps/locale/downloads/downloads.dtd chrome://localru/locale/mozapps/downloads/downloads.dtd
+override chrome://mozapps/locale/downloads/settingsChange.dtd chrome://localru/locale/mozapps/downloads/settingsChange.dtd
+override chrome://mozapps/locale/downloads/unknownContentType.dtd chrome://localru/locale/mozapps/downloads/unknownContentType.dtd
+override chrome://mozapps/locale/extensions/about.dtd chrome://localru/locale/mozapps/extensions/about.dtd
+override chrome://mozapps/locale/extensions/blocklist.dtd chrome://localru/locale/mozapps/extensions/blocklist.dtd
+override chrome://mozapps/locale/extensions/extensions.dtd chrome://localru/locale/mozapps/extensions/extensions.dtd
+override chrome://mozapps/locale/extensions/newaddon.dtd chrome://localru/locale/mozapps/extensions/newaddon.dtd
+override chrome://mozapps/locale/extensions/selectAddons.dtd chrome://localru/locale/mozapps/extensions/selectAddons.dtd
+override chrome://mozapps/locale/extensions/update.dtd chrome://localru/locale/mozapps/extensions/update.dtd
+override chrome://mozapps/locale/handling/handling.dtd chrome://localru/locale/mozapps/handling/handling.dtd
+override chrome://mozapps/locale/plugins/plugins.dtd chrome://localru/locale/mozapps/plugins/plugins.dtd
+override chrome://mozapps/locale/preferences/changemp.dtd chrome://localru/locale/mozapps/preferences/changemp.dtd
+override chrome://mozapps/locale/preferences/ocsp.dtd chrome://localru/locale/mozapps/preferences/ocsp.dtd
+override chrome://mozapps/locale/preferences/removemp.dtd chrome://localru/locale/mozapps/preferences/removemp.dtd
+override chrome://mozapps/locale/profile/createProfileWizard.dtd chrome://localru/locale/mozapps/profile/createProfileWizard.dtd
+override chrome://mozapps/locale/profile/profileSelection.dtd chrome://localru/locale/mozapps/profile/profileSelection.dtd
+override chrome://mozapps/locale/update/history.dtd chrome://localru/locale/mozapps/update/history.dtd
+override chrome://mozapps/locale/update/updates.dtd chrome://localru/locale/mozapps/update/updates.dtd
+override chrome://mozapps/locale/xpinstall/xpinstallConfirm.dtd chrome://localru/locale/mozapps/xpinstall/xpinstallConfirm.dtd
+override chrome://komodo/locale/notifications.dtd chrome://localru/locale/notifications.dtd
+override chrome://openfiles/locale/openfiles.dtd chrome://localru/locale/openfiles/openfiles.dtd
+override chrome://komodo/locale/php.dtd chrome://localru/locale/php.dtd
+override chrome://komodo-places/locale/places.dtd chrome://localru/locale/places/places.dtd
+override chrome://komodo/locale/pref/file-permissions.dtd chrome://localru/locale/pref/file-permissions.dtd
+override chrome://komodo/locale/pref/pref-syntax-checking.dtd chrome://localru/locale/pref/pref-syntax-checking.dtd
+override chrome://komodo/locale/pref/pref.dtd chrome://localru/locale/pref/pref.dtd
+override chrome://komodo/locale/project.dtd chrome://localru/locale/project.dtd
+override chrome://komodo/locale/run/run.dtd chrome://localru/locale/run/run.dtd
+override chrome://komodo/locale/startpage.dtd chrome://localru/locale/startpage.dtd
+override chrome://komodo/locale/tail.dtd chrome://localru/locale/tail.dtd
+override chrome://komodo/locale/templates.dtd chrome://localru/locale/templates.dtd
+override chrome://komodo/locale/about.properties chrome://localru/locale/about.properties
+override chrome://komodo/locale/browse.properties chrome://localru/locale/browse.properties
+override chrome://komodo/locale/codeintel.properties chrome://localru/locale/codeintel.properties
+override chrome://komodo/locale/dialogs/authenticate.properties chrome://localru/locale/dialogs/authenticate.properties
+override chrome://komodo/locale/dialogs/compare.properties chrome://localru/locale/dialogs/compare.properties
+override chrome://komodo/locale/dialogs/diff.properties chrome://localru/locale/dialogs/diff.properties
+override chrome://komodo/locale/dialogs/filebrowser/filebrowser.properties chrome://localru/locale/dialogs/filebrowser/filebrowser.properties
+override chrome://komodo/locale/dialogs/iconpicker.properties chrome://localru/locale/dialogs/iconpicker.properties
+override chrome://komodo/locale/dialogs/pickPreview.properties chrome://localru/locale/dialogs/pickPreview.properties
+override chrome://komodo/locale/dialogs.properties chrome://localru/locale/dialogs.properties
+override chrome://komodo/locale/editor.properties chrome://localru/locale/editor.properties
+override chrome://komodo/locale/extmgr.properties chrome://localru/locale/extmgr.properties
+override chrome://komodo/locale/find/find2.properties chrome://localru/locale/find/find2.properties
+override chrome://komodo/locale/find/find_functions.properties chrome://localru/locale/find/find_functions.properties
+override chrome://komodo/locale/hyperlinks/hyperlinks.properties chrome://localru/locale/hyperlinks/hyperlinks.properties
+override chrome://komodo/locale/keybindings/keybindings.properties chrome://localru/locale/keybindings/keybindings.properties
+override chrome://komodo/locale/keybindings.properties chrome://localru/locale/keybindings.properties
+override chrome://komodo/locale/komodo.properties chrome://localru/locale/komodo.properties
+override chrome://komodo/locale/library.properties chrome://localru/locale/library.properties
+override chrome://komodo/locale/morekomodo/morekomodo.properties chrome://localru/locale/morekomodo/morekomodo.properties
+override chrome://mozapps/locale/downloads/downloads.properties chrome://localru/locale/mozapps/downloads/downloads.properties
+override chrome://mozapps/locale/downloads/unknownContentType.properties chrome://localru/locale/mozapps/downloads/unknownContentType.properties
+override chrome://mozapps/locale/extensions/extensions.properties chrome://localru/locale/mozapps/extensions/extensions.properties
+override chrome://mozapps/locale/extensions/newaddon.properties chrome://localru/locale/mozapps/extensions/newaddon.properties
+override chrome://mozapps/locale/extensions/selectAddons.properties chrome://localru/locale/mozapps/extensions/selectAddons.properties
+override chrome://mozapps/locale/extensions/update.properties chrome://localru/locale/mozapps/extensions/update.properties
+override chrome://mozapps/locale/handling/handling.properties chrome://localru/locale/mozapps/handling/handling.properties
+override chrome://mozapps/locale/plugins/plugins.properties chrome://localru/locale/mozapps/plugins/plugins.properties
+override chrome://mozapps/locale/preferences/preferences.properties chrome://localru/locale/mozapps/preferences/preferences.properties
+override chrome://mozapps/locale/profile/profileSelection.properties chrome://localru/locale/mozapps/profile/profileSelection.properties
+override chrome://mozapps/locale/update/updates.properties chrome://localru/locale/mozapps/update/updates.properties
+override chrome://mozapps/locale/xpinstall/xpinstallConfirm.properties chrome://localru/locale/mozapps/xpinstall/xpinstallConfirm.properties
+override chrome://komodo-places/locale/places.properties chrome://localru/locale/places/places.properties
+override chrome://komodo/locale/pref/file-properties.properties chrome://localru/locale/pref/file-properties.properties
+override chrome://komodo/locale/pref/pref-alllangfonts.properties chrome://localru/locale/pref/pref-alllangfonts.properties
+override chrome://komodo/locale/pref/pref-editor.properties chrome://localru/locale/pref/pref-editor.properties
+override chrome://komodo/locale/pref/pref-helplang.properties chrome://localru/locale/pref/pref-helplang.properties
+override chrome://komodo/locale/pref/pref-languages.properties chrome://localru/locale/pref/pref-languages.properties
+override chrome://komodo/locale/pref/pref-winInteg.properties chrome://localru/locale/pref/pref-winInteg.properties
+override chrome://komodo/locale/project/macro.properties chrome://localru/locale/project/macro.properties
+override chrome://komodo/locale/project/partutils.properties chrome://localru/locale/project/partutils.properties
+override chrome://komodo/locale/project/peFile.properties chrome://localru/locale/project/peFile.properties
+override chrome://komodo/locale/project/peFolder.properties chrome://localru/locale/project/peFolder.properties
+override chrome://komodo/locale/project/peMenu.properties chrome://localru/locale/project/peMenu.properties
+override chrome://komodo/locale/project/projectExtensionManager.properties chrome://localru/locale/project/projectExtensionManager.properties
+override chrome://komodo/locale/projectManager.properties chrome://localru/locale/projectManager.properties
+override chrome://komodo/locale/run/commandproperties.properties chrome://localru/locale/run/commandproperties.properties
+override chrome://komodo/locale/run/run.properties chrome://localru/locale/run/run.properties
+override chrome://komodo/locale/run/runOutputWindow.properties chrome://localru/locale/run/runOutputWindow.properties
+override chrome://komodo/locale/run/run_functions.properties chrome://localru/locale/run/run_functions.properties
+override chrome://komodo/locale/startpage/startpage.properties chrome://localru/locale/startpage/startpage.properties
+override chrome://komodo/locale/statusbar.properties chrome://localru/locale/statusbar.properties
+override chrome://komodo/locale/templates/new.properties chrome://localru/locale/templates/new.properties
+override chrome://komodo/locale/views.properties chrome://localru/locale/views.properties

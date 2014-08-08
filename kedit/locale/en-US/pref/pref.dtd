@@ -1,0 +1,915 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+ Version: MPL 1.1/GPL 2.0/LGPL 2.1
+
+ The contents of this file are subject to the Mozilla Public License
+ Version 1.1 (the "License"); you may not use this file except in
+ compliance with the License. You may obtain a copy of the License at
+ http://www.mozilla.org/MPL/
+
+ Software distributed under the License is distributed on an "AS IS"
+ basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+ License for the specific language governing rights and limitations
+ under the License.
+
+ The Original Code is Komodo code.
+
+ The Initial Developer of the Original Code is ActiveState Software Inc.
+ Portions created by ActiveState Software Inc are Copyright (C) 2000-2007
+ ActiveState Software Inc. All Rights Reserved.
+
+ Contributor(s):
+   ActiveState Software Inc
+
+ Alternatively, the contents of this file may be used under the terms of
+ either the GNU General Public License Version 2 or later (the "GPL"), or
+ the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ in which case the provisions of the GPL or the LGPL are applicable instead
+ of those above. If you wish to allow use of your version of this file only
+ under the terms of either the GPL or the LGPL, and not to allow others to
+ use your version of this file under the terms of the MPL, indicate your
+ decision by deleting the provisions above and replace them with the notice
+ and other provisions required by the GPL or the LGPL. If you do not delete
+ the provisions above, a recipient may use your version of this file under
+ the terms of any one of the MPL, the GPL or the LGPL.
+
+ ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY % autoAbbreviationName.name                "Авто-Аббревиатура">
+<!ENTITY connection.label                "Соединение">
+
+<!ENTITY connectionDesc.label            "Настройка подключения к Интернету для обновления Komodo, предварительного просмотра и т.д.">
+<!ENTITY connectionSettings.label        "Настройки...">
+<!ENTITY connectionSettings.accesskey    "">
+
+<!ENTITY  connectionsDialog.title       "Настройки соединения">
+
+<!ENTITY  proxyTitle.label              "Настройка прокси для доступа в Интернет">
+<!ENTITY  directTypeRadio.label         "Прямое подключение к Интернету">
+<!ENTITY  directTypeRadio.accesskey     "">
+<!ENTITY  WPADTypeRadio.label           "Автоматически определять настройки прокси для данной сети">
+<!ENTITY  WPADTypeRadio.accesskey       "">
+<!ENTITY  manualTypeRadio.label         "Ручная настройка прокси:">
+<!ENTITY  manualTypeRadio.accesskey     "">
+<!ENTITY  autoTypeRadio.label           "URL автоматической настройки прокси-сервера:">
+<!ENTITY  autoTypeRadio.accesskey       "">
+<!ENTITY  reload.label                  "Перезагрузить">
+<!ENTITY  reload.accesskey              "">
+<!ENTITY  ftp.label                     "FTP Proxy:">
+<!ENTITY  ftp.accesskey                 "">
+<!ENTITY  gopher.label                  "Gopher Proxy:">
+<!ENTITY  gopher.accesskey              "">
+<!ENTITY  http.label                    "HTTP-прокси:">
+<!ENTITY  http.accesskey                "">
+<!ENTITY  ssl.label                     "SSL прокси:">
+<!ENTITY  ssl.accesskey                 "">
+<!ENTITY  socks.label                   "SOCKS Host:">
+<!ENTITY  socks.accesskey               "">
+<!ENTITY  socks4.label                  "SOCKS v4">
+<!ENTITY  socks4.accesskey              "">
+<!ENTITY  socks5.label                  "SOCKS v5">
+<!ENTITY  socks5.accesskey              "">
+<!ENTITY  port.label                    "Порт:">
+<!ENTITY  HTTPport.accesskey            "">
+<!ENTITY  SSLport.accesskey             "">
+<!ENTITY  FTPport.accesskey             "">
+<!-- No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window -->
+<!ENTITY  gopherPort.accesskey          "">
+<!ENTITY  SOCKSport.accesskey           "">
+<!ENTITY  noproxy.label                 "Без прокси для:">
+<!ENTITY  noproxy.accesskey             "">
+<!ENTITY  noproxyExplain.label          "Пример:.. mozilla.org, .net.nz, 192.168.1.0/24">
+<!ENTITY  shareproxy.label              "Использовать этот прокси-сервер для всех протоколов">
+<!ENTITY  shareproxy.accesskey          "">
+
+<!ENTITY AFullWeekdayName.label "&#37;A : Полное название дня недели">
+<!ENTITY APICatalogs.label "API Каталоги">
+<!ENTITY BFullMonthName.label "&#37;B : полное название месяца">
+<!ENTITY DOSWindowsRN.label "DOS/Windows (\r\n)">
+<!ENTITY FTP.label "FTP">
+<!ENTITY FTPS.label "FTPS">
+<!ENTITY FTP.servermode.label "Режим:">
+<!ENTITY FTP.activemode.label "Активный">
+<!ENTITY FTP.passivemode.label "Пассивный">
+<!ENTITY GET.label "GET">
+<!ENTITY HHour24HourClock.label "&#37;H : час (24-часовой формат времени)">
+<!ENTITY HTML.label "HTML">
+<!ENTITY IHour12HourClock.label "&#37;I : час (12-часовой формат времени)">
+<!ENTITY L.accesskey "">
+<!ENTITY MMinute0059.label "&#37;M : минута [00,59]">
+<!ENTITY OK.label "OK">
+<!ENTITY PHP.label "PHP">
+<!ENTITY PHPDirectories.label "PHP Директории">
+<!ENTITY POST.label "POST">
+<!ENTITY SCP.label "SCP">
+<!ENTITY SFTP.label "SFTP">
+<!ENTITY SSecond.label "&#37;S : секунда">
+<!ENTITY UNIXN.label "UNIX (\n)">
+<!ENTITY URLEncoded.label "URL кодировка">
+<!ENTITY W.accesskey "">
+<!ENTITY XDefaultTimeRepresentation.label "&#37;X : представление времени по умолчанию">
+<!ENTITY XMLCatalogs.label "XML Каталоги">
+<!ENTITY XSLT.label "XSLT">
+<!ENTITY YYearWithCentury.label "&#37;Y : Год со столетиями">
+<!ENTITY ZTimeZoneName.label "&#37;Z : Название часового пояса">
+<!ENTITY aAbbreviatedWeekdayName.label "&#37;a : Сокращенное название дня недели">
+<!ENTITY aLiteralCharacter.label "&#37;&#37; : a literal '&#37;' character">
+<!ENTITY add.label "Добавить...">
+<!ENTITY addAnAPICatalog.label "Добавить каталог API...">
+<!ENTITY addAppropriateExtension.label "Добавить соответствующее расширение">
+<!ENTITY additionalPerlImportDirectories.label "Дополнительные Perl каталоги иморта">
+<!ENTITY additionalPythonImportDirectories.label "Дополнительные Python каталоги иморта">
+<!ENTITY additionalPython3ImportDirectories.label "Дополнительные Python 3 каталоги иморта">
+<!ENTITY additionalRubyImportDirectories.label "Дополнительные Ruby каталоги иморта">
+<!ENTITY all.label "Все">
+<!ENTITY allowCodingTagToOverrideAutoDetection.label "Разрешить 'coding:' тегам перезаписывать авто-обнаружение">
+<!ENTITY allowFileContentsToOverrideTabSettings.label "Разрешить содержимому файла перезаписывать настройки Tab и отступов">
+<!ENTITY allowHTMLMETATagToOverrideAutoDetection.label "Разрешить HTML мета тегам перезаписывать авто-обнаружение">
+<!ENTITY allowXMLDeclarationToOverrideAutoDetection.label "Разрешить XML декларациям перезаписывать авто-обнаружение">
+<!ENTITY alternateHelp.label "Альтернативная справка">
+<!ENTITY always.label "Всегда">
+<!ENTITY anonymousLogin.label "Анонимный вход">
+<!ENTITY appearance.label "Внешний вид">
+<!ENTITY arrows.label "Стрелки">
+<!ENTITY askMeWhatFilesToClose.label "Спрашивать меня, какие файлы закрыть">
+<!ENTITY askMeWhatFilesToReload.label "Спрашивать меня, какие файлы перезагрузить">
+<!ENTITY askMeWhatToDo.label "Спрашивать меня, что делать">
+<!ENTITY askMeWhetherToRestoreWorkspace.label "Спрашивать меня, восстанавливать ли рабочее пространство">
+<!ENTITY assignEmptyFilesSpecifiedEOL.label "Связать этот EOL с новым, пустым файлом">
+<!ENTITY autoAdjustClosingBraces.label "Автоопределение закрытия скобки">
+<!ENTITY autoDetectFileEncodingWhenOpened.label "Автоопределение кодировки файла при открытии">
+<!ENTITY restoreAutoAbbreviationTriggerCharacters.label "Восстановить по умолчанию символы триггеров %autoAbbreviationName.name;">
+<!ENTITY autoAbbreviations.label "%autoAbbreviationName.name;">
+<!ENTITY bAbbreviatedMonthName.label "&#37;b : сокращенное название месяца">
+<!ENTITY backgroundSyntaxChecking.label "Фоновая проверка синтаксиса">
+<!ENTITY backspaceDecreasesIndentationInLeadingWhitespace.label "'Backspace' уменьшает отступ в начальных пробелах">
+<!ENTITY blockCursor.label "Курсор - блок">
+<!ENTITY bom.accesskey "">
+<!ENTITY bookmarkColor.label "Цвет закладки">
+<!ENTITY both.label "Оба">
+<!ENTITY browse.label "Обзор...">
+<!ENTITY browseFiles.label "Обзор файлов">
+<!ENTITY browserPreview.label "Предпросмотр">
+<!ENTITY btnReset.accesskey "">
+<!ENTITY c.accesskey "">
+<!ENTITY cDefaultDateAndTimeRepresentation.label "&#37;c : представление даты и времени по умолчанию">
+<!ENTITY cancel.label "Отменить">
+<!ENTITY category.label "Категория">
+<!ENTITY character.label "Символ">
+<!ENTITY cleanTrailingWhitespaceAndEOLMarkers.label "Очистить конечные пробелы и EOL маркеры">
+<!ENTITY cleanWhitespaceOnCurrentLine.label "Всегда очищать текущую строку">
+<!ENTITY cleanLineEnds_ChangedLinesOnly.label "Очищать только изменённые строки">
+<!ENTITY clear.label "Очистить">
+<!ENTITY clearButton.accesskey "">
+<!ENTITY clearList.label "Очистить список">
+<!ENTITY clearListOfRecentTemplates.tooltiptext "Очистить список последних шаблонов.">
+<!ENTITY clearPreview.accesskey "">
+<!ENTITY closeAllFiles.label "Закрыть все файлы">
+<!ENTITY closeAllOpenFilesInProject.label "Закрыть все открытые файлы в проекте">
+<!ENTITY closeNoFiles.label "Не закрывать ни одного файла">
+<!ENTITY codeIntelligence.label "Code Intelligence">
+<!ENTITY colors.accesskey "">
+<!ENTITY colors.label "Цвета">
+<!ENTITY commonSyntax.accesskey "">
+<!ENTITY commonSyntax.label "Общий синтаксис">
+<!ENTITY configureCommonAssociations.label "Настройка общих ассоциаций...">
+<!ENTITY confirmationDialogs.label "Диалоги подтверждения">
+<!ENTITY cookie.label "Cookie">
+<!ENTITY currentLineBackgroundColor.label "Цвет фона текущей строки">
+<!ENTITY cursorColor.label "Цвет курсора">
+<!ENTITY cursorOptions.label "Настройки курсора">
+<!ENTITY cursorWillBeACharacterSizedBlock.tooltiptext "Курсор как блок">
+<!ENTITY cursorWillBeAVerticalLine.tooltiptext "Курсор как вертикальная линия">
+<!ENTITY cursorWillNotBeShown.tooltiptext "Курсор не будет отображаться">
+<!ENTITY curvyTrees.label "Волнистая древовидная структура">
+<!ENTITY dDayOfTheMonth0131.label "&#37;d : день месяца [01,31]">
+<!ENTITY debuggerCallingLineBackgroundColor.label "Цвет фона вызывающей строки отладчика">
+<!ENTITY debuggerCurrentLineBackgroundColor.label "Цвет фона текущей строки отладчика">
+<!ENTITY dedentOnColon.label "Dedent line after colon (Python)">
+<!ENTITY defaultConnectionTimeout.label "Время ожидания соединения по умолчанию">
+<!ENTITY defaultEditorEncoding.label "Кодировка редактора по умолчанию">
+<!ENTITY defaultHTMLDocumentType.label "Тип документа HTML по умолчанию ">
+<!ENTITY defaultPHPInterpreter.label "PHP интерпретатор по умолчанию">
+<!ENTITY defaultPerlInterpreter.label "Perl интерпретатор по умолчанию">
+<!ENTITY defaultPythonInterpreter.label "Python интерпретатор по умолчанию">
+<!ENTITY defaultPython3Interpreter.label "Python 3 интерпретатор по умолчанию">
+<!ENTITY defaultRubyInterpreter.label "Ruby интерпретатор по умолчанию">
+<!ENTITY delete.label "Удалить">
+<!ENTITY deleteButton.accesskey "">
+<!ENTITY deleteConfiguration.accesskey "">
+<!ENTITY deleteScheme.accesskey "">
+<!ENTITY deleteServer.label "Удалить сервер">
+<!ENTITY deleteServer.tooltiptext "Удалить сервер">
+<!ENTITY description.label "Описание">
+<!ENTITY detectWhenFilesAreChangedOutsideTheEnvironment.label "Обнаружение изменений файлов вне среды">
+<!ENTITY detectWhenNetworkFilesAreChangedOutsideTheEnvironment.label "Обнаружение изменений сетевых файлов вне среды">
+<!ENTITY determineFromContent.label "Определить из содержания">
+
+<!ENTITY directoryImportSettings.label "Настройки, используемые для каталогов импорта">
+
+<!ENTITY doNotAlertMeIfTheBufferIsUnsavedAndTheFileOnDiskChanged.label "Не предупреждать меня если буфер не сохранён, а файл на диске изменился">
+<!ENTITY doNotAlertMeOnBufferRevert.label "Не предупреждать меня, когда я отменяю несохранённые изменения">
+<!ENTITY doNotAlertMeOnLargeFileLoad.label "Не предупреждать меня, когда большой буфер будет рассматриваться как простой текст">
+<!ENTITY doNotRestoreLastWorkspace.label "Не восстанавливать последнее рабочее пространство">
+<!ENTITY doNotWarnWhenFilesCannotBeReOpenedOnStartup.label "Не предупреждать о невозможности открытия файлов при запуске">
+<!ENTITY documentMarkupSettings.label "Настройка разметки документа">
+<!ENTITY donTAutoIndent.label "Без автоотступов">
+<!ENTITY donTShowFoldMarks.label "Не показывать метки свёртывания кода">
+<!ENTITY doubleSlash.label "//">
+<!ENTITY edgeLineBackgroundColorOfTextTooFar.label "Цвет границы строки / фона слишком длинного текста">
+<!ENTITY edit.label "Редактировать...">
+<!ENTITY editAssociations.label "&quot;Редактировать&quot; ассоциации">
+<!ENTITY editButton.accesskey "">
+<!ENTITY editPaths.tooltiptext "Изменить пути...">
+<!ENTITY editWithKomodoAssociations.label "&quot;Редактировать с Komodo&quot; ассоциации">
+<!ENTITY editor.label "Редактор">
+<!ENTITY enableAutocompleteFillUpCharacters.label "Использовать автозавершение fill-up символов">
+<!ENTITY enableAutomaticAutocompleteAndCalltipTriggeringWhileYouType.label "Использовать автозаполнение и всплывающие подсказки по мере набора">
+<!ENTITY enableAutoAbbreviationsWithTriggerCharacters.label "Использовать %autoAbbreviationName.name;, с символами триггера:">
+<!ENTITY enableBackgroundSyntaxCheckingAfter.label "Включить фоновую проверку синтаксиса через">
+<!ENTITY enableScrollingPastEndOfBufferOnlyAppliesToNewBuffers.label "Включить прокрутку за конец буфера (применимо только к новым буферам)">
+<!ENTITY enableSoftCharacters.label "Использовать мягкие символы">
+<!ENTITY enableSoftCharacters.description "Inserts closing characters or matching delimiters.
+For example, when entering '(', automatically add a closing ')' after the cursor.">
+<!ENTITY enableSmartSoftCharactersInsideLine.label "Использовать мягкие символы внутри строк">
+<!ENTITY enableSmartTabSkipsSoftCharacters.label "Нажатие tab перемещает направо от мягких символов">
+<!ENTITY cutCopyWithoutSelection.label "Вырезать/Копировать без выделения будет вырезать/копировать текущую строку">
+<!ENTITY enableTriggeringOfMacrosOnKomodoEvents.label "Включить срабатывание макросов на события Komodo">
+<!ENTITY enableViEmulation.label "Включить эмуляцию Vi">
+<!ENTITY endOfLine.label "Конец строки">
+<!ENTITY ensureFileEndsWithEOLMarker.label "Добавлять в конец файла EOL маркер">
+<!ENTITY environment.label "Окружение">
+<!ENTITY environmentVariable.title "Переменная окружения">
+<!ENTITY errorsAndWarnings.label "Ошибки и предупреждения">
+<!ENTITY errorsAndWarningsCw.label "Ошибки и предупреждения (-cw)">
+<!ENTITY errorsAndWarningsUseTaintModeCwT.label "Ошибки и предупреждения, используется taint режим (-cwT)">
+<!ENTITY errorsOnly.label "Только ошибки">
+<!ENTITY errorsOnlyC.label "Только ошибки (-c)">
+<!ENTITY errorsOnlyUseTaintModeCT.label "Только ошибки, используется taint режим (-cT)">
+<!ENTITY file.label "Файл">
+<!ENTITY fileAssociations.label "Файловые ассоциации">
+<!ENTITY fileProperties.label "Свойства файла">
+<!ENTITY filePropertiesCreated.label "Создано:">
+<!ENTITY fileSettings.label "Настройки файла">
+<!ENTITY fileStatusInProjectManagerAndToolbox.label "Состояние файла в менеджере проекта и на панели">
+<!ENTITY filterCommands.tooltiptext "Фильтр команд">
+<!ENTITY filteredTreeView.tooltiptext "Type space-separated words in preference pages">
+<!ENTITY fixedWidth.label "Фиксированная ширина">
+<!ENTITY foldSeparateBlockParts.label "Сворачивать отдельные части блока">
+<!ENTITY folderPropertiesAndSettings.title "Свойства и настройки папки">
+<!ENTITY folding.label "Свёртывание кода">
+<!ENTITY foldMarginColor.label "Цвет отступа для свёртывания кода">
+<!ENTITY fonts.accesskey "">
+<!ENTITY fonts.label "Шрифты">
+<!ENTITY fontsAndColors.label "Шрифты и цвета">
+<!ENTITY general.label "Основные">
+<!ENTITY h.accesskey "">
+<!ENTITY hash.label "#">
+<!ENTITY help.label "Помощь">
+<!ENTITY hideQuickLinksPane.label "Скрыть панель быстрых ссылок">
+<!ENTITY highlightCharactersBeyondEdgeLine.label "Подсветка символов, которые выходят за границы строки">
+<!ENTITY highlightCurrentLine.label "Подсветка текущей строки">
+<!ENTITY highlightVariable.label "Подсветка переменной">
+<!ENTITY highlightVariableMouse.label "Автоматическая подсветка переменных при клике">
+<!ENTITY highlightVariableKeyboard.label "Автоматическая подсветка переменных при наборе">
+<!ENTITY highlightVariableMatchPrefix.label "Prefix match when typing">
+<!ENTITY highlightVariableKeyboardDelay.label "Задержка в мс:">
+<!ENTITY highlightVariableMinLength.label "Минимальная длина для автоматической подсветки:">
+<!ENTITY highlightVariableUseScope.label "Only show results that are in scope (if available)">
+<!ENTITY htmHTML.label ".htm: HTML">
+<!ENTITY htmlHTML.label ".html: HTML">
+<!ENTITY httpAspnActiveStateComASPNPHP.label "http://php.net/">
+<!ENTITY httpWwwActiveStateComActivePerl.label "http://www.activestate.com/activeperl/">
+<!ENTITY httpWwwActiveStateComActivePython.label "http://www.activestate.com/activepython/">
+<!ENTITY httpWwwRubyLangOrg.label "http://www.ruby-lang.org/">
+<!ENTITY hyperlinks.label "Гиперссылки">
+<!ENTITY hyperlinksEnabled.label "Включить гиперссылки (подчеркивание текста под указателем мыши)">
+<!ENTITY hyperlinksEnableGotoDefinition.label "Использовать гиперссылки на определении">
+<!ENTITY ifClearedYouWillBePromptedForThisValueTheNextTimeYouPreview.tooltiptext "Если пусто, то вы будете спрошены об этом значении во время следующего предпросмотра.">
+<!ENTITY ifNoPasswordIsGivenYouLlBePromptedForItUponFirstConnecting.tooltiptext "Если пароль не задан, он будет запрошен при первом соедининении.">
+<!ENTITY ifNoPathIsGivenTheDefaultPathIsTheCurrentDirectoryAfterLogin.tooltiptext "Если путь не задан, путем по умолчанию будет текущий каталог после входа.">
+<!ENTITY ifNoPortIsGivenTheDefaultProtocolPortIsUsed.tooltiptext "Если порт не указан, будет использоваться порт по умолчанию для протокола.">
+<!ENTITY ifSearchStringContainsCapitalLetters.label "Если строка поиска содержит заглавные буквы">
+<!ENTITY importFromFileSystem.title "Импорт из файловой системы">
+<!ENTITY incrementalSearch.label "Последовательный поиск">
+<!ENTITY indentStringsAfterParens.label "Принудительный мелкий отступ в начале строки">
+<!ENTITY indentToFirstNonEmptyColumn.label "Отступ к первой непустой колонке">
+<!ENTITY indentation.label "Отступы">
+<!ENTITY indentationGlobalSettings.label "Глобальные настройки отступа">
+<!ENTITY indentation-per-language.label "Настройки отступов отдельно для языка">
+<!ENTITY internationalization.label "Интернационализация">
+<!ENTITY invisible.label "Невидимый">
+<!ENTITY javaScript.label "JavaScript">
+<!ENTITY javaScriptDirectories.label "JavaScript Директории">
+<!ENTITY javaScriptNodeSyntaxSettings.label "JavaScript/Node.js Настройки проверки синтаксиса">
+<!ENTITY jsJavaScript.label ".js: JavaScript">
+<!ENTITY keyBindings.label "Сочетания клавиш">
+<!ENTITY label.1px "1 пиксель">
+<!ENTITY label.2px "2 пикселя">
+<!ENTITY label.3px "3 пикселя">
+<!ENTITY langSpecific.accesskey "">
+<!ENTITY langSpecific.label "Отдельно по языкам">
+<!ENTITY language.label "Язык">
+<!ENTITY languageConfigurations.label "Настройки языка">
+<!ENTITY languageHelp.label "Помощь по языку">
+<!ENTITY languageLookupCommands.label "Просмотр команд языка">
+<!ENTITY languageSpecificDefaultEncoding.label "Кодировка по умолчания специфичная для языка">
+<!ENTITY languages.label "Языки">
+<!ENTITY leaveFilenameAlone.label "Оставить имя файла">
+<!ENTITY lessKomodoChecker.label "Использовать встроенную Less проверку синтаксиса:">
+<!ENTITY lessUseInterpreter.label "Use Less Interpreter:">
+<!ENTITY lineCursor.label "Курсор - линия">
+<!ENTITY lintEOLs.label "Включить проверку смешанных end-of-line (EOL) символов">
+<!ENTITY lintClearResultsOnEachChange.label "Clear Lint Results On Each Change">
+<!ENTITY mMonth0112.label "&#37;m : месяц [01,12]">
+<!ENTITY macClassicR.label "Mac Classic (\r)">
+<!ENTITY mappedURIs.label "Сопоставленные URI">
+<!ENTITY mostRecentlyUsed.label "Недавно использовавшиеся">
+<!ENTITY multipart.label "Multipart">
+<!ENTITY n.accesskey "">
+<!ENTITY name.label "Имя">
+<!ENTITY never.label "Никогда">
+<!ENTITY new.accesskey "">
+<!ENTITY new.label "Новая...">
+<!ENTITY newAssociation.label "Новая ассоциация">
+<!ENTITY newConfiguration.accesskey "">
+<!ENTITY newFiles.label "Новые файлы">
+<!ENTITY newServer.label "Новый сервер">
+<!ENTITY newServer.tooltiptext "Новый сервер">
+<!ENTITY none.label "Нет">
+<!ENTITY o.accesskey "">
+<!ENTITY off.label "Выкл.">
+<!ENTITY openNoFiles.label "Не открывать ни одного файла">
+<!ENTITY openRecentFiles.label "Открыть последние файлы">
+<!ENTITY openingAndClosingProjects.label "Открытие и закрытие проектов">
+<!ENTITY otherOptions.label "Другие настройки">
+<!ENTITY overrideTextColorInSelection.label "Перекрыть цвет текста в выделении">
+<!ENTITY pAMOrPM.label "&#37;p : AM или PM">
+<!ENTITY path.label "Путь">
+<!ENTITY pathToAlternatePHPConfigurationFile.label "Путь к альтернативному конфигурационному файлу PHP">
+<!ENTITY patterns.label "Образец">
+<!ENTITY nodejs.label "Node.js">
+<!ENTITY perl.label "Perl">
+<!ENTITY perlcriticRCFileLocation.label "Расположение .perlcriticrc - файла">
+<!ENTITY phpPHP.label ".php: PHP">
+<!ENTITY plPerl.label ".pl: Perl">
+<!ENTITY plainText.label "Обычный текст">
+<!ENTITY pmPerlModule.label ".pm: Perl Module">
+<!ENTITY preferFixed.accesskey "">
+<!ENTITY preferFixed.label "Prefer Fixed">
+<!ENTITY preferProp.accesskey "">
+<!ENTITY preferProp.label "Prefer Prop.">
+<!ENTITY preferTabCharactersOverSpaces.label "Отдавать предпочтение Tab символам перед пробелами">
+<!ENTITY preferences.title "Настройки">
+<!ENTITY prefsHelpButton.accesskey "">
+<!ENTITY preserveExistingLineEndings.label "Сохранить существующие окончания строк">
+<!ENTITY preserveLineEndings.accesskey "">
+<!ENTITY preview.label "Предпросмотр">
+<!ENTITY previewInBrowser.label "Предпросмотр в браузере">
+<!ENTITY previewInExternalBrowserSpecifiedAbove.label "Предпросмотр во внешнем браузере (указано выше)">
+<!ENTITY previewInKomodoTabOtherTabGroup.label "Предпросмотр в другой разделённой вкладке Komodo">
+<!ENTITY previewInKomodoTabSameTabGroup.label "Предпросмотр во вкладке Komodo">
+<!ENTITY previewInKomodoDialog.label "Предпросмотр в отдельном окне Komodo">
+<!ENTITY printInColorAlwaysTrueWhenPrintingToFile.label "Печатать в цвете (всегда при печати в файл)">
+<!ENTITY printLineNumbers.label "Печатать номера строк">
+<!ENTITY printHeaderFilepath.label "Печатать путь к файлу в заголовке страницы">
+<!ENTITY printFooterPageNumber.label "Печать номера страницы внизу страницы">
+<!ENTITY printFooterTimeStamp.label "Печатать время внизу страницы">
+<!ENTITY printing.label "Печать">
+<!ENTITY printingStyle.label "Стиль печати">
+<!ENTITY priority1.label "Приоритет 1">
+<!ENTITY priority2.label "Приоритет 2">
+<!ENTITY priority3.label "Приоритет 3">
+<!ENTITY projectPreferences.label "Настройки проекта">
+<!ENTITY projectsAndWorkspace.label "Проекты и рабочее пространство">
+<!ENTITY properties.label "Свойства">
+<!ENTITY proportional.label "Пропорциональный">
+<!ENTITY pyflakesChecking.label "Pyflakes Проверка">
+<!ENTITY pylintCheckingStatus.label "Do Pylint Проверка">
+<!ENTITY pylintRCFileLocation.label "Расположение .pylintrc - файла">
+<!ENTITY pyPython.label ".py: Python">
+<!ENTITY python.label "Python">
+<!ENTITY python3.label "Python 3">
+<!ENTITY pywPython.label ".pyw: Python">
+<!ENTITY rawData.label "Raw Data">
+<!ENTITY rbRuby.label ".rb: Ruby">
+<!ENTITY reApplySettingsToSystem.label "Применить заново настройки к системе">
+<!ENTITY readOnly.label "Только для чтения">
+<!ENTITY readonly.accesskey "">
+<!ENTITY regularExpressionsPythonSyntax.label "Регулярные выражения (синтаксис Python)">
+<!ENTITY reloadAllFiles.label "Перезагрузить все файлы">
+<!ENTITY reloadNoFiles.label "Не перезагружать файлы">
+<!ENTITY remoteAccounts.label "Аккаунты удалённого доступа">
+<!ENTITY remove.label "Удалить">
+<!ENTITY removeCatalog.label "Удалить каталог">
+<!ENTITY repositionCaretAfterTab.label "Перемещать &quot;каретку&quot; после нажатия tab.">
+<!ENTITY repositionCaretAfterTab.tooltiptext "After pressing tab, should an arrow key be based on the old location or the current one?">
+<!ENTITY requestVariable.label "Запрос переменной">
+<!ENTITY reset.label "Сброс">
+<!ENTITY resetLanguageToTheDefaultForThisFileType.tooltiptext "Сброс языка по умолчанию для данного типа файла.">
+<!ENTITY resetToDefault.tooltiptext "Восстановить значения по умолчанию">
+<!ENTITY resetToStandardValueOf15.tooltiptext "Возврат к стандартному значению 1.5">
+<!ENTITY restoreFoldStateOnDocumentLoadSlowsDownFileOpening.label "Восстанавливать состояние свёрнутого кода (открытие файла будет медленне)">
+<!ENTITY restoreLastWorkspace.label "Восстановить последнее рабочее пространство">
+<!ENTITY ruby.label "Ruby">
+<!ENTITY saveOptions.label "Параметры сохранения">
+<!ENTITY sassUseInterpreter.label "Использовать Sass интерпретатор:">
+<!ENTITY scssKomodoChecker.label "Использовать встроенную SCSS проверку синтаксиса:">
+<!ENTITY scssUseInterpreter.label "Использовать SCSS интерпретатор:">
+<!ENTITY scrolling.label "Прокрутка">
+<!ENTITY search.accesskey "">
+<!ENTITY selectACommand.tooltiptext "Выберите команду">
+<!ENTITY selected.tooltiptext "Выделенное">
+<!ENTITY selectionBackgroundColor.label "Цвета фона выделения">
+<!ENTITY selectionTextColor.label "Цвет выделенного текста">
+<!ENTITY servers.label "Серверы">
+<!ENTITY settingOnlyAppliesWhenTheCursorStyleIsLine.tooltiptext "Настройки применимы когда стиль курсора задан как линия">
+<!ENTITY setupCommonKomodoFileAssociations.title "Установка общих файловых ассоциаций Komodo">
+<!ENTITY shortNameYouWishToCallThisServerConnection.tooltiptext "Краткое название для этого соединения с сервером.">
+<!ENTITY showEdgeLine.label "Отрисовывать линию края колонки">
+<!ENTITY showEndOfLineCharacters.label "Показывать end-of-line (EOL) символы">
+<!ENTITY showIndentationGuides.label "Показывать указатели отступов">
+<!ENTITY showKomodoStartPageOnStartup.label "Показывать Начальную страницу Komodo при запуске">
+<!ENTITY showLineNumbers.label "Показывать номера строк">
+<!ENTITY showWhitespaceCharacters.label "Показывать символы пробелов">
+<!ENTITY signatureBOM.label "Сигнатура (BOM)">
+<!ENTITY signs.label "+/- знаки">
+<!ENTITY smartEditing.label "Умное редактирование">
+<!ENTITY specifyDefaultProjectFilters.label "Укажите фильтры по умолчанию для новых проектов">
+<!ENTITY specifyTheProjectsActualLocation.label "Базовый каталог проекта">
+<!ENTITY foldSeparateBlockParts.tooltiptext "Разделять свёрнутые блоки на однострочных конструкциях типа '} ... {'">
+<!ENTITY squareTrees.label "Квадратная древовидная структура">
+<!ENTITY startOfLine.label "Начало строки">
+<!ENTITY startPage.label "Начальная страница">
+<!ENTITY syntaxChecking.label "Проверка синтаксиса">
+<!ENTITY tPerlTestScript.label ".t: Perl Test Script">
+<!ENTITY templates.label "Шаблоны">
+<!ENTITY theServerNameToConnectToEitherADomainNameOrAIPAddress.tooltiptext "Имя сервера для подключения, либо доменное имя или IP-адрес.">
+<!ENTITY triggeringMacros.label "Инициирование макросов">
+<!ENTITY type.label "Тип">
+<!ENTITY update.label "Обновить">
+<!ENTITY updateFileStatusAutomatically.label "Автоматическое обновление состояния файла">
+<!ENTITY useEmacsStyleLocalModeVariableModeLocalVariables.label "Use Emacs-style local 'mode' variable (-*- mode: ... -*-, Local Variables: ...)">
+<!ENTITY useFileContentToDetermineLanguage.label "Использовать содержимое файла, чтобы определить язык">
+<!ENTITY useHorizontalLineOnFolds.label "Использовать горизонтальную линию для свёртывания кода">
+<!ENTITY useShebangLine.label "Use shebang line (#!...)">
+<!ENTITY useSignatureBOM.label "Использование Byte Order Mark (BOM) сигнатуры">
+<!ENTITY useSmartIndent.label "Использование смарт отступов">
+<!ENTITY useTabCharacterToCompleteWordsLikeCtrlSpace.label "Используйте Tab для завершения слова, как Ctrl + Space">
+<!ENTITY usernameUsedToLoginToTheRemoteServer.tooltiptext "Имя пользователя, используемое для входа на удаленный сервер.">
+<!ENTITY value.label "Значение">
+<!ENTITY viewAndEditAssociations.label "Просмотр и редактирование ассоциаций">
+<!ENTITY wWeekday0Sunday6.label "&#37;w : день недели [0(Sunday),6]">
+<!ENTITY webBrowser.label "Веб и браузер">
+<!ENTITY whitespaceForegroundColor.label "Цвет символов пробелов">
+<!ENTITY wildcard.label "Символы подстановки">
+<!ENTITY windowsIntegration.label "Интеграция с Windows">
+<!ENTITY word.label "Слово">
+<!ENTITY workspace.label "Рабочее пространство">
+<!ENTITY xDefaultDateRepresentation.label "&#37;x : представление даты по умолчанию">
+<!ENTITY xmlXML.label ".xml: XML">
+<!ENTITY xslXSLT.label ".xsl: XSLT">
+<!ENTITY xsltXSLT.label ".xslt: XSLT">
+<!ENTITY yYearWithoutCentury0099.label "&#37;y : Год без столетий [00,99]">
+
+<!--editenvironvar.xul-->
+<!ENTITY AddEditEnvir.label "Добавить/Редактировать переменную окружения">
+<!ENTITY AddEditEnvirName.label "Имя:">
+<!ENTITY AddEditEnvirValue.label "Значение:">
+
+<!--file-properties.xul-->
+<!ENTITY filePropertiesName.label "Имя:">
+<!ENTITY filePropertiesLocation.label "Расположение:">
+<!ENTITY filePropertiesSize.label "Размер:">
+<!ENTITY filePropertiesModified.label "Дата изменения:">
+<!ENTITY filePropertiesAccessed.label "Доступ:">
+<!ENTITY filePropertiesAttributes.label "Атрибуты:">
+<!ENTITY filePropertiesChangePermissions.button "Изменить...">
+<!ENTITY filePropertiesLanguage.label "Язык:">
+<!ENTITY filePropertiesLanguage.accesskey "">
+<!ENTITY filePropertiesEncoding.label "Кодировка:">
+<!ENTITY filePropertiesEncoding.accesskey "">
+<!ENTITY filePropertiesLineEndings.label "Окончания строк:">
+<!ENTITY filePropertiesLineEndings.accesskey "">
+<!ENTITY filePropertiesMixedEndings.description "(Этот файл имеет смешанные окончания строк.)">
+<!ENTITY filePropertiesDefaultDoctype.label "DOCTYPE по умолчанию:">
+<!ENTITY filePropertiesDefaultNamespace.label "Пространство имен по умолчанию:">
+
+<!--file-advanced-properties.xul-->
+<!ENTITY fileAdvancedProperties.label "Расширенное">
+<!ENTITY filePerformanceTweaks.caption "Специфические настройки производительности документа">
+<!ENTITY filePerformanceTweakEnableCodeintel.label "Включить Codeintel">
+<!ENTITY filePerformanceTweakEnableSyntaxColorizing.label "Включить подсветку синтаксиса">
+<!ENTITY filePerformanceTweakOverview.description "Настройки, специфичные для текущего документа для включения и выключения функции, которые могут быть слишком ресурсоёмкими, чтобы работать на больших файлах, и вступают в конфликт с выполнением основных функций редактирования.">
+<!ENTITY filePerformanceTweakLintSettingLocation.description "Проверка синтаксиса в текущем документе контролируется в [Редактор | Проверка синтаксиса] на панели настроек.">
+
+<!--editing-properties.xul-->
+
+<!--indent-properties.xul-->
+
+<!--pref.xul-->
+<!ENTITY webAndBrowser.label "Веб и браузер">
+
+<!--pref.alllangfonts.xul-->
+<!ENTITY sampleText.label "Текст примера:">
+<!ENTITY schemeType.label "Схема: (системная схема выделена жирным шрифтом)">
+<!ENTITY schemeType.accesskey "">
+<!ENTITY chooseEncodFont.description "Выберите кодировку и шрифт для окон редактора Komodo.">
+<!ENTITY filePrefAllLangEncod.label "Кодировка:">
+<!ENTITY filePrefAllLangEncod.accesskey "">
+<!ENTITY filePrefAllLangFixedWidth.label "Фиксированная ширина:">
+<!ENTITY filePrefAllLangFixedWidth.accesskey "">
+<!ENTITY filPrefAllLangForeText "Передний план:">
+<!ENTITY filPrefAllLangBackText "Задний план:">
+<!ENTITY filePrefAllLangProportional.label "Пропорционально:">
+<!ENTITY chooseColorEditorElement.description "Выбор цветов для элементов редактора Комодо (т.е. что-либо в редакторе, кроме подсветки синтаксиса).">
+<!ENTITY filePrefAllLangColorChoice.label "Выбор цвета:">
+<!ENTITY filePrefAllLangColorChoice.accesskey "">
+<!ENTITY styleForElements.description "Установить стиль для элементов синтаксиса, общих для многих языков программирования.">
+<!ENTITY filePrefAllLangElementType.label "Тип элемента:">
+<!ENTITY filePrefAllLangElementType1.accesskey "">
+<!ENTITY filePrefAllLangFace.label "Тип шрифта:">
+<!ENTITY filePrefAllLangSize.label "Размер:">
+<!ENTITY filePrefAllLangForeground.label "Передний план:">
+<!ENTITY filePrefAllLangBackground.label "Фон:">
+<!ENTITY filePrefSubLanguageBackground.label "Цвет фона подъязыка:">
+<!ENTITY filePrefUseSubLanguageBackground.label "Использовать другой цвет фона, когда используется подъязык">
+<!ENTITY filePrefSubLanguageBackground.accesskey "">
+<!ENTITY filePrefUseSubLanguageBackground.accesskey "">
+<!ENTITY styleForSpecElements.description "Настройки стилей под конкретный язык.">
+<!ENTITY filePrefAllLangLanguage.label "Язык:">
+<!ENTITY filePrefAllLangLanguage.accesskey "">
+<!ENTITY filePrefAllLangElementType2.accesskey "">
+<!ENTITY colorPickerToUse.value "Используемая пипетка:">
+<!ENTITY colorPickerTestButton.label "Тест">
+<!ENTITY fontQuality.label "Качество шрифта">
+<!ENTITY fontQuality.default.menulabel "По умолчанию">
+<!ENTITY fontQuality.no_antialiasing.menulabel "Без сглаживания">
+<!ENTITY fontQuality.antialiased.menulabel "Сглаживание">
+<!ENTITY fontQuality.antialiasedWithSmoothing.menulabel "Сглаживание с размытием">
+
+<!--pref-association.xul-->
+<!ENTITY fileAssociations.description "Файловые ассоциации определяются редактором по умолчанию, как элемент языка. Выберите образец, что посмотреть ассоциированный язык">
+<!ENTITY filePrefAssocLang.label "Язык">
+<!ENTITY useXmlDeclarations.label "Use XML declarations (&lt;?xml ...&gt;, &lt;!DOCTYPE ...&gt;)">
+
+<!--pref-codeintel.xul-->
+<!ENTITY codeIntelDisabled.description "Система Code Intelligence выключена. Можно перезапустить вручную в настройках 'codeintel_enabled' и перезапустить Komodo.">
+<!ENTITY codeIntel.description "Code Intelligence относится к системе, которая обеспечивает автозавершение, всплывающие подсказки и т.д.">
+<!ENTITY codeIntelAutocompleteMaxRows.label "Максимальное количество строк, показываемых для автозаполнения:">
+<!ENTITY codeIntelCalltipMaxLength.label "Максимальное число строк, показываемых для всплывающих подсказок:">
+<!ENTITY codeIntelCalltipMaxLineWidth.label "Масимальная длина строки для показа всплывающих подсказок:">
+<!ENTITY codeintelAutoInsertEndTag.label "Автоматически вставить закрывающий тег при вводе открывающего тега в HTML/XML документах">
+<!ENTITY codeIntelAutocompleteFillUpCharacters.description "'Fill-up' is where typing a certain character — like '(' or '.' — during an autocomplete session will trigger insertion of the current completion before the character itself is inserted.">
+<!ENTITY codeintelScanning.caption "Сканирование кода">
+<!ENTITY codeintelScanning.description "Управление, как система интеллектуального кода сканирует исходный код.">
+<!ENTITY codeintelScanFilesInProject.label "Включить все файлы и каталоги из базовой директории проекта">
+<!ENTITY codeIntelMaxRecursiveDirectoryDepth.label "Максимальная глубина каталога:">
+<!ENTITY codeIntelAPICatalogs.description "Komodo использует API каталоги для обеспечения автозаполнения и всплывающих подсказок для сторонних библиотек. Проверьте библиотеки, которые вы используете.">
+<!ENTITY codeIntelAPICatalogsNote.description "Примечание: Выбранные все API каталоги для какого-то языка могут привести к неожиданным результатам.">
+
+<!--pref-intl.xul-->
+<!ENTITY useEncodeEnvironment.label "Использовать кодировку, определенную в среде:">
+<!ENTITY customEncoding.label "Пользовательские кодировки:">
+<!ENTITY dateTime.label "Дата и время">
+<!ENTITY format.label "Формат">
+<!ENTITY dateTimeExample.label "Пример:">
+
+<!--pref-projects.xul-->
+<!ENTITY displayingRecentProjects.label "Отображение последних проектов">
+<!ENTITY filePrefProjectWhenStart.label "При запуске Komodo:">
+<!ENTITY filePrefProjectWhenOpenProject.label "При открытии проекта:">
+<!ENTITY filePrefProjectWhenCloseProject.label "При закрытии проекта:">
+<!ENTITY filePrefProjectUpdateEvery.label "Обновление каждые">
+<!ENTITY filePrefProjectMinutes.label " минут">
+<!ENTITY activeStateNotificationMessages.label "ActiveState уведомляющие сообщения">
+<!ENTITY activeStateNotificationMessagesEnabled.label "Включить уведомляющие сообщения от ActiveState">
+<!ENTITY activeStateNotificationMessagesEnabled.tooltiptext "ActiveState будет (редко) отправлять уведомления о важных обновлениях и новостях. Если эта функция включена, то эти сообщения будут отображаться в строке состояния и панели уведомлений. После того, как сообщение было показано, оно не появится снова.">
+<!ENTITY fullPath.label "Полный путь">
+<!ENTITY basenameOnly.label "Только имя">
+<!ENTITY parent1.label "Last Parent">
+<!ENTITY parent2.label "Last Two Parents">
+
+<!--pref-editsmart.xul-->
+<!ENTITY msecs.label "мсек">
+<!ENTITY fileEditSmartWrapLines.label "Переносить длинные строки по:">
+<!ENTITY fileEditSmartWrapIndentation.label "Переносить отступ:">
+<!ENTITY fileEditSmartWrapMarkers.label "Переносить метки:">
+<!ENTITY fileEditSmartEdgeLine.label "Линия края колонки:">
+<!ENTITY fileEditSmartFoldMarkStyle.label "Стиль метки свёртывания кода:">
+<!ENTITY wordwrapIndentationFixed.label "Фиксированное выравнивание">
+<!ENTITY wordwrapIndentationSame.label "Тот же уровень выравнивания">
+<!ENTITY wordwrapIndentationOneLevel.label "На один уровень выше">
+<!-- strings embedded in script-->
+<!ENTITY useTabCharacterToCompleteWords.message "Использовать Tab для завершения слова, как __ KEY__">
+
+<!--pref-editor.xul-->
+<!ENTITY cursorStyle.label "Стиль курсора:">
+<!ENTITY widthLineCursor.label "Ширина линии курсора:">
+<!ENTITY fileChanged.label "Если файлы были изменены:">
+<!ENTITY fileDeleted.label "Если файлы были удалены:">
+<!ENTITY minimumNumberLineAboveBelowCursor.label "Минимальное число строк выше и ниже курсора:">
+<!ENTITY horizScrollWidth.label "Минимальная ширина горизонтальной полосы прокрутки (в пикселях):">
+<!ENTITY horizScrollWidthTracking.label "Автоматическая настройка ширины горизонтальной полосы прокрутки">
+<!ENTITY horizScrollWidthTracking.tooltiptext "Если эта функция включена, то ширина горизонтальной полосы прокрутки будет автоматически регулироваться в соответствии с шириной документа. Примечание: Включение этой функции может снизить производительность редактора ">
+<!ENTITY filePrefEditorMatchCase.label "Учитывать регистр:">
+<!ENTITY filePrefEdiorUses.label "Используя:">
+<!ENTITY tabs.label "Вкладки">
+<!ENTITY returnToMostRecentBufferOnClose.label "При закрытии текущей вкладки, перейти на недавно посещённую вкладку">
+<!ENTITY dragdrop.label "Drag &amp; Drop">
+<!ENTITY droppingURL.label "При сбросе URL в Комодо:">
+<!-- These three entities are special and must match the button labels from the
+     drag/drop dialog, which are set in the "library.properties" file. -->
+<!ENTITY addAURIMapping.label "Сопоставить URL">
+<!ENTITY enableMouseZoom.label "Включить масштабирование шрифта с помощью колеса мыши">
+<!ENTITY enableMouseZoomHow.tooltiptext "Изменить размер шрифта, Shift-Ctrl-колесом мыши">
+<!ENTITY useMinimapScrollbar.label "Использовать полосу прокрутки мини-карты">
+
+<!ENTITY viewSource.label "Просмотр исходного кода">
+<!ENTITY dropAsText.label "Сбросить как текст">
+
+<!--pref-environ.xul-->
+<!ENTITY startEnvironVar.label "Startup environment variables:">
+<!ENTITY userEnvironVar.label "Пользовательские переменные окружения (переопределить значения по умолчанию):">
+
+<!--pref-find.xul-->
+<!ENTITY bytes.label "байт">
+<!ENTITY find.label "Поиск">
+<!ENTITY findInFiles.label "Поиск в файлах">
+<!ENTITY findHighlighting.label "Подсветка">
+<!ENTITY findHighlightEnabled.label "Включить подсветку результатов поиска и замены">
+<!ENTITY findHighlightTimeout.label "Таймаут подветки поиска ">
+<!ENTITY findHighlightTimeout.description "Это значение таймаута используется для 'Найти далее' и 'Найти Предыдущий', чтобы обеспечить быструю работу. Если подсветка поискового термина все еще работает после этого количество времени, подсветка остановится и курсор перейдет к месту соответствия.">
+<!ENTITY findSkipLargeFilesEnabled.label "Пропустить большие файлы">
+<!ENTITY findSkipFilesLargerThan.label "Больше, чем:">
+<!ENTITY findIncrementalHighlightTimeout.label.pre "Таймаут последовательной подсветки ">
+<!ENTITY findIncrementalHighlightTimeout.label.post "мсек (0 - без таймаута)">
+<!ENTITY findIncrementalKeysToEditor.label "Клавиши редактирования (Insert, Delete, Home, End, Page Up, Page Down) влияют на буфер при поиске" >
+<!ENTITY findIncrementalKeysToEditor.tooltiptext "Если эта функция включена, нажимая клавиши редактирования, (такие как Home и Enter) будет изменяться буфер редактирования вместо изменения текста для поиска." >
+
+<!--pref-folderimport.xul-->
+<!ENTITY filesToInclude.label "Включить файлы: (если не указано, то все 'all')">
+<!ENTITY filesToExclude.label "Исключить файлы и каталоги: (если не указано, то ничего 'none')">
+
+<!--pref-html.xul-->
+<!ENTITY syntaxControlHtml.description "Комодо использует Tidy, инструмент проверки синтаксиса от W3C, чтобы проверить на наличие ошибок в ваших HTML файлах.  Здесь вы можете установить уровень ошибок, и какой уровень WAI Accessibility Conformance вы хотите поддерживать. Если вам нужен более глубокий уровень настройки для Tidy, вы можете сделать это путем создания файла конфигурации Tidy. Более подробную информацию о конфигурации Tidy можно найти на сайте ниже.">
+<!ENTITY moreInfoTydy.label "Вы можете найти более подробную информацию о Tidy по адресу:">
+<!ENTITY moreInfoWai.label "Вы можете найти более подробную информацию о WAI по адресу:">
+<!ENTITY errorLevel.label "Уровень ошибок:">
+<!ENTITY waiAccessibilityLevel.label "WAI accessibility conformance level:">
+<!ENTITY configurationFile.label "Файл конфигурации:">
+<!ENTITY perlHTMLTidy.label "Perl HTML-Tidy">
+<!ENTITY checkWithPerlsHTMLTidy.label "Проверка с Perl's HTML-Tidy">
+<!ENTITY perlHTMLLint.label "Perl HTML-Lint">
+<!ENTITY checkWithPerlsHTMLLint.label "Проверка с Perl's HTML-Lint">
+<!ENTITY CheckWithHTMLTidy.label "Проверка с HTML Tidy">
+<!ENTITY CheckWithHTML5lib.label "Проверка с html5lib">
+<!ENTITY HTML5lib.label "html5lib">
+<!ENTITY HTMLTidy.label "HTML Tidy">
+
+<!--pref-indentation.xul-->
+<!ENTITY autoIndentStyle.label "Стиль авто-отступа:">
+<!ENTITY filePrefIndentationSpacePerIndent.label "Количество пробелов в отступе">
+<!ENTITY filePrefIndentationWhidtTabChar.label "Ширина каждого Tab символа">
+
+<!--pref-javascript.xul-->
+<!--pref-project-javascript.xul-->
+
+
+<!ENTITY lintJavaScript_SpiderMonkey.label "Проверка с Mozilla JS (SpiderMonkey)">
+<!ENTITY lintJavaScriptEnableWarnings.label "Включить предупреждающие сообщения">
+<!ENTITY lintJavaScriptEnableStrict.label "Включить строгие предупреждающие сообщения">
+<!ENTITY javascriptFolder.description "Укажите каталоги, которые будут использоваться Komodo для автозавершения и всплывающих подсказок. Komodo будет рекурсивно сканировать их для информации.">
+<!ENTITY lintJavaScriptWithJSLint.label "Проверить код с JSLint">
+<!ENTITY JSLint.label "JSLint">
+<!ENTITY lintJSLint_Explanation.descr "Использовать формат типа: bitwise=false debug=true maxerr=5 predef=['document','window']">
+<!ENTITY lintJSLint_WebSiteLabel.label "Смотри все разрешённые опции на: ">
+<!ENTITY lintJSLintOptions.label "JSLint Опции">
+<!ENTITY chooseACustomOrUpdatedJslint.js.label "Выбрать настренный или обновлённый jslint.js">
+<!ENTITY defaultJslintLinterWithDate.label "Default linter (2012-04-15)">
+<!ENTITY customJslintLinter.label "Custom linter">
+
+<!-- pref-jshint-options.xul -->
+<!ENTITY optionsPicker.label "Options Picker">
+<!ENTITY allOptions.label "All Options">
+<!ENTITY predefinedNames.label "Предопределённые глобальные:">
+<!ENTITY setStrictSettings.label "Установить точные параметры">
+<!ENTITY setRecommendedSettings.label "Установить рекомендуемые параметры">
+<!ENTITY tolerateEverything.label "Допускать все">
+
+<!--pref-nodejs.xul-->
+<!ENTITY nodejs.label "Node.js">
+<!ENTITY defaultNodejsInterpreter.label "Интерпретатор Node.js по умолчанию">
+<!ENTITY filePrefNodejsUseThisInterpreter.label "Использовать этот интерпретатор">
+<!ENTITY noNodejsInterpreter.description "Интерпретатор node.js не обнаружен в вашей системе. Чтобы отладить и запустить Node.js программы в Komodo вам нужно установить node.js. ">
+<!ENTITY nodejsDirectories.label "Node.js Директории">
+<!ENTITY nodejsFolder.description "Укажите каталоги из которых будет загружаться модуль Node. Komodo будет рекурсивно сканировать эти каталоги для автозавершения и всплывающих подсказок.">
+
+<!-- JSHint, a fork of jshint -->
+<!ENTITY JSHint.label "JSHint">
+<!ENTITY lintJavaScriptWithJSHint.label "Проверить код с JSHint">
+<!ENTITY lintJSHintOptions.label "JSHint Опции">
+<!ENTITY lintJSHint_OptionWizard.label "Мастер настройки">
+<!ENTITY lintJSHint_Explanation.descr "Использовать формат типа: bitwise=false debug=true maxerr=5 predef=['document','window']">
+<!ENTITY lintJSHint_WebSiteLabel.label "Смотри все разрешённые опции на: ">
+<!ENTITY chooseACustomOrUpdatedJshint.js.label "Выбрать настроенный или обновлённый jshint.js">
+<!ENTITY defaultJshintLinter.label "Default linter">
+<!ENTITY customJshintLinter.label "Custom linter">
+<!ENTITY separateNamesWithCommas.tooltip "Разделять имена точками и/или пробелами.">
+
+<!--pref-keys.xul-->
+<!ENTITY keyBindingsConfiguration.description "Привязка клавиш определяет какое действие будет запущено по горячим клавишам. Нажмите на команду, чтобы просмотреть и изменить конфигурацию.">
+<!ENTITY removeAltKeyFromMenu.label "Удалить Alt-&lt;letter&gt; ярлыки из меню">
+<!ENTITY keyBindingsSchemes.label "Схемы привязки клавиш (Системные схемы выделены жирным шрифтом)">
+<!ENTITY keyBindingsSchemes.accesskey "">
+<!ENTITY filePrefKeysCommands.label "Команды:">
+<!ENTITY filePrefKeysCommands.accesskey "">
+<!ENTITY noCommandsMatch.description "Нет команды соответствующей поисковому запросу.">
+
+<!--pref-languages.xul-->
+<!ENTITY languagesSettings.description "Komodo поставляется с поддержкой различных языков. Основные функции редактирования включены по умолчанию для большого набора языков.  Для дополнительной настройки основных языков, выберите язык в дереве слева.">
+<!ENTITY languageNames.label "Названия языков:">
+<!ENTITY languageNames.accesskey "">
+<!ENTITY primaryLanguage.tooltip "Основной язык">
+<!ENTITY primaryLanguages.label "Основные языки">
+<!ENTITY primaryLanguages.description "Проверенные языки отображаются в основной части всех всплывающих меню языков. Другие языки отображаются в меню «Прочие».">
+
+<!--pref-mappeduri.xul-->
+<!ENTITY mappedUri.description "Укажите любое сопоставление URI для локального пути, для использования при открытии файлов, предварительном просмотре и т.д.">
+
+<!--pref-newfiles.xul-->
+<!ENTITY newButtonSettings.description "Укажите язык по умолчанию для файлов, созданных с помощью кнопки 'Новый'.">
+<!ENTITY newFileEolIndicator.description "Укажите end-of-line (EOL) индикатор для вновь создаваемых файлов.">
+<!ENTITY noExtensionFile.label "Если имя файла в 'Создать с помощью шаблона' не имеет расширения:">
+<!ENTITY numberTemplatesRember.label "Количество последних шаблонов для запоминания:">
+
+<!--pref-ui.xul-->
+<!ENTITY numberOfProjects.label "Количество проектов:">
+<!ENTITY numberOfFiles.label "Количество файлов:">
+
+<!--pref-ui-tabs.xul-->
+<!ENTITY sidePaneTabStyles.caption "Боковые панели">
+<!ENTITY uiPaneSidepanes.left.layout.label "Левая панель: ">
+<!ENTITY uiPaneSidepanes.right.layout.label "Правая панель:">
+<!ENTITY uiPaneSidepanes.bottom.layout.label "Нижняя панель: ">
+<!ENTITY uiPaneSidebars.menuitem.label "Одиночная вкладка">
+<!ENTITY uiPaneHorizontalTabs.menuitem.label "Горизонтальные вкладки">
+<!ENTITY uiPaneVerticalTabs.menuitem.label "Вертикальные вкладки">
+<!ENTITY uiPaneIconTabs.menuitem.label "Иконки во вкладках">
+<!ENTITY interface.caption "Интерфейс">
+<!ENTITY useGtkDetection.label "Автоматическое определение внешнего вида">
+<!ENTITY skin.label "Внешний вид:">
+<!ENTITY skin.tooltip "Выберите какой внешний вид должен использовать Komodo. Обратите внимание, что скины 'совместимости' предлагают совместимость с существующими темами операционной системы, они не являются полноценными скинами.">
+<!ENTITY skinDefault.label "По умолчанию">
+<!ENTITY iconset.label "Набор иконок:">
+<!ENTITY iconset.tooltip "Выберите какие иконки должен использовать Komodo. Обратите внимание, что выбранный скин может установить свой набор иконок.">
+
+<!--pref-perl.xul-->
+<!ENTITY noPerlInterpreter.description "Интерпретатор Perl не обнаружен в вашей системе. Для отладки и запуска программы Perl в Komodo установите Perl. Вы можете получить Perl от ActiveState на">
+<!ENTITY noteRestartPerl.alert "Примечание: Komodo должен быть перезапущен для того, чтобы обнаружить новую установку Perl.">
+<!ENTITY filePrefPerlUseThisInterpreter.label "Использовать этот интерпретатор">
+<!ENTITY filePrefPerlLevelStricness.description "Вы можете настроить уровень строгости, который используется при выполнении фоновой синтаксической проверки.">
+<!ENTITY filePrefPerlAdditionalDirectory.description "Укажите любые дополнительные каталоги, которые требуются Комодо, чтобы добавить к пути Perl для отладки, проверка синтаксиса или интерактивной оболочки.">
+<!ENTITY filePrefPerlIncludeCurrDirForLinting.label "Have syntax checking include the current directory">
+<!ENTITY disableBEGINBlockExecution.label "Не выполнять начало (BEGIN) блоков в текущем документе во время синтаксической проверки.">
+
+<!ENTITY prefPerl.perlCriticOptions.label "Perl Critic настройки:">
+<!ENTITY prefPerl.perlCriticOption.off.label "Выкл.">
+<!ENTITY prefPerl.perlCriticOption.gentle.label "Gentle">
+<!ENTITY prefPerl.perlCriticOption.stern.label "Stern">
+<!ENTITY prefPerl.perlCriticOption.harsh.label "Harsh">
+<!ENTITY prefPerl.perlCriticOption.cruel.label "Cruel">
+<!ENTITY prefPerl.perlCriticOption.brutal.label "Brutal">
+<!ENTITY prefPerl.perlCriticOptions.accesskey "">
+<!ENTITY prefPerl.perlCriticOptionsEnable.description "Чтобы включить поддержку PerlCritic, установите `Perl-Critic' и `criticism' модули.">
+
+
+<!--pref-php.xul-->
+<!ENTITY noPhpInterpreter.description "Интерпретатор PHP не обнаружен в системном PATH. Для отладки и запуска PHP программ в Komodo укажите путь к вашему PHP, или установите PHP, если он еще не установлен. Вы можете получить PHP на www.php.net ">
+<!ENTITY noteRestartPhp.alert "Примечание: Komodo должен быть перезапущен для того, чтобы обнаружить новую установку PHP.">
+<!ENTITY filePrefPhpUseThisInterpreter.label "Использовать этот интерпретатор">
+<!ENTITY filePrefPhpInifileDirectory.description "Каталог, содержащий php.ini">
+<!ENTITY phpFolder.description "Укажите каталоги, которые будут использоваться Komodo для автозавершения и всплывающих подсказок. Komodo будет рекурсивно сканировать их для информации.">
+<!ENTITY commentStyle.label "Стиль комментария:">
+
+<!--pref-python.xul-->
+<!ENTITY noPythonInterpreter.description "Интерпретатор Python не был найден в системном PATH. Для отладки и запуска программы на Python в Komodo установите Python, а затем укажите путь к интерпретатору Python ниже. Вы можете получить Python от ActiveState на">
+<!ENTITY noPython3Interpreter.description "Интерпретатор Python 3 не был найден в системном PATH. Для отладки и запуска Python 3 программы в Komodo , установите Python 3, а затем укажите путь к интерпретатору Python 3 ниже. Вы можете получить Python от ActiveState на">
+<!ENTITY noteRestartPython.alert "Примечание: Komodo должен быть перезапущен для того, чтобы обнаружить новую установку Python.">
+<!ENTITY filePrefPythonUseThisInterpreter.label "Использовать этот интерпретатор">
+<!ENTITY filePrefPythonAdditionalDirectory.description "Укажите любые дополнительные каталоги, которые требуется добавить к пути Python при отладке, проверке синтаксиса или в интерактивной оболочке.">
+<!ENTITY ClassicPythonChecking.label "Python интерпретатор проверки синтаксиса">
+<!ENTITY lintWithPychecker.label "Do Pychecker Linting">
+<!ENTITY pycheckerWarning.descr "Предупреждение: Pychecker будет загружать модули и запускать операторы верхнего уровня. ActiveState рекомендует использовать pylint.">
+<!ENTITY pycheckerWrapperLocation.label "Расположение исполняемого файла Pychecker">
+<!ENTITY pycheckerRCLocation.label "Расположение конфигурационного файла pycheckrc">
+<!ENTITY pycheckerNeedsPath.descr "Pychecker необходим явный путь к сценарию Pychecker.">
+
+<!--pref-ruby.xul-->
+<!ENTITY noRubyInterpreter.description "Интерпретатор Ruby не обнаружен в вашей системе. Для отладки и запуска программы на Ruby в Komodo установите Ruby. Вы можете получить Ruby на сайте Ruby">
+<!ENTITY noteRestartRuby.alert "Примечание: Komodo должен быть перезапущен для того, чтобы обнаружить новую установку Ruby.">
+<!ENTITY rubyDebuggerNotWorking.description "Расширение отладчика Ruby не работает с выбранной версией Ruby или по указанному пути. Вы должны использовать Ruby, версию 1.8.2 или более поздней версии.  Вы можете получить Ruby с главной страницы Ruby на">
+<!ENTITY filePrefRubyUseThisInterpreter.label "Использовать этот интерпретатор">
+<!ENTITY filePrefRubyLevelStricness.description "Вы можете настроить уровень строгости, который используется при выполнении фоновой синтаксической проверки.">
+<!ENTITY filePrefRubyAdditionalDirectory.description "Укажите любые дополнительные каталоги, которые требуется добавить к пути Руби при отладке, проверке синтаксиса или в интерактивной оболочке.">
+
+<!--pref-syntax-checking.xul-->
+<!ENTITY langSpecificSyntaxCheckingProperties.label "Настройки синтаксической проверки для языка">
+<!ENTITY basicChecking.label "Основная проверка">
+
+<!--pref-xml-catalog.xul-->
+<!ENTITY xmlIdentifies.description "Комодо идентифицирует тип ваших XML/HTML документов для обеспечения автозавершения, подходящего для каждого документа.">
+<!ENTITY xmlRangeSchemas.description "Комодо поставляется со встроенной поддержкой широкого круга встроенных схем документов, в том числе HTML/XHTML, XSL, XBL, XUL, RDF Relax-NG, DocBook, Atom, VXML, WML и SVG (полный список можно найти в документации).">
+<!ENTITY xmlAdditionalCatalogs.description "Этот диалог позволяет добавлять свой собственный SGML или XML каталог для использования в XML/HTML автозавершения. Смотрите документацию для получения подробных инструкций о том, как создать свой собственный файл каталога из схемы или DTD.">
+
+<!--pref-printing.xul-->
+<!ENTITY printingWrapLongLines.label "Переносить длинные строки на">
+<!ENTITY printingCharNotWrap.label "символов (0 - без переносов)">
+<!ENTITY printingScaleSizes.label "Масштабировать размеры шрифтов от экрана на печать">
+
+<!--pref-project.perl.xul-->
+
+<!--pref-project.php.xul-->
+
+<!--pref-project.python.xul-->
+
+<!--pref-project.ruby.xul-->
+
+<!--pref-save.xul-->
+<!ENTITY fixWhiteSpace.label "Исправить пробелы при сохранении:">
+<!ENTITY autoSave.caption "Автоматическое восстановление">
+<!ENTITY autoSaveEvery.desc "Если эта функция включена, авто-восстановление будет создавать временную резервную копию всех несохранённых файлов в случае некорректного завершения работы Komodo. По следующем запуске, автоматически сохранённые файлы, которые не были правильно сохранены, будут восстановлены.">
+<!ENTITY autoSaveEvery.label "Создание информации восстановления каждые">
+<!ENTITY secondsZeroDisables.label "секунд (0 для отключения)">
+<!ENTITY ifFileNameHasNoExtension.label "Если имя файла не имеет расширения:">
+
+<!--pref-servers.xul-->
+<!ENTITY serverType.label "Тип сервера (*)">
+<!ENTITY connectionName.label "Имя (*)">
+<!ENTITY hostName.label "Имя хоста (*)">
+<!ENTITY portNumber.label "Порт">
+<!ENTITY userName.label "Имя пользователя (*)">
+<!ENTITY password.label "Пароль">
+<!ENTITY defaultPath.label "Путь по умолчанию">
+<!ENTITY requiredFieldMark.label "Обязательные поля помечены звездочкой (*)">
+<!ENTITY timeoutSeconds.label "Таймаут (в секундах):">
+
+<!--pref-web.xul-->
+<!ENTITY askToSaveCurrentFile.label "Спрашивать, чтобы сохранить изменённый файл">
+<!ENTITY alwaysSaveCurrentFile.label "Всегда сохранять изменённый файл">
+<!ENTITY dontSaveCurrentFile.label "Не сохранять изменённый файл">
+<!ENTITY saveChangedFiles.label "Сохранить изменения перед просмотром?">
+<!ENTITY whenStartingPreviewOnUnsavedFile.label "При запуске просмотра несохранённого файла:">
+<!ENTITY whichBrowserUse.description "Какой браузер должен использовать Komodo при открытии URL-адреса?">
+<!ENTITY whichMethodUse.description "Метод, который следует использовать для предварительного просмотра файлов в браузере?">
+<!ENTITY certManager.description "Управление сертификатами, которые Komodo будет принимать для HTTPS соединения">
+<!ENTITY certManager.label "Просмотр сертификатов">
+<!ENTITY certManager.accesskey "">
+
+<!-- pref-winInteg.xul -->
+<!ENTITY makeKomodoTheDefaultEditor.desc "Сделать Komodo редактором по умолчанию для этих расширений файлов:">
+<!ENTITY addAnEditWithKomodoAction.desc "Добавить пункт 'Редатировать с Komodo' для этих расширений файлов:">
+<!ENTITY otherApplicationsMayChangeFileAssociations.desc "Другие приложения (в том числе другие версии Komodo) могут изменить ассоциации файлов в системе. Нажмите ниже, чтобы повторно применить эти ассоциации файлов для этой версии Komodo.">
+<!ENTITY warningOneOrMOreFileAssociationNotSet "Предупреждение: Одна или несколько настроек ассоциации файлов не заданы в реестре. Нажмите выше, чтобы повторно применить настройки. Подробности ниже.">
+
+<!--preview-properties.xul-->
+<!ENTITY useThisUrlPreview.label "Использовать этот файл/URL при просмотре в браузере:">
+
+<!--koPrefWidgest.xml-->
+<!ENTITY requestMethod.label "Метод запроса">
+<!ENTITY postType.label "Тип сообщения">
+<!ENTITY browserArguments.label "Параметры браузера">
+
+<!--setupFileAssociations.xul-->
+<!ENTITY yourSystemCanBeConfiguredToRegisterKomodo.desc "Ваша система может быть настроена для регистрации Комодо в качестве редактора для определенных типов файлов. Выберите расширения файлов, для которых вы хотели бы зарегистрировать Комодо в качестве редактора.">
+<!ENTITY makeKomodoDefaultEditorForFiletypes.desc "Сделать Комодо редактором по умолчанию для следующих типов файлов:">
+<!ENTITY addAnEditWithKomodoContextMenuOption.desc "Добавить пункт 'Редактировать с Komodo' в меню проводника для следующих типов файлов:">
+
+<!--commented in file pref-alllangfonts.xul-->
+<!--
+<!ENTITY htmlSample.label "HTML Sample">
+<!ENTITY pythonSample.label "Python Sample">
+<!ENTITY perlSample.label "Perl Sample">
+<!ENTITY phpSample.label "PHP Sample">
+                                            -->
+<!--pref-helplang.xul-->
+<!ENTITY default.value "По умолчанию:">
+<!ENTITY generalHelp.value "Основная помощь:">
+
+<!--pref-alllangfonts.xul-->
+<!ENTITY indicators.accesskey "">
+<!ENTITY indicators.label "Индикаторы">
+<!ENTITY indicatorMenu.label "Индикатор:">
+<!ENTITY indicators.description "Установить цвет и стиль индикаторов.">
+<!ENTITY indicStyle.label "Стиль:">
+<!ENTITY indicStylePlain.label "Подчеркивание">
+<!ENTITY indicStyleSquiggle.label "Волнистая линия">
+<!ENTITY indicStyleTT.label "TT фигуры">
+<!ENTITY indicStyleDiagonal.label "Косые черты">
+<!ENTITY indicStyleStrike.label "Зачёркнуто">
+<!ENTITY indicStyleHidden.label "Скрыть">
+<!ENTITY indicStyleBox.label "Рамка">
+<!ENTITY indicStyleRoundBox.label "Заливка">
+<!ENTITY indicStyleSquigglePixmap.label "Волнистая линия (пиксельная)">
+<!ENTITY indicAlpha.label "Альфа (0&#8211;256):">
+<!ENTITY indicColor.label "Цвет:">
+<!ENTITY indicDrawUnderneath.label "Отрисовывать индикатор за текстом">

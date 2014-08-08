@@ -1,0 +1,72 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+ Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ 
+ The contents of this file are subject to the Mozilla Public License
+ Version 1.1 (the "License"); you may not use this file except in
+ compliance with the License. You may obtain a copy of the License at
+ http://www.mozilla.org/MPL/
+ 
+ Software distributed under the License is distributed on an "AS IS"
+ basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+ License for the specific language governing rights and limitations
+ under the License.
+ 
+ The Original Code is Komodo code.
+ 
+ The Initial Developer of the Original Code is ActiveState Software Inc.
+ Portions created by ActiveState Software Inc are Copyright (C) 2000-2007
+ ActiveState Software Inc. All Rights Reserved.
+ 
+ Contributor(s):
+   ActiveState Software Inc
+ 
+ Alternatively, the contents of this file may be used under the terms of
+ either the GNU General Public License Version 2 or later (the "GPL"), or
+ the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ in which case the provisions of the GPL or the LGPL are applicable instead
+ of those above. If you wish to allow use of your version of this file only
+ under the terms of either the GPL or the LGPL, and not to allow others to
+ use your version of this file under the terms of the MPL, indicate your
+ decision by deleting the provisions above and replace them with the notice
+ and other provisions required by the GPL or the LGPL. If you do not delete
+ the provisions above, a recipient may use your version of this file under
+ the terms of any one of the MPL, the GPL or the LGPL.
+ 
+ ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY URI.label "URI">
+<!ENTITY add.tooltiptext "Добавить...">
+<!ENTITY addEntry.tooltiptext "Добавить запись...">
+<!ENTITY back.tooltiptext "Назад">
+<!ENTITY closePane.tooltiptext "Закрыть панель">
+<!ENTITY copy.label "Копировать">
+<!ENTITY cut.label "Вырезать">
+<!ENTITY delete.tooltiptext "Удалить...">
+<!ENTITY deleteEntries.tooltiptext "Удалить записи...">
+<!ENTITY diffToolbar.tooltiptext "Панель сравнения файлов">
+<!ENTITY doubleClickToChangeOrientation.tooltiptext "Двойной щелчок для смены ориентации">
+<!ENTITY filterItems.tooltiptext "Фильтровать пункты">
+<!ENTITY forward.tooltiptext "Вперёд">
+<!ENTITY jumpToNextDiff.tooltiptext "Перейти к следующему отличию">
+<!ENTITY jumpToPreviousDiff.tooltiptext "Перейти к предыдущему отличию">
+<!ENTITY listAllSidebars.tooltiptext "Список всех панелей">
+<!ENTITY listAllTabs.tooltiptext "Список всех вкладок">
+<!ENTITY mapsTo.label "Сопоставить с">
+<!ENTITY moveDown.tooltiptext "Вниз">
+<!ENTITY moveToEditor.label "Переместить в редактор">
+<!ENTITY moveToEditor.tooltiptext "Переместить это отличие во вкладку редактора">
+<!ENTITY moveUp.tooltiptext "Вверх">
+<!ENTITY name.label "Имя">
+<!ENTITY next.label " Следующее">
+<!ENTITY paste.label "Вставить">
+<!ENTITY previous.label " Предыдущее">
+<!ENTITY reload.tooltiptext "Перезагрузить">
+<!ENTITY reveal.label " Reveal">
+<!ENTITY revealPositionInEditor.tooltiptext "Reveal Position in Editor">
+<!ENTITY selectAll.label "Выделить все">
+<!ENTITY showHideEOLMarkers.label "Показать/скрыть EOL маркеры">
+<!ENTITY showHideIndentationGuides.label "Показать/скрыть указатели отступов">
+<!ENTITY showHideLineNumbers.label "Показать/скрыть номера строк">
+<!ENTITY showHideWhitespace.label "Показать/скрыть пробелы">
+<!ENTITY stop.tooltiptext "Стоп">
+<!ENTITY wordWrap.label "Перенос по словам">

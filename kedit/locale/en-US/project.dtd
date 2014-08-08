@@ -1,0 +1,121 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+ Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ 
+ The contents of this file are subject to the Mozilla Public License
+ Version 1.1 (the "License"); you may not use this file except in
+ compliance with the License. You may obtain a copy of the License at
+ http://www.mozilla.org/MPL/
+ 
+ Software distributed under the License is distributed on an "AS IS"
+ basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+ License for the specific language governing rights and limitations
+ under the License.
+ 
+ The Original Code is Komodo code.
+ 
+ The Initial Developer of the Original Code is ActiveState Software Inc.
+ Portions created by ActiveState Software Inc are Copyright (C) 2000-2007
+ ActiveState Software Inc. All Rights Reserved.
+ 
+ Contributor(s):
+   ActiveState Software Inc
+ 
+ Alternatively, the contents of this file may be used under the terms of
+ either the GNU General Public License Version 2 or later (the "GPL"), or
+ the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ in which case the provisions of the GPL or the LGPL are applicable instead
+ of those above. If you wish to allow use of your version of this file only
+ under the terms of either the GPL or the LGPL, and not to allow others to
+ use your version of this file under the terms of the MPL, indicate your
+ decision by deleting the provisions above and replace them with the notice
+ and other provisions required by the GPL or the LGPL. If you do not delete
+ the provisions above, a recipient may use your version of this file under
+ the terms of any one of the MPL, the GPL or the LGPL.
+ 
+ ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY DDirectoryPathOfFile.label "[[&#37;D]]: путь к каталогу файла">
+<!ENTITY FFilePath.label "[[&#37;F]]: путь к файлу">
+<!ENTITY LCurrentLineNumber.label "[[&#37;L]]: номер текущей строки">
+<!ENTITY PPathOfTheActiveProject.label "[[&#37;P]]: путь активного проекта">
+<!ENTITY SURLEscapedSelection.label "[[&#37;S]]: URL-escaped selection">
+<!ENTITY WURLEscapedSelectionOrWordUnderCursor.label "[[&#37;W]]: URL-escaped selection or word under cursor">
+<!ENTITY accesskey.accesskey "">
+<!ENTITY afterFileClose.label "После закрытия файла">
+<!ENTITY afterFileOpen.label "После открытия файла">
+<!ENTITY afterFileSave.label "После сохранения файла">
+<!ENTITY askAskForUserInput.label "[[&#37;ask]]: запрос пользовательского ввода">
+<!ENTITY askpassAskForPassword.label "[[&#37;askpass]]: запрос пароля">
+<!ENTITY async.accesskey "">
+<!ENTITY AutoAbbreviation.label "Авто-Аббревиатура">
+<!ENTITY bFileBaseNameWithoutExtension.label "[[&#37;b]]: базовое имя файла без расширения">
+<!ENTITY beforeFileCloseTheMacroCanReturnTrueToPreventFileClose.label "Перед закрытием файла (макрос может вернуть true для предотвращения закрытия файла)">
+<!ENTITY beforeFileSaveTheMacroCanReturnTrueToPreventFileSave.label "Перед сохранением файла (макрос может вернуть true для предотвращения сохранения файла)">
+<!ENTITY changeIcon.accesskey "">
+<!ENTITY changeIcon.label "Сменить значок...">
+<!ENTITY dDirectoryBaseNameOfFile.label "[[&#37;d]]: каталог базового имени файла">
+<!ENTITY dateCurrentDate.label "[[&#37;date]]: Текущая дата">
+<!ENTITY fFileBaseName.label "[[&#37;f]]: базовое имя файла">
+<!ENTITY general.label "Основные">
+<!ENTITY guidANewGUID.label "[[&#37;guid]]: Новый GUID">
+<!ENTITY helpOnShortcuts.label "Помощь по горячим клавишам...">
+<!ENTITY importFromFileSystem.title "Импорт из файловой системы">
+<!ENTITY javaScript.accesskey "">
+<!ENTITY javaScript.label "JavaScript">
+<!ENTITY k.accesskey "">
+<!ENTITY keyBinding.label "Привязка клавиш">
+<!ENTITY m.accesskey "">
+<!ENTITY macro.label "Макрос">
+<!ENTITY macroShouldTriggerOnAKomodoEvent.label "Макрос должен сработать на события Komodo">
+<!ENTITY maintainIndentationContextAfterInsertion.label "Поддерживать отступ контекста после вставки">
+<!ENTITY maintainSelectedTextOrCursorPositionAfterInsertion.label "Поддерживать выделенный текст или положение курсора после вставки">
+<!ENTITY onASystemNotification.label "На уведомления системы:">
+<!ENTITY onShutdownTheMacroCanReturnTrueToPreventShutdown.label "На выключение (макрос может вернуть true для предотвращения отключения)">
+<!ENTITY onStartup.label "При запуске">
+<!ENTITY pDirectoryPathOfTheActiveProject.label "[[&#37;p]]: путь каталога текущего проекта">
+<!ENTITY partvalue.accesskey "">
+<!ENTITY pickALetterInTheNameToUseAsTheAltShortcut.tooltiptext "Выберите букву в имени для использования в качестве Alt+ ярлык.">
+<!ENTITY priority.accesskey "">
+<!ENTITY priorityLabel.accesskey "">
+<!ENTITY properties.label "Свойства">
+<!ENTITY python.accesskey "">
+<!ENTITY python.label "Python">
+<!ENTITY renameItem.title "Переименовать элемент">
+<!ENTITY reset.label "Сброс">
+<!ENTITY reseticon.accesskey "">
+<!ENTITY runInBackground.label "Запуск в фоновом режиме">
+<!ENTITY sSelection.label "[[&#37;s]]: выделение">
+<!ENTITY shortcutTab.accesskey "">
+<!ENTITY shortcuts.tooltiptext "Горячие клавиши">
+<!ENTITY snippet.label "Сниппет">
+<!ENTITY snippetTab.accesskey "">
+<!ENTITY softCharTabStopReplace.label "[[&#37;soft]]: мягкие символы">
+<!ENTITY tabstopTabStopReplace.label "[[&#37;tabstop]]: Вкладка Стоп/Заменить">
+<!ENTITY TreatAsEJS.label "Обрабатывать как EJS">
+<!ENTITY triggerPostopen.accesskey "">
+<!ENTITY triggerPreclose.accesskey "">
+<!ENTITY triggerPresave.accesskey "">
+<!ENTITY triggerQuit.accesskey "">
+<!ENTITY triggerStartup.accesskey "">
+<!ENTITY triggerSystemNotification.accesskey "">
+<!ENTITY triggerSystemNotificationName.accesskey "">
+<!ENTITY triggers.label "Триггеры">
+<!ENTITY wSelectionOrWordUnderCursor.label "[[&#37;w]]: выбранный фрагмент или слово под курсором">
+
+<!--customMenuProperties.xul-->
+<!ENTITY unnamedCommand.label "&lt;unnamed command&gt;">
+<!ENTITY priority.label "Приоритет">
+<!ENTITY menuAccessKey.label "Клавиша доступа для меню">
+<!ENTITY menuAccessKey.accesskey "">
+
+<!--macroProperties.xul-->
+<!ENTITY language.label "Язык:">
+<!ENTITY rank.label "Рейтинг:">
+<!ENTITY rank.accesskey "">
+
+<!--renamePart.xul-->
+<!ENTITY itemName.Label "Название элемента">
+<!ENTITY itemValue.Label "Значение элемента">
+
+<!--simplePartProperties.xul-->
+<!ENTITY value.label "Значение:">
