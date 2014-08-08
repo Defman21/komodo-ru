@@ -1,5 +1,0 @@
-<!ENTITY filterErrorTooltip    "Переключить показ ошибок">
-<!ENTITY filterWarningTooltip  "Переключить показ предупреждений">
-<!ENTITY filterInfoTooltip     "Переключить показ информационных сообщений">
-<!ENTITY filterProgressTooltip "Переключить лимит на выполняемые задачи">
-<!ENTITY filterSearchEmpty     "Фильтр сообщений">
