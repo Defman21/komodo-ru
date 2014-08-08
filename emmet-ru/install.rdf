@@ -8,7 +8,7 @@
     <em:description>Перевод Emmet для Komodo</em:description>
     <em:creator>Сергей Кисляков aka Defman21</em:creator>
     <em:homepageURL>http://defmanblog.tk/</em:homepageURL>
-    <em:type>8</em:type> <!-- type=extension --> 
+    <em:type>2</em:type> <!-- type=extension --> 
     <em:iconURL>chrome://emmet/content/icon.png</em:iconURL>
 
     <em:targetApplication> <!-- Komodo IDE -->
