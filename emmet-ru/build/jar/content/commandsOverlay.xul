@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay PUBLIC "-//MOZILLA//DTD XUL V1.0//EN" "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" [
+<!ENTITY % emmetDTD SYSTEM "chrome://emmet_ru/locale/emmet.dtd">
+%emmetDTD;
+]>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<overlay id="emmetCommandOverlay"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+		 
+   <broadcasterset id="broadcasterset_global">
+      <broadcaster
+        id="cmd_emmet_expand_abbreviation"
+        key="key_cmd_emmet_expand_abbreviation"
+        desc="Emmet: &emmet.expand_abbr;"
+        oncommand="runEmmetAction('expand_abbreviation');"/>
+      <broadcaster
+        id="cmd_emmet_balance_outward"
+        key="key_cmd_emmet_balance_outward"
+        desc="Emmet: &emmet.html_balance_tag;"
+        oncommand="runEmmetAction('match_pair_outward');"/>
+      <broadcaster
+        id="cmd_emmet_balance_inward"
+        key="key_cmd_emmet_balance_inward"
+        desc="Emmet: &emmet.html_balance_tag_inward;"
+        oncommand="runEmmetAction('match_pair_inward');"/>
+      <broadcaster
+        id="cmd_emmet_wrap"
+        key="key_cmd_emmet_wrap"
+        desc="Emmet: &emmet.wrap_with_abbreviation;"
+        oncommand="runEmmetAction('wrap_with_abbreviation');"/>
+      <broadcaster
+        id="cmd_emmet_next_edit_point"
+        key="key_cmd_emmet_next_edit_point"
+        desc="Emmet: &emmet.next_edit_point;"
+        oncommand="runEmmetAction('next_edit_point');"/>
+      <broadcaster
+        id="cmd_emmet_prev_edit_point"
+        key="key_cmd_emmet_prev_edit_point"
+        desc="Emmet: &emmet.previous_edit_point;"
+        oncommand="runEmmetAction('prev_edit_point');"/>
+      <broadcaster
+        id="cmd_emmet_merge_lines"
+        key="key_cmd_emmet_merge_lines"
+        desc="Emmet: &emmet.merge_lines;"
+        oncommand="runEmmetAction('merge_lines');"/>
+      <broadcaster
+        id="cmd_emmet_remove_tag"
+        key="key_cmd_emmet_remove_tag"
+        desc="Emmet: &emmet.remove_tag;"
+        oncommand="runEmmetAction('remove_tag');"/>
+      <broadcaster
+        id="cmd_emmet_split_join_tag"
+        key="key_cmd_emmet_split_join_tag"
+        desc="Emmet: &emmet.split_join_tag;"
+        oncommand="runEmmetAction('split_join_tag');"/>
+      <broadcaster
+        id="cmd_emmet_toggle_comment"
+        key="key_cmd_emmet_toggle_comment"
+        desc="Emmet: &emmet.toggle_comment;"
+        oncommand="runEmmetAction('toggle_comment');"/>
+      <broadcaster
+        id="cmd_emmet_evaluate_math"
+        key="key_cmd_emmet_evaluate_math"
+        desc="Emmet: &emmet.evaluate_math;"
+        oncommand="runEmmetAction('evaluate_math_expression');"/>
+      <broadcaster
+        id="cmd_emmet_increment_1"
+        key="key_cmd_emmet_increment_1"
+        desc="Emmet: &emmet.plusplus;"
+        oncommand="runEmmetAction('increment_number_by_1');"/>
+      <broadcaster
+        id="cmd_emmet_decrement_1"
+        key="key_cmd_emmet_decrement_1"
+        desc="Emmet: &emmet.minusminus;"
+        oncommand="runEmmetAction('decrement_number_by_1');"/>
+      <broadcaster
+        id="cmd_emmet_increment_01"
+        key="key_cmd_emmet_increment_01"
+        desc="Emmet: &emmet.plusplus_small;"
+        oncommand="runEmmetAction('increment_number_by_01');"/>
+      <broadcaster
+        id="cmd_emmet_decrement_01"
+        key="key_cmd_emmet_decrement_01"
+        desc="Emmet: &emmet.minusminus_small;"
+        oncommand="runEmmetAction('decrement_number_by_01');"/>
+      <broadcaster
+        id="cmd_emmet_increment_10"
+        key="key_cmd_emmet_increment_10"
+        desc="Emmet: &emmet.plusplus_big;"
+        oncommand="runEmmetAction('increment_number_by_10');"/>
+      <broadcaster
+        id="cmd_emmet_decrement_10"
+        key="key_cmd_emmet_decrement_10"
+        desc="Emmet: &emmet.minusminus_big;"
+        oncommand="runEmmetAction('decrement_number_by_10');"/>
+      <broadcaster
+        id="cmd_emmet_select_next_item"
+        key="key_cmd_emmet_select_next_item"
+        desc="Emmet: &emmet.select_next_item;"
+        oncommand="runEmmetAction('select_next_item');"/>
+      <broadcaster
+        id="cmd_emmet_select_previous_item"
+        key="key_cmd_emmet_select_previous_item"
+        desc="Emmet: &emmet.select_prev_item;"
+        oncommand="runEmmetAction('select_previous_item');"/>
+      <broadcaster
+        id="cmd_emmet_reflect_css_value"
+        key="key_cmd_emmet_reflect_css_value"
+        desc="Emmet: &emmet.reflect_css_value;"
+        oncommand="runEmmetAction('reflect_css_value');"/>
+      <broadcaster
+        id="cmd_emmet_update_image_size"
+        key="key_cmd_emmet_update_image_size"
+        desc="Emmet: &emmet.update_img_size;"
+        oncommand="runEmmetAction('update_image_size');"/>
+      <broadcaster
+        id="cmd_emmet_data_url"
+        key="key_cmd_emmet_data_url"
+        desc="Emmet: &emmet.encode_img_data;"
+        oncommand="runEmmetAction('encode_decode_data_url');"/>
+   </broadcasterset>
+
+</overlay>

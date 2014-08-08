@@ -1,0 +1,23 @@
+<!ENTITY emmet.html_balance_tag "Сбалансировать тег">
+<!ENTITY emmet.html_balance_tag_inward "Сбалансировать тег внутри">
+<!ENTITY emmet.wrap_with_abbreviation "Обернуть с помощью аббревиатуры">
+<!ENTITY emmet.remove_tag "Удалить тег">
+<!ENTITY emmet.split_join_tag "Разделить/Объединить тег">
+<!ENTITY emmet.reflect_css_value "Отразить CSS число">
+<!ENTITY emmet.numbers "Числа">
+<!ENTITY emmet.plusplus "Увеличить на 1">
+<!ENTITY emmet.minusminus "Уменьшить на 1">
+<!ENTITY emmet.plusplus_small "Увеличить на 0.1">
+<!ENTITY emmet.minusminus_small "Уменьшить на 0.1">
+<!ENTITY emmet.plusplus_big "Увеличить на 10">
+<!ENTITY emmet.minusminus_big "Уменьшить на 10">
+<!ENTITY emmet.evaluate_math "Выполнить математическую операцию">
+<!ENTITY emmet.expand_abbr "Развернуть аббревиатуру">
+<!ENTITY emmet.next_edit_point "Следующая точка редактирования">
+<!ENTITY emmet.previous_edit_point "Предыдущая точка редактирования">
+<!ENTITY emmet.select_next_item "Выделить следующий тег">
+<!ENTITY emmet.select_prev_item "Выделить предыдущий тег">
+<!ENTITY emmet.merge_lines "Объединить строки">
+<!ENTITY emmet.toggle_comment "Переключить комментарий">
+<!ENTITY emmet.update_img_size "Обновить размер изображения">
+<!ENTITY emmet.encode_img_data "Кодировать/Декодировать изображение в data:URL">
