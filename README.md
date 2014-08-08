@@ -1,11 +1,19 @@
 komodo-ru
 =========
 
-Русификатор для редактора Komodo Edit (только для Edit, IDE не поддерживается на данный момент)
+Проект по переводу всего, что можно для редактора Komodo Edit и Komodo IDE
 
-Оригинальный автор: Laborpago
+Авторы:
 
-Сайт автора: http://technic-note.blogspot.com/
+* Laborpago - перевод интерфейса Komodo Edit
+
+* Defman21 - перевод интерфейса плагина Emmet, организация репозитория
+
+Сайты авторов:
+
+* Laborpago - http://technic-note.blogspot.com/
+
+* Defman21 - http://defmanblog.tk/
 
 Как собрать:
 
@@ -15,15 +23,23 @@ komodo-ru
 
 Исходный код русификатора для IDE находится в папке `kide/ `
 
+Исходный код русификатора для Emmet находится в папке `emmet-ru/`
+
 ###English###
 
-Komodo Edit: Russian translate for Komodo Edit only
+Add Russian translate to Komodo stuff (Interface, add-on's and other)
 
-Add russian translate to Komodo Edit.
+Authors:
 
-Original author: Laborpago
+* Laborpago - Komodo Edit Interface translator
 
-Author website: http://technic-note.blogspot.com/ 
+* Defman21 - Emmet Interface translator, repository organize 
+
+Author's websites:
+
+* Laborpago - http://technic-note.blogspot.com/
+
+* Defman21 - http://defmanblog.tk/
 
 How to build: 
 
@@ -31,4 +47,6 @@ How to build:
 
 Source code of Edit localization placed in `kedit/` folder
 
-Source code of IDE localization placed in `kide/` folder 
+Source code of IDE localization placed in `kide/` folder
+
+Source code of Emmet localization placed in `emmet-ru/` folder 
