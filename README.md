@@ -19,10 +19,6 @@ komodo-ru
 
 * Собрать с помощью koext.
 
-Исходный код русификатора для Edit находится в папке `kedit/`
-
-Исходный код русификатора для IDE находится в папке `kide/ `
-
 
 ###English###
 
@@ -43,7 +39,3 @@ Author's websites:
 How to build: 
 
 * Build it with koext.
-
-Source code of Edit localization placed in `kedit/` folder
-
-Source code of IDE localization placed in `kide/` folder
