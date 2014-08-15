@@ -1,24 +1,40 @@
 komodo-ru
 =========
+Проект по переводу редактора Komodo Edit и Komodo IDE
 
-Komodo Edit: Russian translate for Komodo Edit only
+Авторы:
 
-Add russian translate to Komodo Edit.
+* Laborpago - перевод интерфейса Komodo Edit и IDE
+* Defman21 - организация репозитория, перевод IDE
+* Naatan - организация исходного кода для Komodo 9
 
-Original author: Laborpago
-Author website: http://technic-note.blogspot.com/
+Сайты авторов:
+
+* Laborpago - http://technic-note.blogspot.com/
+* Defman21 - http://defmanblog.tk/
+* Naatan - http://komodoide.com/
+
+
+Как собрать:
+
+* С помощью koext: `koext build --unjarred`
+
+###English###
+
+Add Russian translate for Komodo Edit and IDE
+
+Authors:
+
+* Laborpago - translate Komodo Edit and IDE
+* Defman21 - organize repository, translate IDE
+* Naatan - organize source code for Komodo 9
+
+Author's websites:
+
+* Laborpago - http://technic-note.blogspot.com/
+* Defman21 - http://defmanblog.tk/
+* Naatan - http://komodoide.com/
 
 How to build:
 
 * Build it with koext: `koext build --unjarred`
-
-
-По-русски
-=========
-
-Русификатор для редактора Komodo Edit (только для Edit, IDE не поддерживается)
-
-Оригинальный автор: Laborpago
-Сайт автора: http://technic-note.blogspot.com/
-Как собрать:
-* Собрать с помощью koext: `koext build --unjarred`
