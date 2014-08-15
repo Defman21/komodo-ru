@@ -10,7 +10,7 @@ Author website: http://technic-note.blogspot.com/
 
 How to build:
 
-* Build it with koext.
+* Build it with koext: `koext build --unjarred`
 
 
 По-русски
@@ -21,4 +21,4 @@ How to build:
 Оригинальный автор: Laborpago
 Сайт автора: http://technic-note.blogspot.com/
 Как собрать:
-* Собрать с помощью koext.
+* Собрать с помощью koext: `koext build --unjarred`
