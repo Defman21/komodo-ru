@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- Copyright (c) 2000-2014 ActiveState Software Inc. -->
+<!-- See the file LICENSE.txt for licensing information. -->
+<!DOCTYPE overlay PUBLIC "-//MOZILLA//DTD XUL V1.0//EN" "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" [
+  <!ENTITY % prefLangDTD SYSTEM "chrome://ru-locale/locale/language.dtd">
+  %prefLangDTD;
+]>
+
+<overlay id="ruPrefPickerOverlay"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script src="chrome://ru-locale/content/pref-ui.js"
+            type="application/x-javascript;version=1.7"/>
+
+    <groupbox id="pref_appearance_interface">
+        <hbox align="center">
+            <label id="preferredLanguageLabel" value="&preferredLanguage.label;"/>
+            <menulist id="preferredLanguage"
+                        pref="true"
+                        preftype="string"
+                        prefdefault="en-US">
+                <menupopup>
+                    <menuitem id="preferredLanguageEn" label="&preferredLanguageEn.label;" value="en-US"/>
+                    <menuitem id="preferredLanguageRu" label="&preferredLanguageRu.label;" value="ru"/>
+                </menupopup>
+            </menulist>
+        </hbox>
+    </groupbox>
+
+</overlay>
