@@ -1,0 +1,11 @@
+locale komodo ru locale/ru/komodo/
+locale mozapps ru locale/ru/mozapps/
+locale morekomodo ru locale/ru/morekomodo/
+locale openfiles ru locale/ru/openfiles/
+locale places ru locale/ru/places/
+
+locale ru-locale ru locale/ru/ru-locale/
+locale ru-locale en-US locale/en-US/ru-locale/
+
+content ru-locale content/
+overlay chrome://komodo/content/pref/pref-ui.xul chrome://ru-locale/content/overlay_pref-ui.xul

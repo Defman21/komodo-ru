@@ -1,0 +1,25 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY newprofile.title             "Create Profile Wizard">
+<!ENTITY window.size                  "width: 45em; height: 32em;">
+
+<!-- First wizard page -->
+<!ENTITY profileCreationExplanation_1.text  "&brandShortName; хранит информацию о настройках и предпочтениях в своём личном профиле.">
+<!ENTITY profileCreationExplanation_2.text  "If you are sharing this copy of &brandShortName; with other users, you can use profiles to keep each user's information separate. To do this, each user should create his or her own profile.">
+<!ENTITY profileCreationExplanation_3.text  "If you are the only person using this copy of &brandShortName;, you must have at least one profile. If you would like, you can create multiple profiles for yourself to store different sets of settings and preferences. For example, you may want to have separate profiles for business and personal use.">
+<!ENTITY profileCreationExplanation_4.text  "To begin creating your profile, click Next.">
+<!ENTITY profileCreationExplanation_4Mac.text  "To begin creating your profile, click Continue.">
+<!ENTITY profileCreationExplanation_4Gnome.text  "To begin creating your profile, click Next.">
+
+<!-- Second wizard page -->
+<!ENTITY profileCreationIntro.text      "If you create several profiles you can tell them apart by the profile names. You may use the name provided here or use one of your own.">
+<!ENTITY profilePrompt.label            "Введите имя нового профиля:">
+<!ENTITY profilePrompt.accesskey        "">
+<!ENTITY profileDirectoryExplanation.text   "Ваши пользовательские настройки, предпочтения и другие связанные с пользователем данные будут храниться в:">
+<!ENTITY profileDefaultName             "Пользователь по умолчанию">
+<!ENTITY button.choosefolder.label      "Выбрать папку…">
+<!ENTITY button.choosefolder.accesskey  "">
+<!ENTITY button.usedefault.label        "Использовать папку по умолчанию">
+<!ENTITY button.usedefault.accesskey    "">

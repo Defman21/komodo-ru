@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY title           "Установить дополнение">
+<!ENTITY intro           "Another program on your computer would like to modify
+                          &brandShortName; with the following add-on:">
+<!ENTITY warning         "Устанавливайте дополнения только из доверенных источников.">
+<!ENTITY allow           "Разрешить эту установку">
+<!ENTITY later           "You can always change your mind at any time by going
+                          to the Add-ons Manager.">
+<!ENTITY continue        "Продолжить">
+<!ENTITY restartMessage  "Необходима перезагрузка &brandShortName; для завершения установки этого дополнения.">
+<!ENTITY restartButton   "Перезагрузка &brandShortName;">
+<!ENTITY cancelButton    "Отменить">

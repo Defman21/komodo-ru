@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+        <em:unpack>true</em:unpack>
+        <em:id>langpack-ru@komodoide.com</em:id>
+        <em:name>Russian (RU) Language Pack</em:name>
+        <em:version>2.0</em:version>
+        <em:creator>Andrey Bayborodin (Laborpago)</em:creator>
+        <em:translator>Laborpago</em:translator>
+        <em:translator>Defman</em:translator>
+        <em:type>2</em:type>
+
+        <em:targetApplication>
+            <Description>
+                <!-- Komodo IDE's uuid -->
+                <em:id>{36E66FA0-F259-11D9-850E-000D935D3368}</em:id>
+                <em:minVersion>7.*</em:minVersion>
+                <em:maxVersion>9.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:targetApplication>
+            <Description>
+                <!-- Komodo Edit's uuid -->
+                <em:id>{b1042fb5-9e9c-11db-b107-000d935d3368}</em:id>
+                <em:minVersion>7.*</em:minVersion>
+                <em:maxVersion>9.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+
+  </Description>
+</RDF>

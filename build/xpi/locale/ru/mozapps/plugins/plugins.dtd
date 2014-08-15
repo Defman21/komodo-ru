@@ -1,0 +1,62 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY pluginWizard.title                                  "Сервис поиска плагинов">
+<!ENTITY pluginWizard.firstPage.title                        "Добро пожаловать в &pluginWizard.title;">
+
+<!ENTITY pluginWizard.checkingForPlugins.description.label   "&brandShortName; проверяет доступные плагины…">
+
+<!ENTITY pluginWizard.availablePluginsPage.title             "Доступные плагины для загрузки">
+<!ENTITY pluginWizard.availablePluginsPage.description.label "Доступны следующие плагины:">
+<!ENTITY pluginWizard.availablePluginsPage.continueMsg.label "Нажмите Далее для установки этих плагинов.">
+<!ENTITY pluginWizard.availablePluginsPage.installerUI       "Некоторые плагины могут потребовать дополнительную информацию от вас во время установки.">
+
+<!ENTITY pluginWizard.licensePage.title                      "Plugin Licenses">
+<!ENTITY pluginWizard.licensePage.accept.label               "Я согласен.">
+<!ENTITY pluginWizard.licensePage.deny.label                 "Я не согласен (плагин не будет установлен).">
+
+<!ENTITY pluginWizard.installPluginsPage.title               "Установка плагинов">
+<!ENTITY pluginWizard.installPluginsPage.description.label   "&brandShortName; устанавливает плагины…">
+
+<!ENTITY pluginWizard.finalPage.description.label            "&brandShortName; закончил установку недостающих плагинов:">
+
+<!ENTITY pluginWizard.finalPage.moreInfo.label               "Узнать больше о плагинах или вручную найти недостающие плагины.">
+<!ENTITY pluginWizard.finalPage.restart.label                "&brandShortName; нужно перезапустить для работы плагинов.">
+
+<!-- LOCALIZATION NOTE (unsupportedPlatform.pre): Mobile only. Flash (the only plugin available on mobile)
+     is not supported on some devices. Include a trailing space as needed. -->
+<!ENTITY unsupportedPlatform.pre                             "Нам очень жаль, но&brandShortName; не может проигрывать флеш на этом устройстве. ">
+<!-- LOCALIZATION NOTE (unsupportedPlatform.learnMore): Mobile only. This text is used to link to a SUMO page explaining why Flash is not
+     supported on this device. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit traditions in your locale. -->
+<!ENTITY unsupportedPlatform.learnMore                       "Узнать подробнее...">
+<!-- LOCALIZATION NOTE (unsupportedPlatform.post): Mobile only. Include text here if needed for your locale. -->
+<!ENTITY unsupportedPlatform.post                            "">
+
+<!ENTITY missingPlugin                                       "Плагин необходим для отображения этого контента.">
+<!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
+<!ENTITY tapToPlayPlugin                                     "Нажмите здесь, чтобы активировать плагин.">
+<!ENTITY clickToActivatePlugin                               "Активировать плагин.">
+<!ENTITY checkForUpdates                                     "Проверить наличие обновлений...">
+<!ENTITY disabledPlugin                                      "Этот плагин отключен.">
+<!ENTITY blockedPlugin.label                                 "Этот плагин был заблокирован для вашей защиты.">
+<!ENTITY installPlugin                                       "Установить плагин...">
+<!ENTITY managePlugins                                       "Управление плагинами...">
+
+<!-- LOCALIZATION NOTE (reloadPlugin.pre): include a trailing space as needed -->
+<!-- LOCALIZATION NOTE (reloadPlugin.middle): avoid leading/trailing spaces, this text is a link -->
+<!-- LOCALIZATION NOTE (reloadPlugin.post): include a starting space as needed -->
+<!ENTITY reloadPlugin.pre                                    "">
+<!ENTITY reloadPlugin.middle                                 "Обновить страницу">
+<!ENTITY reloadPlugin.post                                   " попробовать ещё раз.">
+<!-- LOCALIZATION NOTE (report.please): This and the other report.* strings should be as short as possible, ideally 2-3 words. -->
+<!ENTITY report.please                                       "Отправить отчет об ошибке">
+<!ENTITY report.submitting                                   "Отправка отчета...">
+<!ENTITY report.submitted                                    "Отчёт об ошибке доставлен.">
+<!ENTITY report.disabled                                     "Отчёт об ошибке отключен.">
+<!ENTITY report.failed                                       "Submission failed.">
+<!ENTITY report.unavailable                                  "Нет доступных отчётов.">
+<!ENTITY report.comment                                      "Добавить комментарий (комментарии видимы)">
+<!ENTITY report.pageURL                                      "Include the page's URL">
+
+<!ENTITY plugin.file                                         "Файл">
+<!ENTITY plugin.mimeTypes                                    "Типы MIME">
