@@ -1,8 +1,0 @@
-
-
-
-locale emmet_ru en-US jar:emmet_ru.jar!/locale/en-US/
-content emmet_ru jar:emmet_ru.jar!/content/
-
-overlay chrome://emmet/content/overlay.xul chrome://emmet_ru/content/overlay.xul
-overlay chrome://emmet/content/commandsOverlay.xul chrome://emmet_ru/content/commandsOverlay.xul
