@@ -12,8 +12,8 @@ komodo-ru
 
 Сайты авторов:
 
-* Laborpago - http://technic-note.blogspot.com/
-* Defman21 - http://defmanblog.tk/
+* Laborpago - http://laborpago.blogspot.ru/
+* Defman21 - http://defman21.gq/
 * Naatan - http://komodoide.com/
 
 
@@ -33,8 +33,8 @@ Authors:
 
 Author's websites:
 
-* Laborpago - http://technic-note.blogspot.com/
-* Defman21 - http://defmanblog.tk/
+* Laborpago - http://laborpago.blogspot.com/
+* Defman21 - http://defman21.gq/
 * Naatan - http://komodoide.com/
 
 How to build:
